@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_dabcmod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4 extract\libraries\md.xsd">
+	<cues>
+		<cue name="SetupThingsFordabcmod" instantiate="false" version="4">
+			<conditions>
+				<check_any>
+					<event_cue_signalled cue="md.Setup.GameStart" /> 
+					<event_game_loaded />
+				</check_any>
+				<check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main-galaxy" />
+			</conditions>
+			<actions>
+				<!-- setting initial research knowledge -->
+
+			    <add_encyclopedia_entry type="researchables" item="'research_supremacy'"/>						
+
+				<!-- setting initial limits for ship blueprints -->
+
+				
+				<!-- <add_blueprints wares="[ware.ship_imperial_xxl_executer]"/> -->
+
+			</actions>
+		</cue>
+		<cue name="Research_Finished_supremacy" instantiate="true">
+			<conditions>
+			    <event_player_research_unlocked ware="ware.research_supremacy"/>
+			</conditions>
+			<actions>
+                <add_blueprints wares="[ware.sith_supremacy_mk_3]"/>
+			</actions>
+		</cue>
+	</cues>
+</mdscript>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="weapon_ga60x_m_laser_macro" class="weapon">
+    <component ref="weapon_ga60x_m_laser" />
+    <properties>
+      <identification name="{420203,1}" basename="{420203,1}" shortname="{420203,1}" description="{420203,2}" />
+      <bullet class="bullet_ga60x_m_laser_macro" />
+      <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="9500" />
+      <rotationspeed max="100" />
+      <rotationacceleration max="200" />
+      <reload />
+      <hull max="500" hittable="0" />
+      <effects/>
+    </properties>
+  </macro>
+</macros>

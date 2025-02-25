@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+	
+		<!--Ships-->
+		<entry name="sith_supremacy_mk_5_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_5_macro" />			
+		<entry name="sith_supremacy_mk_3_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_3_macro" />			
+		<entry name="x_70b_macro" value="extensions\akenno_swi_expansion\assets\units\size_m\macros\x_70b_macro" />			
+
+		
+		<!--Ship Menu Alternates-->
+
+		<!--Engines-->
+
+
+		<!--Weapon-->
+		<entry name="weapon_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls9x_s_laser_macro" />	
+		<entry name="weapon_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls7x_s_laser_macro" />	
+		<entry name="weapon_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ga60x_m_laser_macro" />	
+
+		<!--Weapon Bullets-->
+		<entry name="bullet_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls9x_s_laser_macro" />	
+		<entry name="bullet_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls7x_s_laser_macro" />	
+		<entry name="bullet_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ga60x_m_laser_macro" />	
+
+		<!--Turrets-->
+
+
+		<!--Turret Bullets-->
+
+
+		<!--Missile Turrets-->
+
+
+		<!--Missiles-->
+
+
+		<!--Shields-->
+
+
+		<!--Dock Areas-->
+
+
+		<!--Docking Bays-->
+
+		<!--Modules-->
+
+
+		<!--Misc-->
+
+
+		<!--Bridges-->
+
+
+	</add>
+</diff>
