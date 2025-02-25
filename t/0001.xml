@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+
+	<!--Ships-->
+		<page id="420001" voice="no">
+			<t id="1">Supremacy Mark V</t>
+			<t id="2">The Supremacy Mark V is a new variant that can switch between ion and laser damage.</t>
+		</page>	
+		
+		<page id="420002" voice="no">
+			<t id="1">X-70B</t>
+			<t id="2">The X-70B also known as "Phantom" is a ship for special agents of the Sith Empire.</t>
+		</page>	
+		
+		<page id="420003" voice="no">
+			<t id="1">Supremacy Mark III</t>
+			<t id="2">The Supremacy Mark III is a new variant that can use missiles.</t>
+		</page>
+		
+	<!--Engines-->
+	<!--Weapons-->
+		<page id="420201" voice="no">
+			<t id="1">\033#989db6ec#L-s9.X Lasercanon\033X</t>
+			<t id="2">The L-s9.X lasercanon is an experimental version of the standard 9.3 version.</t>
+		</page>
+		
+		<page id="420202" voice="no">
+			<t id="1">\033#989db6ec#L-s7.X Lasercanon\033X</t>
+			<t id="2">The L-s7.X lasercanon is an experimental version of the standard 7.2 version.</t>
+		</page>
+		
+		<page id="420203" voice="no">
+			<t id="1">\033#97e19b23#GA-60X Heavy Lasercanon\033X</t>
+			<t id="2">The GA-60X heavy lasercanon is an experimental version of the standard GA-60s version.</t>
+		</page>
+	<!--Job Names-->
+		
+	</add>
+</diff>
+
