@@ -3,9 +3,10 @@
 	<add sel="/index">
 	
 		<!--Ships-->
-		<entry name="sith_supremacy_mk_5_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_5_macro" />			
-		<entry name="sith_supremacy_mk_3_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_3_macro" />			
-		<entry name="x_70b_macro" value="extensions\akenno_swi_expansion\assets\units\size_m\macros\x_70b_macro" />			
+			<entry name="sith_supremacy_mk_5_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_5_macro" />			
+			<entry name="sith_supremacy_mk_3_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_3_macro" />			
+			<entry name="x_70b_macro" value="extensions\akenno_swi_expansion\assets\units\size_m\macros\x_70b_macro" />	
+			<entry name="terminus_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_l\macros\terminus_mk_2_macro" />	
 
 		
 		<!--Ship Menu Alternates-->
@@ -14,20 +15,28 @@
 
 
 		<!--Weapon-->
-		<entry name="weapon_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls9x_s_laser_macro" />	
-		<entry name="weapon_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls7x_s_laser_macro" />	
-		<entry name="weapon_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ga60x_m_laser_macro" />	
+			<entry name="weapon_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls9x_s_laser_macro" />	
+			<entry name="weapon_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls7x_s_laser_macro" />	
+			<entry name="weapon_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ga60x_m_laser_macro" />	
 
 		<!--Weapon Bullets-->
-		<entry name="bullet_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls9x_s_laser_macro" />	
-		<entry name="bullet_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls7x_s_laser_macro" />	
-		<entry name="bullet_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ga60x_m_laser_macro" />	
+			<entry name="bullet_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls9x_s_laser_macro" />	
+			<entry name="bullet_ls7x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ls7x_s_laser_macro" />	
+			<entry name="bullet_ga60x_m_laser_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_ga60x_m_laser_macro" />	
 
 		<!--Turrets-->
-
+			<entry name="turret_m_duallaser_green_rh2x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_duallaser_green_rh2x_macro" />
+			<entry name="turret_m_mtbdual_green_d6x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_mtbdual_green_d6x_macro" />
+			<entry name="turret_l_double_turbolaser_green_xx22_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_l_double_turbolaser_green_xx22_macro" />
+		
 
 		<!--Turret Bullets-->
-
+			<entry name="bullet_turret_m_duallaser_green_rh2x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_duallaser_green_rh2x_macro" />
+			<entry name="bullet_turret_m_mtbdual_green_d6x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_mtbdual_green_d6x_macro" />
+			<entry name="bullet_turret_l_dual_green_xx22_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_l_dual_green_xx22_macro" />
+		
+		<!-- Shields -->
+			<entry name="shield_lh_tab_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_lh_tab_macro" />
 
 		<!--Missile Turrets-->
 

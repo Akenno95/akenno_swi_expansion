@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_m_duallaser_green_rh2x" class="turret">
+		<source geometry="extensions\starwarsmod_m1\assets\props\WeaponSystems\standard\turret_m_duallaser_data"/>
+<!-- Changed -->
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part animation forceoutline ">
+				<offset/>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7.796589" y="1.519545" z="7.886265"/>
+							<center x="0" y="5.519605" z="0"/>
+						</size>
+						<size_raw>
+							<max x="7.796589" y="1.519545" z="7.886265"/>
+							<center x="0" y="5.519605" z="0"/>
+						</size_raw>
+						<lights>
+							<arealight name="XU AreaLight01" areax="0" areay="0" radius="0.6" r="255" g="0" b="0" lighteffect="1" range="15" spotattenuation="0" specularintensity="1" trigger="1" intensity="0">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="0"/>
+										<key frame="40" value="1"/>
+										<key frame="60" value="1"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.084283" y="2.69219" z="1.29257"/>
+									<quaternion qx="-0" qy="-0" qz="-1" qw="-7.54979E-08"/>
+								</offset>
+							</arealight>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink forceoutline " parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.008207" y="3.599464" z="2.551521"/>
+							<center x="0" y="0.8114839" z="0.3776963"/>
+						</size>
+						<size_raw>
+							<max x="1.008207" y="2.78798" z="2.173825"/>
+							<center x="0" y="-0.6695614" z="0.3776963"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part iklink nocollision forceoutline  " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="90 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<offset>
+					<position x="0" y="2.15992" z="-0.028993"/>
+				</offset>
+				<parts>
+					<part name="part_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.347685" y="3.548826" z="3.601082"/>
+							<center x="0" y="0.6539707" z="-0.2812299"/>
+						</size>
+						<size_raw>
+							<max x="4.347685" y="2.894855" z="3.882312"/>
+							<center x="0" y="-0.8270745" z="-0.28123"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part iklink nocollision forceoutline  " parent="part_gun">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_barrel">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_cr70_quad"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.949679" y="2.37272" z="4.198305"/>
+							<center x="0" y="1.825941" z="3.266471"/>
+						</size>
+						<size_raw>
+							<max x="2.949679" y="0.5467785" z="0.9318336"/>
+							<center x="0" y="0.3448958" z="1.505879"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="con_laser_02" tags="laser " parent="part_barrel">
+				<offset>
+					<position x="-1.36884" y="-0.009424" z="4.15932"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_01" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="1.36884" y="-0.009424" z="4.15932"/>
+				</offset>
+			</connection>
+<!-- Tags changed-->
+			<connection name="con_laser_turret_01" tags="turret small duallaser green rh2x hittable">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

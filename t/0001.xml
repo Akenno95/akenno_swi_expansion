@@ -18,6 +18,11 @@
 			<t id="2">The Supremacy Mark III is a new variant that can use missiles.</t>
 		</page>
 		
+		<page id="420004" voice="no">
+			<t id="1">Terminus Mark II</t>
+			<t id="2">The Terminus Mark III is a new variant that is more robust than its earlier variant.</t>
+		</page>
+		
 	<!--Engines-->
 	<!--Weapons-->
 		<page id="420201" voice="no">
@@ -34,8 +39,33 @@
 			<t id="1">\033#97e19b23#GA-60X Heavy Lasercanon\033X</t>
 			<t id="2">The GA-60X heavy lasercanon is an experimental version of the standard GA-60s version.</t>
 		</page>
+
+		<page id="420204" voice="no">
+			<t id="1">\033#989db6ec#RH2X Dual Laser Cannon Turret\033X</t>
+			<t id="2">\033#989db6ec#RH2X Dual Laser\033X</t>
+			<t id="3">Better version of the RH2. Dual-barreled long range laser turret installed on starships and stations as anti-starfighter defence. </t>
+		</page>
+
+		<page id="420205" voice="no">
+			<t id="1">\033#97e19b23#D6X Dual Turbolaser\033X</t>
+			<t id="2">\033#97e19b23#D6X Dual Turbolaser\033X</t>
+			<t id="3">Better version of the D6. The D6X is a medium dual-barreled turbolaser manufactured by one of the Empire's nationalized corporations. Boasts a high damage output and long range for its size. </t>
+		</page>
+
+		<page id="420206" voice="no">
+			<t id="1">\033#95e03b29#XX-22 Heavy Turbolaser\033X</t>
+			<t id="2">\033#95e03b29#XX-22 Heavy Turbolaser\033X</t>
+			<t id="3">The XX-22 is a better version than the XX-20 or the XX-18. Manufactured by the Taim and Bak Corporation, the XX-22 is commonly found on Sith-class Star Destroyers. High damage output and decent range for its size. </t>
+		</page>
+
+	<!--Shields-->
+		<page id="420301" voice="no">
+			<t id="1">LHeavy TaB</t>
+			<t id="2">LHeavy TaB</t>
+			<t id="3">Better version of the normal TaB shield generator. Frigate-scale shield generator manufactured by the Taim and Bak Corporation. </t>
+		</page>
+
 	<!--Job Names-->
 		
 	</add>
 </diff>
-

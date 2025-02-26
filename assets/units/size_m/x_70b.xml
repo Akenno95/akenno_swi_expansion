@@ -2,6 +2,7 @@
 <components>
   <component name="x_70b" class="ship_m">
 		<source geometry="extensions\starwarsmod_m1\assets\units\size_m\hapan_m_data"/>
+<!-- Changes -->
 		<layers>
 			<layer>
 				<waypoints/>
@@ -779,6 +780,7 @@
 					<position x="0" y="-8.27174" z="60.061"/>
 				</offset>
 			</connection>
+<!-- Weapon Changes -->
 			<connection name="con_weapon_01" tags="component weapon swmed ga60x medium symmetry_1">
 				<offset>
 					<position x="27.7837" z="2.74611" y="-3.54207"/>

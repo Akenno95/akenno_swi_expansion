@@ -3,15 +3,22 @@
 <!-- SITH EMPIRE -->
 	<!-- The Sith have conveniently access to most basic stuff by default, the only thing they really lack are civilian ships for maintaining an economy -->
 	<!-- Said stuff are mostly Imperial, so let's stick to using Imperial civilian ships -->
-	
-	<!-- Supremacy Mark 5 -->
 	<add sel="/wares">
+<!-- Ships -->
+	<!-- Supremacy Mk 5 -->
 		<ware id="sith_supremacy_mk_5" name="{420001,1}" description="{420001,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="582085" average="665100" max="839105" />
 			<production time="500" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="energycells" amount="500" />
-				<ware ware="hullparts" amount="400" />
+					<ware ware="energycells" amount="500" />
+					<ware ware="hullparts" amount="400" />
+				</primary>
+			</production>
+			<production time="500" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="500" />
+					<ware ware="computronicsubstrate" amount="14" />
+					<ware ware="metallicmicrolattice" amount="125" />
 				</primary>
 			</production>
 			<component ref="sith_supremacy_mk_5_macro" amount="1" />
@@ -19,44 +26,54 @@
 			<owner faction="sith" />
 		</ware>
 		
+	<!-- Supremacy Mk 3 -->
 		<ware id="sith_supremacy_mk_3" name="{420003,1}" description="{420003,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="582085" average="665100" max="839105" />
 			<production time="500" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="energycells" amount="500" />
-				<ware ware="hullparts" amount="400" />
+					<ware ware="energycells" amount="500" />
+					<ware ware="hullparts" amount="400" />
 				</primary>
 				<research>
-				<ware ware="research_supremacy" />
+					<ware ware="research_supremacy" />
 				</research>
+			</production>
+			<production time="500" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="500" />
+					<ware ware="computronicsubstrate" amount="14" />
+					<ware ware="metallicmicrolattice" amount="125" />
+				</primary>
 			</production>
 			<component ref="sith_supremacy_mk_3_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="sith" />
 		</ware>
 		
+	<!-- Research Supremacy -->
 		<ware id="research_supremacy" name="{420003,1}" description="{420003,2}" transport="research" volume="1" tags="research" sortorder="902">
 			<price min="1" average="1" max="1" />
 			<research time="300">
 				<primary>
-				<ware ware="antimattercells" amount="1000" />
-				<ware ware="quantumtubes" amount="2000" />
-				<ware ware="rhydoniumcell" amount="500" />
+					<ware ware="antimattercells" amount="1000" />
+					<ware ware="quantumtubes" amount="2000" />
+					<ware ware="rhydoniumcell" amount="500" />
 				</primary>
 				<research>
-				<ware ware="research_xxl_construction" />
-				<ware ware="research_xxl_construction_executor_prot" />
+					<!-- <ware ware="research_xxl_construction" />
+					<ware ware="research_xxl_construction_executor_prot" /> -->
 				</research>
 			</research>
 		</ware>
-	
+		
+	<!-- X-70B -->
 		<ware id="x_70b" name="{420002,1}" description="{420002,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="1242560" average="1553200" max="2019160" />
 			<production time="360" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="energycells" amount="3400" />
-				<ware ware="hullparts" amount="1000" />
-				<ware ware="shipsupplies" amount="20" />
+					<ware ware="energycells" amount="3400" />
+					<ware ware="hullparts" amount="1000" />
+					<ware ware="shipsupplies" amount="20" />
 				</primary>
 			</production>
 			<component ref="x_70b_macro" amount="1" />
@@ -64,12 +81,120 @@
 			<owner faction="sith" />
 			<owner faction="hapan" />
 		</ware>
+
+	<!-- Terminus Mk 2 -->
+		<ware id="terminus_mk_2" name="{420004,1}" description="{420004,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
+			<price min="10686156" average="13603125" max="17420094" />
+			<production time="1600" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="14000" />
+					<ware ware="hullparts" amount="3625" />
+					<ware ware="rhydoniumcell" amount="125" />
+					<ware ware="shipsupplies" amount="40" />
+				</primary>
+			</production>
+			<production time="1600" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="14000" />
+					<ware ware="computronicsubstrate" amount="124" />
+					<ware ware="metallicmicrolattice" amount="1136" />
+					<ware ware="rhydoniumcell" amount="125" />
+					<ware ware="shipsupplies" amount="40" />
+				</primary>
+			</production>
+			<component ref="terminus_mk_2_macro" amount="1" />
+			<restriction licence="capitalship" />
+			<owner faction="sith" />
+		</ware>
 	
-	<!-- Turrets -->
+<!-- Turrets -->
+	<!-- RH2X -->
+		<ware id="turret_m_duallaser_green_rh2x" name="{420204,1} {999840,102}" description="{420204,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="20806" average="26675" max="32543" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="2" />
+					<ware ware="energycells" amount="19" />
+					<ware ware="turretcomponents" amount="9" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="20" />
+					<ware ware="computronicsubstrate" amount="2" />
+					<ware ware="metallicmicrolattice" amount="32" />
+					<ware ware="siliconcarbide" amount="7" />
+				</primary>
+			</production>
+			<component ref="turret_m_duallaser_green_rh2x_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
+
+	<!-- D6X -->
+		<ware id="turret_m_mtbdual_green_d6x" name="{420205,1} {999840,102}" description="{420205,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="81036" average="96713" max="105389" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="13" />
+					<ware ware="energycells" amount="78" />
+					<ware ware="turretcomponents" amount="20" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="88" />
+					<ware ware="computronicsubstrate" amount="10" />
+					<ware ware="metallicmicrolattice" amount="140" />
+					<ware ware="siliconcarbide" amount="30" />
+				</primary>
+			</production>
+			<component ref="turret_m_mtbdual_green_d6x_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
+
+	<!-- XX-22 -->
+		<ware id="turret_l_double_turbolaser_green_xx22" name="{420206,1} {999840,102}" description="{420206,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="281874" average="361377" max="440879" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="31" />
+					<ware ware="energycells" amount="247" />
+					<ware ware="turretcomponents" amount="35" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="271" />
+					<ware ware="computronicsubstrate" amount="31" />
+					<ware ware="metallicmicrolattice" amount="434" />
+					<ware ware="siliconcarbide" amount="92" />
+				</primary>
+			</production>
+			<component ref="turret_l_double_turbolaser_green_xx22_macro" amount="1" />
+			<restriction licence="capitalequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
 	
 	<!-- Modules -->
 	
-	 <replace sel="//wares/ware[@id='research_xxl_construction_executor']">
+	 <!-- <replace sel="//wares/ware[@id='research_xxl_construction_executor']">
      <ware id="research_xxl_construction_executor" name="{999840,890210}" description="{999840,890230}" transport="research" volume="1" tags="research" sortorder="801">
       <price min="1" average="1" max="1" />
       <research time="3600">
@@ -127,7 +252,7 @@
         </research>
       </research>
     </ware>
-  </replace>
+  </replace> -->
   
 	
 	<!-- Engines -->
@@ -137,9 +262,17 @@
 			<price min="51922" average="66567" max="81211" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="advancedelectronics" amount="9" />
-				<ware ware="energycells" amount="44" />
-				<ware ware="weaponcomponents" amount="18" />
+					<ware ware="advancedelectronics" amount="9" />
+					<ware ware="energycells" amount="44" />
+					<ware ware="weaponcomponents" amount="18" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="55" />
+					<ware ware="computronicsubstrate" amount="6" />
+					<ware ware="metallicmicrolattice" amount="89" />
+					<ware ware="siliconcarbide" amount="19" />
 				</primary>
 			</production>
 			<component ref="weapon_ls9x_s_laser_macro" amount="1" />
@@ -154,9 +287,17 @@
 			<price min="51922" average="66567" max="81211" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="advancedelectronics" amount="9" />
-				<ware ware="energycells" amount="44" />
-				<ware ware="weaponcomponents" amount="18" />
+					<ware ware="advancedelectronics" amount="4" />
+					<ware ware="energycells" amount="20" />
+					<ware ware="weaponcomponents" amount="8" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="110" />
+					<ware ware="computronicsubstrate" amount="3" />
+					<ware ware="metallicmicrolattice" amount="35" />
+					<ware ware="siliconcarbide" amount="8" />
 				</primary>
 			</production>
 			<component ref="weapon_ls7x_s_laser_macro" amount="1" />
@@ -171,9 +312,17 @@
 			<price min="51922" average="66567" max="81211" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-				<ware ware="advancedelectronics" amount="13" />
-				<ware ware="energycells" amount="13" />
-				<ware ware="weaponcomponents" amount="17" />
+					<ware ware="advancedelectronics" amount="13" />
+					<ware ware="energycells" amount="13" />
+					<ware ware="weaponcomponents" amount="17" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="57" />
+					<ware ware="computronicsubstrate" amount="6" />
+					<ware ware="metallicmicrolattice" amount="90" />
+					<ware ware="siliconcarbide" amount="19" />
 				</primary>
 			</production>
 			<component ref="weapon_ga60x_m_laser_macro" amount="1" />
@@ -185,6 +334,53 @@
 		</ware>
 	
 	<!-- Shields -->
+		<!-- TaB -->
+			<ware id="shield_lh_tab" name="{420301, 1}" description="{420301, 3}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="249852" average="333136" max="416420" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="584" />
+						<ware ware="fieldcoils" amount="117" />
+						<ware ware="shieldcomponents" amount="49" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="250" />
+						<ware ware="computronicsubstrate" amount="29" />
+						<ware ware="metallicmicrolattice" amount="400" />
+						<ware ware="siliconcarbide" amount="85" />
+					</primary>
+				</production>
+				<component ref="shield_lh_tab_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+				<owner faction="commerceguild" />
+				<owner faction="naboo" />
+				<owner faction="hapes" />
+				<owner faction="kamino" />
+				<owner faction="kuat" />
+				<owner faction="corellia" />
+				<owner faction="hoersh" />
+				<owner faction="rendili" />
+				<owner faction="incom" />
+				<owner faction="transgalmeg" />
+				<owner faction="blacksun" />
+				<owner faction="moncal" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="miningguild" />
+				<owner faction="bountyhunters" />
+			</ware>
+
 	
 	<!-- Civilian Ships -->
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+    <macro name="shield_lh_tab_macro" class="shieldgenerator">
+        <component ref="shield_lh_tab" />
+        <properties>
+            <identification name="{420301, 1}" basename="{420301, 2}" shortname="{420301, 2}" description="{420301, 3}"/>
+            <recharge max="1000000" rate="2000" delay="0" /> 
+            <effects>        
+                <explosion ref="explosion_storage_energy_m" />        
+                <sefx_damage_low ref="sefx_damage_m_low" />        
+                <sefx_damage_medium ref="sefx_damage_m_medium" />        
+                <sefx_damage_high ref="sefx_damage_m_high" />        
+                <sefx_shield ref="none" />
+            </effects>
+            <hull max="50000" threshold="0.15" />
+        </properties>
+    </macro>
+</macros>

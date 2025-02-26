@@ -2,6 +2,7 @@
 <components>
 	<component name="sith_supremacy_mk_5" class="ship_s">
 		<source geometry="extensions\starwarsmod_m1\assets\units\size_s\sith_supremacy_data"/>
+<!-- Changes -->
 		<layers>
 			<layer>
 				<waypoints/>
@@ -191,23 +192,6 @@
 									<material id="1" ref="generic.generic_p1_hulltexture_02"/>
 									<material id="2" ref="p1.multimat"/>
 									<material id="3" ref="generic.generic_p1_int_lights_01"/>
-								</materials>
-							</lod>
-							<lod index="1">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture_02"/>
-									<material id="2" ref="p1.multimat"/>
-									<material id="3" ref="generic.generic_p1_int_lights_01"/>
-								</materials>
-							</lod>
-							<lod index="2">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-							<lod index="3">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hullpattern"/>
 								</materials>
 							</lod>
 						</lods>
@@ -430,7 +414,7 @@
 				</offset>
 			</connection>
 			
-			<!-- Shield -->
+<!-- Shield changes -->
 			
 			<connection name="con_shield_01" tags="small shield unhittable ">
 				<offset>
@@ -470,7 +454,7 @@
 			</connection>
 			
 			
-			<!-- Weapon -->
+<!-- Weapon changes -->
 
 			<connection name="con_weapon_01" tags="component weapon medium swmed ga60x symmetry_1">
 				<offset>

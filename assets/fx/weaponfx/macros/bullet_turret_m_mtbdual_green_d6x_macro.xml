@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bullet_turret_m_mtbdual_green_d6x_macro" class="bullet">
+    <component ref="bullet_m_green_turbo" />
+    <properties>
+      <ammunition value="6" reload="3.0" />
+      <bullet speed="4000" lifetime="5.0" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0.018" angle="0.1" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1"/>
+      <reload rate="1.0" />
+      <damage value="5000" noshield="2500" />
+      <effects>
+        <impact ref="impact_turbolaser_m_green" />
+        <launch ref="muzzle_turbolaser_m_green" />
+      </effects>
+      <weapon system="turret_midrange" />
+    </properties>
+  </macro>
+</macros>
