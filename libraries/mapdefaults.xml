@@ -3,11 +3,11 @@
 	<!-- System solar output, and gamestart station count adjustments -->
 	<!-- Adding *factionlogic="false"* variable to *area* will prevent the AI factions from claiming it by normal means -->
 	<replace sel="/defaults/dataset[@macro='swi_clusterur3_macro']/properties/area">
-		<area sunlight="5.0" economy="1.0" security="1"  />
+		<area sunlight="1.0" economy="1.0" security="1"  />
 	</replace>
 	
 	<replace sel="/defaults/dataset[@macro='swi_clusterur2_macro']/properties/area">
-		<area sunlight="1.5" economy="1.0" security="1"  />
+		<area sunlight="0.5" economy="1.0" security="1"  />
 	</replace>
 	
 	<replace sel="/defaults/dataset[@macro='swi_clusterur1_macro']/properties/area">
@@ -27,5 +27,24 @@
 		<music ref="sw_sith_music" />
 	</replace>
 	
+
+	<add sel="//defaults">
+		<dataset macro="swi_clusterlehon_macro">
+			<properties>
+				<identification name="{420501,1}" description="{420501,2}" />
+				<sounds>
+					<music ref="sw_sith_deep_music" />
+				</sounds>
+				<area sunlight="10.0" economy="1.0" security="1" />
+			</properties>
+		</dataset>
+		<dataset macro="swi_clusterlehon_sector001_macro">
+			<properties>
+				<identification name="{420501,1}" description="{420501,2}" />
+			</properties>
+		</dataset>
+	
+	
+	</add>
 	
 </diff>

@@ -47,7 +47,11 @@
 
 		<!--Bridges-->
 
+		<!--Economy-->
+			<entry name="ware_starforgeenergy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforgeenergy" />
+	
+		<!-- Galaxy -->
+			<entry name="lehon" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\lehon" />
 		
-
 	</add>
 </diff>

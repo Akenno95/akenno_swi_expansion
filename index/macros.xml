@@ -12,7 +12,7 @@
 		<!--Ship Menu Alternates-->
 
 		<!--Engines-->
-
+			<entry name="engine_l_gemon4x_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_l_gemon4x_macro" />
 
 		<!--Weapon-->
 			<entry name="weapon_ls9x_s_laser_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\weapon_ls9x_s_laser_macro" />	
@@ -60,6 +60,15 @@
 
 		<!--Bridges-->
 
-
+		<!--Economy-->
+			<entry name="ware_starforgeenergy_macro" value="extensions\akenno_swi_expansion\assets\wares\macros\ware_starforgeenergy_macro" />
+		
+		<!-- Galaxy -->
+			<!-- <entry name="swi_zone*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\zones" />
+			<entry name="swi_galaxy_macro" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\galaxy" />
+			<entry name="swi_cluster*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\clusters" /> -->
+		
+			<entry name="swi_clusterlehon_sector*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\sectors" />
+		
 	</add>
 </diff>

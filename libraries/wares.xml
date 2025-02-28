@@ -3,6 +3,14 @@
 <!-- SITH EMPIRE -->
 	<!-- The Sith have conveniently access to most basic stuff by default, the only thing they really lack are civilian ships for maintaining an economy -->
 	<!-- Said stuff are mostly Imperial, so let's stick to using Imperial civilian ships -->
+<!-- Production method -->
+	<add sel="/wares/production">
+		<method id="starforge" name="{420000,1}">
+			<default race="sith" />
+		</method>
+	</add>  
+
+
 	<add sel="/wares">
 <!-- Ships -->
 	<!-- Supremacy Mk 5 -->
@@ -23,6 +31,8 @@
 			</production>
 			<component ref="sith_supremacy_mk_5_macro" amount="1" />
 			<restriction licence="capitalship" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
 			<owner faction="sith" />
 		</ware>
 		
@@ -47,23 +57,9 @@
 			</production>
 			<component ref="sith_supremacy_mk_3_macro" amount="1" />
 			<restriction licence="capitalship" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
 			<owner faction="sith" />
-		</ware>
-		
-	<!-- Research Supremacy -->
-		<ware id="research_supremacy" name="{420003,1}" description="{420003,2}" transport="research" volume="1" tags="research" sortorder="902">
-			<price min="1" average="1" max="1" />
-			<research time="300">
-				<primary>
-					<ware ware="antimattercells" amount="1000" />
-					<ware ware="quantumtubes" amount="2000" />
-					<ware ware="rhydoniumcell" amount="500" />
-				</primary>
-				<research>
-					<!-- <ware ware="research_xxl_construction" />
-					<ware ware="research_xxl_construction_executor_prot" /> -->
-				</research>
-			</research>
 		</ware>
 		
 	<!-- X-70B -->
@@ -78,8 +74,9 @@
 			</production>
 			<component ref="x_70b_macro" amount="1" />
 			<restriction licence="capitalship" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
 			<owner faction="sith" />
-			<owner faction="hapan" />
 		</ware>
 
 	<!-- Terminus Mk 2 -->
@@ -102,9 +99,33 @@
 					<ware ware="shipsupplies" amount="40" />
 				</primary>
 			</production>
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="energycells" amount="10" />
+				</primary>
+			</production>
 			<component ref="terminus_mk_2_macro" amount="1" />
 			<restriction licence="capitalship" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
 			<owner faction="sith" />
+		</ware>
+		
+<!-- Research -->
+	<!-- Supremacy -->
+		<ware id="research_supremacy" name="{420003,1}" description="{420003,2}" transport="research" volume="1" tags="research" sortorder="902">
+			<price min="1" average="1" max="1" />
+			<research time="300">
+				<primary>
+					<ware ware="antimattercells" amount="1000" />
+					<ware ware="quantumtubes" amount="2000" />
+					<ware ware="rhydoniumcell" amount="500" />
+				</primary>
+				<research>
+					<!-- <ware ware="research_xxl_construction" />
+					<ware ware="research_xxl_construction_executor_prot" /> -->
+				</research>
+			</research>
 		</ware>
 	
 <!-- Turrets -->
@@ -132,8 +153,6 @@
 			<owner faction="galempire" />
 			<owner faction="ascendancy" />
 			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
 		</ware>
 
 	<!-- D6X -->
@@ -160,8 +179,6 @@
 			<owner faction="galempire" />
 			<owner faction="ascendancy" />
 			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
 		</ware>
 
 	<!-- XX-22 -->
@@ -188,8 +205,6 @@
 			<owner faction="galempire" />
 			<owner faction="ascendancy" />
 			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
 		</ware>
 	
 	<!-- Modules -->
@@ -255,9 +270,33 @@
   </replace> -->
   
 	
-	<!-- Engines -->
+<!-- Engines -->
+		<ware id="engine_l_gemon4x" name="{420101, 1}" description="{420101, 3}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="285256" average="380342" max="475427" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="189" />
+					<ware ware="engineparts" amount="57" />
+					<ware ware="antimatterconverters" amount="151" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="285" />
+					<ware ware="computronicsubstrate" amount="33" />
+					<ware ware="metallicmicrolattice" amount="456" />
+					<ware ware="siliconcarbide" amount="97" />
+				</primary>
+			</production>
+			<component ref="engine_l_gemon4x_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+		</ware>
 	
-	<!-- Weapons -->
+<!-- Weapons -->
 		<ware id="weapon_ls9x_s_laser" name="{420201,1}" description="{420201,2}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 			<price min="51922" average="66567" max="81211" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
@@ -333,56 +372,56 @@
 			<owner faction="sith" />
 		</ware>
 	
-	<!-- Shields -->
-		<!-- TaB -->
-			<ware id="shield_lh_tab" name="{420301, 1}" description="{420301, 3}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="249852" average="333136" max="416420" />
-				<production time="1" amount="1" method="default" name="{20206,101}">
-					<primary>
-						<ware ware="energycells" amount="584" />
-						<ware ware="fieldcoils" amount="117" />
-						<ware ware="shieldcomponents" amount="49" />
-					</primary>
-				</production>
-				<production time="10" amount="1" method="terran" name="{999840,590070}">
-					<primary>
-						<ware ware="energycells" amount="250" />
-						<ware ware="computronicsubstrate" amount="29" />
-						<ware ware="metallicmicrolattice" amount="400" />
-						<ware ware="siliconcarbide" amount="85" />
-					</primary>
-				</production>
-				<component ref="shield_lh_tab_macro" amount="1" />
-				<restriction licence="generaluseequipment" />
-				<use threshold="0" />
-				<owner faction="newrepublic" />
-				<owner faction="rebelalliance" />
-				<owner faction="corporate" />
-				<owner faction="mandodw" />
-				<owner faction="anoat" />
-				<owner faction="huttcartel" />
-				<owner faction="commerceguild" />
-				<owner faction="naboo" />
-				<owner faction="hapes" />
-				<owner faction="kamino" />
-				<owner faction="kuat" />
-				<owner faction="corellia" />
-				<owner faction="hoersh" />
-				<owner faction="rendili" />
-				<owner faction="incom" />
-				<owner faction="transgalmeg" />
-				<owner faction="blacksun" />
-				<owner faction="moncal" />
-				<owner faction="galempire" />
-				<owner faction="ascendancy" />
-				<owner faction="sith" />
-				<owner faction="sienar" />
-				<owner faction="miningguild" />
-				<owner faction="bountyhunters" />
-			</ware>
+<!-- Shields -->
+	<!-- TaB -->
+		<ware id="shield_lh_tab" name="{420301, 1}" description="{420301, 3}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="249852" average="333136" max="416420" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="584" />
+					<ware ware="fieldcoils" amount="117" />
+					<ware ware="shieldcomponents" amount="49" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="250" />
+					<ware ware="computronicsubstrate" amount="29" />
+					<ware ware="metallicmicrolattice" amount="400" />
+					<ware ware="siliconcarbide" amount="85" />
+				</primary>
+			</production>
+			<component ref="shield_lh_tab_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+		</ware>
 
 	
-	<!-- Civilian Ships -->
+<!-- Civilian Ships -->
+
+
+<!-- Economy -->
+	<!-- Starforge Energy -->
+		<ware id="starforgeenergy" name="{420401,1}" description="{420401,2}" factoryname="{420401,3}" group="energy" transport="container" volume="1" tags="container economy stationbuilding">
+			<price min="1000000" average="5000000" max="10000000" />
+			<production time="100" amount="100" method="starforge" name="{420000,1}">
+				<!-- <primary>
+					<ware ware="energycells" amount="1" />
+				</primary> -->
+				<effects>
+					<effect type="sunlight" product="0.1" />
+					<effect type="work" product="0.5" />
+				</effects>
+			</production>
+			<icon active="ware_starforgeenergy" video="ware_starforgeenergy_macro" />
+		</ware>
+
+
+
+
 
 	</add>
 </diff>

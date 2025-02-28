@@ -2,7 +2,12 @@
 <diff>
 	<add sel="/language">
 
-	<!--Ships-->
+		<page id="420000" voice="no">
+			<t id="1">Starforge</t>
+			<t id="2">Starforge build loop.</t>
+		</page>	
+
+	<!--Ships 420-00x-->
 		<page id="420001" voice="no">
 			<t id="1">Supremacy Mark V</t>
 			<t id="2">The Supremacy Mark V is a new variant that can switch between ion and laser damage.</t>
@@ -23,8 +28,13 @@
 			<t id="2">The Terminus Mark III is a new variant that is more robust than its earlier variant.</t>
 		</page>
 		
-	<!--Engines-->
-	<!--Weapons-->
+	<!--Engines 420-10x-->
+		<page id="420101" voice="no">
+			<t id="1">CS Gemon-4X Ion Engine</t>
+			<t id="2">CS Gemon-4X Ion Engine</t>
+			<t id="3">Better version than the normal CS Gemon 4.</t>
+		</page>
+	<!--Weapons 420-20x-->
 		<page id="420201" voice="no">
 			<t id="1">\033#989db6ec#L-s9.X Lasercanon\033X</t>
 			<t id="2">The L-s9.X lasercanon is an experimental version of the standard 9.3 version.</t>
@@ -58,14 +68,26 @@
 			<t id="3">The XX-22 is a better version than the XX-20 or the XX-18. Manufactured by the Taim and Bak Corporation, the XX-22 is commonly found on Sith-class Star Destroyers. High damage output and decent range for its size. </t>
 		</page>
 
-	<!--Shields-->
+	<!--Shields 420-30x-->
 		<page id="420301" voice="no">
 			<t id="1">LHeavy TaB</t>
 			<t id="2">LHeavy TaB</t>
 			<t id="3">Better version of the normal TaB shield generator. Frigate-scale shield generator manufactured by the Taim and Bak Corporation. </t>
+		</page>		
+
+	<!--Economy 420-40x-->
+		<page id="420401" voice="no">
+			<t id="1">Starforge Energy</t>
+			<t id="2">Starforge Energy comes from the Starforge, harvesting energy from the sun and convert it to their own energy type. It works similar to the old Starforge on Rakata Prime from Revan's Sith Empire but at a weaker rate and it doesn't consume the sun itself.</t>
+			<t id="3">Starforge</t>
+			
 		</page>
 
-	<!--Job Names-->
-		
+	<!--Galaxy 420-50x-->
+		<page id="420501" voice="no">
+			<t id="1">Lehon</t>
+			<t id="2">This system is far away from the galaxy's protected sectors. Thanks to this miners and traders disappear with alarming regularity here, though very few dare to get this far from the well-protected sectors.\nThe wreck field tells the story of numerous miners killed during pirate raids, after refusing to cooperate.\nBut there's something that even the pirates are afraid about. An unknown threat, which makes pirate raids less frequent in this sector, than in the past.</t>
+		</page>
+
 	</add>
 </diff>
