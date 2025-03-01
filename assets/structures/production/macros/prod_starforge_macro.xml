@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="prod_starforge_macro" class="production">
+    <component ref="landmarks_arg_antigonespire_001" />
+    <properties>
+      <identification name="{420401,3}" shortname="{420401,3}" description="{420401,2}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="10000000" />
+      <secrecy level="10" />
+      <production wares="starforgeenergy">
+        <queue ware="starforgeenergy" />
+      </production>
+      <workforce max="500" />
+    </properties>
+  </macro>
+</macros>

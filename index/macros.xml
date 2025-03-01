@@ -62,6 +62,7 @@
 
 		<!--Economy-->
 			<entry name="ware_starforgeenergy_macro" value="extensions\akenno_swi_expansion\assets\wares\macros\ware_starforgeenergy_macro" />
+			<entry name="prod_starforge_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_starforge_macro" />
 		
 		<!-- Galaxy -->
 			<!-- <entry name="swi_zone*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\zones" />

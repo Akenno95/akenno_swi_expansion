@@ -49,6 +49,7 @@
 
 		<!--Economy-->
 			<entry name="ware_starforgeenergy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforgeenergy" />
+			<entry name="landmarks_arg_antigonespire_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_001" />
 	
 		<!-- Galaxy -->
 			<entry name="lehon" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\lehon" />

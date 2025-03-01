@@ -407,18 +407,68 @@
 	<!-- Starforge Energy -->
 		<ware id="starforgeenergy" name="{420401,1}" description="{420401,2}" factoryname="{420401,3}" group="energy" transport="container" volume="1" tags="container economy stationbuilding">
 			<price min="1000000" average="5000000" max="10000000" />
-			<production time="100" amount="100" method="starforge" name="{420000,1}">
+			<production time="600" amount="10" method="default" name="{20206,101}">
 				<!-- <primary>
 					<ware ware="energycells" amount="1" />
 				</primary> -->
 				<effects>
 					<effect type="sunlight" product="0.1" />
-					<effect type="work" product="0.5" />
+					<effect type="work" product="0.2" />
+				</effects>
+			</production>
+			<production time="600" amount="10" method="terran" name="{999840,590070}">
+				<!-- <primary>
+					<ware ware="energycells" amount="1" />
+				</primary> -->
+				<effects>
+					<effect type="sunlight" product="0.1" />
+					<effect type="work" product="0.2" />
+				</effects>
+			</production>
+			<production time="60" amount="100" method="starforge" name="{420000,1}">
+				<!-- <primary>
+					<ware ware="energycells" amount="1" />
+				</primary> -->
+				<effects>
+					<effect type="sunlight" product="1.0" />
+					<effect type="work" product="0.2" />
 				</effects>
 			</production>
 			<icon active="ware_starforgeenergy" video="ware_starforgeenergy_macro" />
 		</ware>
-
+	<!-- Starforge Building-->
+		<ware id="prod_starforge" name="{420401,3}" description="{420401,2}" transport="container" volume="1" tags="module">
+			<price min="1000000" average="5000000" max="10000000" />
+			<production time="500" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="7000" />
+					<ware ware="energycells" amount="100000" />
+					<ware ware="hullparts" amount="2000" />
+				</primary>
+			</production>
+			<production time="500" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="200" />
+					<ware ware="energycells" amount="100000" />
+					<ware ware="siliconcarbide" amount="700" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforgeenergy" amount="1" />
+				</primary>
+			</production>
+			<research time="60">
+				<research>
+					<ware ware="research_module_production" />
+				</research>
+			</research>
+			<component ref="prod_starforge_macro" amount="1" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="galempire" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+		</ware>
 
 
 
