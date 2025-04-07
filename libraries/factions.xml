@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/factions/faction[@id='blacksun']">
+	  <buildrules method="starforge" />
+  </add>
+</diff>

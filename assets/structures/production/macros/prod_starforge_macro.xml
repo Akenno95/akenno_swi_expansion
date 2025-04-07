@@ -14,7 +14,7 @@
       <hull max="10000000" />
       <secrecy level="10" />
       <production wares="starforgeenergy">
-        <queue ware="starforgeenergy" />
+        <queue ware="starforgeenergy" method="starforge"/>
       </production>
       <workforce max="500" />
     </properties>
