@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+  <component name="shield_s_inv_starforge" class="shieldgenerator">
+    <connections>
+      <connection name="Connection_1" tags="component shield small starforge" />
+    </connections>
+  </component>
+</components>

@@ -7,6 +7,9 @@
 			<entry name="sith_supremacy_mk_3" value="extensions\akenno_swi_expansion\assets\units\size_s\sith_supremacy_mk_3" />			
 			<entry name="x_70b" value="extensions\akenno_swi_expansion\assets\units\size_m\x_70b" />	
 			<entry name="terminus_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_l\terminus_mk_2" />
+			<entry name="harrower_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_mk_2" />	
+			<entry name="harrower_i_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_i_mk_2" />	
+			<entry name="dabc_harrower_2_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xxl\dabc_harrower_2_mk_2" />	
 
 		<!--Engines-->
 
@@ -20,6 +23,11 @@
 			<entry name="turret_m_duallaser_green_rh2x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_duallaser_green_rh2x" />
 			<entry name="turret_m_mtbdual_green_d6x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_mtbdual_green_d6x" />
 			<entry name="turret_l_double_turbolaser_green_xx22" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_l_double_turbolaser_green_xx22" />
+			<entry name="turret_m_llaser_green_02_PLD" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_llaser_green_02_PLD" />
+			<entry name="turret_m_mtbquad_green_hx4x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_mtbquad_green_hx4x" />
+			<entry name="turret_m_quadlaser_green_rh3x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_quadlaser_green_rh3x" />
+			<entry name="turret_m_quadlaser_green_02_rh3x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_quadlaser_green_02_rh3x" />
+
 
 		<!--Bullets-->
 			<entry name="bullet_s_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_s_green_turbo" />
@@ -30,6 +38,14 @@
 
 		<!-- Shields -->
 			<entry name="shield_lh_tab" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_tab" />
+			<entry name="shield_xl_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xl_starforge" />
+			<entry name="shield_s_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_s_inv_starforge" />
+			<entry name="shield_m_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_starforge" />
+			<entry name="shield_m_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_inv_starforge" />
+			<entry name="shield_lh_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_starforge" />
+			<entry name="shield_l_station_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_l_station_starforge" />
+			<entry name="shield_ll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_ll_starforge" />
+			<entry name="shield_xll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xll_starforge" />
 
 		<!--Missile Turrets-->
 
@@ -50,6 +66,7 @@
 		<!--Economy-->
 			<entry name="ware_starforgeenergy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforgeenergy" />
 			<entry name="landmarks_arg_antigonespire_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_001" />
+			<entry name="landmarks_arg_antigonepillar_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonepillar_001" />
 	
 		<!-- Galaxy -->
 			<entry name="lehon" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\lehon" />

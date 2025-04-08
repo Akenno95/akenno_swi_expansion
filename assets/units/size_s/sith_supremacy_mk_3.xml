@@ -416,37 +416,37 @@
 			
 <!-- Shield changes -->
 			
-			<connection name="con_shield_01" tags="small shield unhittable ">
+			<connection name="con_shield_01" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_02" tags="small shield unhittable ">
+			<connection name="con_shield_02" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_03" tags="small shield unhittable ">
+			<connection name="con_shield_03" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_04" tags="small shield unhittable ">
+			<connection name="con_shield_04" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_05" tags="small shield unhittable ">
+			<connection name="con_shield_05" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_06" tags="small shield unhittable ">
+			<connection name="con_shield_06" tags="small shield starforge unhittable ">
 				<offset>
 					<position x="-4.552503E-10" y="-2.065731" z="1.667296"/>
 					<quaternion qx="3.632283E-10" qy="-0.0304597" qz="-0.999536" qw="1.191935E-08"/>

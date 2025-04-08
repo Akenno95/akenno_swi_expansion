@@ -25,7 +25,22 @@
 		
 		<page id="420004" voice="no">
 			<t id="1">Terminus Mark II</t>
-			<t id="2">The Terminus Mark III is a new variant that is more robust than its earlier variant.</t>
+			<t id="2">The Terminus Mark II is a new variant that is more robust than its earlier variant.</t>
+		</page>
+		
+		<page id="420005" voice="no">
+			<t id="1">Harrower Mark II</t>
+			<t id="2">The Harrower Mark II is a new variant that is more robust than its earlier variant.</t>
+		</page>
+		
+		<page id="420006" voice="no">
+			<t id="1">Harrower i Mark II</t>
+			<t id="2">The Harrower i Mark II is a new variant that is more robust than its earlier variant.</t>
+		</page>
+		
+		<page id="420007" voice="no">
+			<t id="1">Harrower 2 Mark II</t>
+			<t id="2">The Harrower 2 Mark II is a new variant that is more robust than its earlier variant.</t>
 		</page>
 		
 	<!--Engines 420-10x-->
@@ -74,11 +89,40 @@
 			<t id="3">The XX-22 is a better version than the XX-20 or the XX-18. Manufactured by the Taim and Bak Corporation, the XX-22 is commonly found on Sith-class Star Destroyers. High damage output and decent range for its size. </t>
 		</page>
 
+		<page id="420207" voice="no">
+			<t id="1">\033#989db6ec#PLD Cannon Turret\033X</t>
+			<t id="2">\033#989db6ec#PLD Cannon\033X</t>
+			<t id="3">General-purpose point defence light laser turret installed on starships and stations for anti-starfighter defence.</t>
+		</page>
+
+		<page id="420208" voice="no">
+			<t id="1">\033#97e19b23#HX4X Quad Turbolaser\033X</t>
+			<t id="2">\033#97e19b23#HX4X Quad Turbolaser\033X</t>
+			<t id="3">Modernized variant of the HX4 produced exclusively for Sith use. Slightly better range and damage output. </t>
+		</page>
+
+		<page id="420209" voice="no">
+			<t id="1">\033#989db6ec#RH3X Quad Laser Cannon Turret\033X</t>
+			<t id="2">\033#989db6ec#RH3X Quad Laser\033X</t>
+			<t id="3">Better version of the RH3. Quad-barreled long range laser turret installed on starships and stations as anti-starfighter defence. </t>
+		</page>
+
 	<!--Shields 420-30x-->
 		<page id="420301" voice="no">
 			<t id="1">LHeavy TaB</t>
 			<t id="2">LHeavy TaB</t>
 			<t id="3">Better version of the normal TaB shield generator. Frigate-scale shield generator manufactured by the Taim and Bak Corporation. </t>
+		</page>	
+
+		<page id="420302" voice="no">
+			<t id="1">Starforge Shield S</t>
+			<t id="2">Starforge Shield M</t>
+			<t id="3">Starforge Shield LH</t>
+			<t id="4">Starforge Shield L Station</t>
+			<t id="5">Starforge Shield XL</t>
+			<t id="6">Starforge Shield generator in various sizes.</t>
+			<t id="7">Starforge Shield XLL</t>
+			<t id="8">Starforge Shield LL</t>
 		</page>		
 
 	<!--Economy 420-40x-->
@@ -108,6 +152,11 @@
 		<page id="420603" voice="no">
 			<t id="1">Starforge Liquid Container</t>
 			<t id="2">Starforge deep storage liquid container.</t>
+		</page>
+		
+		<page id="420604" voice="no">
+			<t id="1">Starforge Factory</t>
+			<t id="2">Starforge factory, that can make several other things aswell.</t>
 		</page>
 
 	</add>

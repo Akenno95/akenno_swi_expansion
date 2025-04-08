@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="prod_starforge_factory_macro" class="production">
+    <component ref="landmarks_arg_antigonepillar_001" />
+    <properties>
+      <identification name="{420604,1}" shortname="{420604,1}" description="{420604,2}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="10000000" />
+      <secrecy level="10" />
+      <production wares="claytronics hullparts computronicsubstrate siliconcarbide energycells">
+        <queue>
+          <item ware="claytronics" method="starforge"/>
+          <item ware="hullparts" method="starforge"/>
+          <item ware="computronicsubstrate" method="starforge"/>
+          <item ware="siliconcarbide" method="starforge"/>
+          <item ware="energycells" method="starforge"/>
+        </queue> 
+      </production>
+      <workforce max="500" />
+    </properties>
+  </macro>
+</macros>

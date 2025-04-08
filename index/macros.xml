@@ -7,6 +7,9 @@
 			<entry name="sith_supremacy_mk_3_macro" value="extensions\akenno_swi_expansion\assets\units\size_s\macros\sith_supremacy_mk_3_macro" />			
 			<entry name="x_70b_macro" value="extensions\akenno_swi_expansion\assets\units\size_m\macros\x_70b_macro" />	
 			<entry name="terminus_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_l\macros\terminus_mk_2_macro" />	
+			<entry name="harrower_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xl\macros\harrower_mk_2_macro" />	
+			<entry name="harrower_i_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xl\macros\harrower_i_mk_2_macro" />	
+			<entry name="dabc_harrower_2_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xxl\macros\dabc_harrower_2_mk_2_macro" />	
 
 		
 		<!--Ship Menu Alternates-->
@@ -29,15 +32,30 @@
 			<entry name="turret_m_duallaser_green_rh2x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_duallaser_green_rh2x_macro" />
 			<entry name="turret_m_mtbdual_green_d6x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_mtbdual_green_d6x_macro" />
 			<entry name="turret_l_double_turbolaser_green_xx22_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_l_double_turbolaser_green_xx22_macro" />
-		
-
+			<entry name="turret_m_llaser_green_02_pld_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_llaser_green_02_pld_macro" />
+			<entry name="turret_m_llaser_green_pld_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_llaser_green_pld_macro" />
+			<entry name="turret_m_mtbquad_green_hx4x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_mtbquad_green_hx4x_macro" />
+			<entry name="turret_m_quadlaser_green_rh3x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_quadlaser_green_rh3x_macro" />
+			<entry name="turret_m_quadlaser_green_02_rh3x_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_quadlaser_green_02_rh3x_macro" />
+	
 		<!--Turret Bullets-->
 			<entry name="bullet_turret_m_duallaser_green_rh2x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_duallaser_green_rh2x_macro" />
 			<entry name="bullet_turret_m_mtbdual_green_d6x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_mtbdual_green_d6x_macro" />
 			<entry name="bullet_turret_l_dual_green_xx22_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_l_dual_green_xx22_macro" />
-		
+			<entry name="bullet_turret_m_laser_green_pld_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_laser_green_pld_macro" />
+			<entry name="bullet_turret_m_mtbquad_green_hx4x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_mtbquad_green_hx4x_macro" />
+			<entry name="bullet_turret_m_quadlaser_green_rh3x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_quadlaser_green_rh3x_macro" />
+
 		<!-- Shields -->
 			<entry name="shield_lh_tab_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_lh_tab_macro" />
+			<entry name="shield_xl_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_xl_starforge_macro" />
+			<entry name="shield_s_inv_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_s_inv_starforge_macro" />
+			<entry name="shield_m_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_m_starforge_macro" />
+			<entry name="shield_m_inv_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_m_inv_starforge_macro" />
+			<entry name="shield_lh_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_lh_starforge_macro" />
+			<entry name="shield_l_station_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_l_station_starforge_macro" />
+			<entry name="shield_ll_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_ll_starforge_macro" />
+			<entry name="shield_xll_starforge_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shield_xll_starforge_macro" />
 
 		<!--Missile Turrets-->
 
@@ -48,10 +66,10 @@
 		<!--Shields-->
 
 
-		<!--Dock Areas-->
-
-
-		<!--Docking Bays-->
+		<!--Docking-->
+			<entry name="shipstorage_sw_s_cap20_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shipstorage_sw_s_cap20_macro" />
+			<entry name="shipstorage_sw_s_cap80_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shipstorage_sw_s_cap80_macro" />
+			<entry name="shipstorage_sw_s_cap160_macro" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\macros\shipstorage_sw_s_cap160_macro" />
 
 		<!--Modules-->
 
@@ -67,7 +85,8 @@
 			<entry name="storage_starforge_container_macro" value="extensions\akenno_swi_expansion\assets\structures\storage\macros\storage_starforge_container_macro" />
 			<entry name="storage_starforge_liquid_macro" value="extensions\akenno_swi_expansion\assets\structures\storage\macros\storage_starforge_liquid_macro" />
 			<entry name="storage_starforge_solid_macro" value="extensions\akenno_swi_expansion\assets\structures\storage\macros\storage_starforge_solid_macro" />
-		
+			<entry name="prod_starforge_factory_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_starforge_factory_macro" />
+			
 		<!-- Galaxy -->
 			<!-- <entry name="swi_zone*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\zones" />
 			<entry name="swi_galaxy_macro" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\galaxy" />
