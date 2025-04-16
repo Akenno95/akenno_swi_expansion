@@ -77,7 +77,11 @@
 		<!--Misc-->
 
 
-		<!--Bridges-->
+		<!--Defence-->
+			<entry name="defence_starforge_claim_ring_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_claim_ring_macro" />
+			<entry name="defence_starforge_disc_01_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_disc_01_macro" />
+			<entry name="defence_starforge_tube_01_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_tube_01_macro" />
+
 
 		<!--Economy-->
 			<entry name="ware_starforgeenergy_macro" value="extensions\akenno_swi_expansion\assets\wares\macros\ware_starforgeenergy_macro" />

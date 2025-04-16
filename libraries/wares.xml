@@ -999,6 +999,7 @@
 			</production>
 			<icon active="ware_starforgeenergy" video="ware_starforgeenergy_macro" />
 		</ware>
+	
 
 <!-- Buildings -->
 	<!-- Starforge Building -->
@@ -1127,6 +1128,111 @@
 			<owner faction="sith" />
 		</ware>
 
+	<!-- Defence -->
+		<ware id="defence_starforge_tube_01" name="{420605,3}" description="{420605,4}" transport="container" volume="1" tags="module">
+			<price min="462691" average="544342" max="625993" />
+			<production time="334" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="85" />
+					<ware ware="energycells" amount="170" />
+					<ware ware="hullparts" amount="312" />
+				</primary>
+			</production>
+			<production time="334" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="79" />
+					<ware ware="energycells" amount="680" />
+					<ware ware="siliconcarbide" amount="308" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforgeenergy" amount="10" />
+				</primary>
+			</production>
+			<research time="10">
+			<research>
+				<ware ware="research_module_defence" />
+			</research>
+			</research>
+			<component ref="defence_starforge_tube_01_macro" amount="1" />
+			<restriction licence="station_gen_intermediate" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="galempire" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
+	
+		<ware id="defence_starforge_disc_01" name="{420605,2}" description="{420605,4}" transport="container" volume="1" tags="module">
+			<price min="533140" average="627224" max="721308" />
+			<production time="384" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="98" />
+					<ware ware="energycells" amount="196" />
+					<ware ware="hullparts" amount="359" />
+				</primary>
+			</production>
+			<production time="384" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="91" />
+					<ware ware="energycells" amount="784" />
+					<ware ware="siliconcarbide" amount="355" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforgeenergy" amount="10" />
+				</primary>
+			</production>
+			<research time="10">
+			<research>
+				<ware ware="research_module_defence" />
+			</research>
+			</research>
+			<component ref="defence_starforge_disc_01_macro" amount="1" />
+			<restriction licence="station_gen_intermediate" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="galempire" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
+
+		<ware id="defence_starforge_claim_ring" name="{420605,1}" description="{420605,4}" transport="container" volume="1" tags="module">
+			<price min="16000000" average="18000000" max="20000000" />
+			<production time="1000" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="1000" />
+					<ware ware="energycells" amount="1500" />
+					<ware ware="hullparts" amount="4000" />
+				</primary>
+			</production>
+			<production time="1000" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="1609" />
+					<ware ware="energycells" amount="22500" />
+					<ware ware="siliconcarbide" amount="9184" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforgeenergy" amount="10" />
+				</primary>
+			</production>
+			<research time="10">
+				<research>
+					<ware ware="research_module_defence" />
+				</research>
+			</research>
+			<component ref="defence_starforge_claim_ring_macro" amount="1" />
+			<restriction licence="station_gen_advanced" />
+			<owner faction="ascendancy" />
+			<owner faction="sith" />
+			<owner faction="galempire" />
+			<owner faction="sienar" />
+			<owner faction="kuat" />
+		</ware>
 
 </add>
 </diff>

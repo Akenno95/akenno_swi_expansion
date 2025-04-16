@@ -158,6 +158,13 @@
 			<t id="1">Starforge Factory</t>
 			<t id="2">Starforge factory, that can make several other things aswell.</t>
 		</page>
+		
+		<page id="420605" voice="no">
+			<t id="1">Starforge Defence Ring</t>
+			<t id="2">Starforge Defence Disc</t>
+			<t id="3">Starforge Defence Tube</t>
+			<t id="4">Starforge defence station.</t>
+		</page>
 
 	</add>
 </diff>

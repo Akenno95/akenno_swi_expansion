@@ -61,8 +61,11 @@
 		<!--Modules-->
 
 
-		<!--Bridges-->
-
+		<!--Defence-->
+			<entry name="defence_starforge_claim_ring" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_claim_ring" />
+			<entry name="defence_starforge_disc_01" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_disc_01" />
+			<entry name="defence_starforge_tube_01" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_tube_01" />
+					
 		<!--Economy-->
 			<entry name="ware_starforgeenergy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforgeenergy" />
 			<entry name="landmarks_arg_antigonespire_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_001" />

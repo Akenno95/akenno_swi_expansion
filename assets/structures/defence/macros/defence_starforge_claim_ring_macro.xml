@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="defence_starforge_claim_ring_macro" class="defencemodule">
+    <component ref="defence_starforge_claim_ring" />
+    <properties>
+      <identification name="{420605,1}" shortname="{420605,1}" makerrace="imperial" description="{420605,4}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+          <set ref="piratebase" />
+        </sets>
+      </build>
+      <explosiondamage value="2000" shield="15000" />
+      <hull max="10000000" />
+      <ownership claim="1" />
+      <relation>
+        <kill>
+          <faction change="-0.1" />
+        </kill>
+      </relation>
+      <threatscore value="200" />
+      <radar range="150000" />
+    </properties>
+    <connections>
+    </connections>
+  </macro>
+</macros>
