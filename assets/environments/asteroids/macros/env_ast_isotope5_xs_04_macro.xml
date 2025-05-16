@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.53) at 15.09.2018_10-45-21-->
+<macros>
+  <macro name="env_ast_isotope5_xs_04_macro" class="asteroid">
+    <component ref="env_ast_isotope5_xs_04" />
+    <properties>
+      <identification name="{420402,1}" description="{420402,2}" />
+      <hull max="300" />
+      <effects>
+        <explosion ref="explosion_asteroid_a_xs" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

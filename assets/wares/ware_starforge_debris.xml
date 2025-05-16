@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<components>
+	<component name="ware_starforge_debris" class="object">
+		<source geometry="assets\wares\ware_scrapmetal_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="object">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="1.105549E-08" y="-0.6226991" z="-1.210719E-08"/>
+					<quaternion qx="0.2041665" qy="-0" qz="-0" qw="-0.9789361"/>
+				</offset>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.vertexcolor_lightcone"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.389386" y="0.7482506" z="1.679282"/>
+							<center x="-9.134419E-02" y="0.6474896" z="-0.2235497"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

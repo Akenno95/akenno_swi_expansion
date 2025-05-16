@@ -774,776 +774,776 @@
 					<quaternion qw="-0.08092623372528755" qx="-0.09465750386039616" qy="-0.012835760455666393" qz="-0.9921321206933499"/>
 				</offset>
 			</connection>
-		
-<!-- Hangars -->
-<connection name="con_dockarea_9" tags="dockarea">
-	<offset>
-		<position x="22.9386" y="-23.72" z="332.48519999999996"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-		 <!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
-	</offset>
-</connection>
-<connection name="con_dockarea_10" tags="dockarea">
-	<offset>
-		<position x="-22.9386" y="-23.72" z="332.48519999999996"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-		 <!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
-	</offset>
-</connection>
-<connection name="con_dockarea_8" tags="dockarea">
-	<offset>
-		<position x="-22.9386" y="15.3259" z="332.48519999999996"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-		<!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
-	</offset>
-</connection>
-<connection name="con_dockarea_7" tags="dockarea">
-	<offset>
-		<position x="22.9386" y="15.3259" z="332.48519999999996"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-		 <!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/> -->
-	</offset>
-</connection>
-<connection name="con_dockarea_6" tags="dockarea">
-	<offset>
-		<position x="-0.0" y="-106.169" z="-523.4301"/>
-		<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
-	</offset>
-</connection>
-<connection name="con_dockarea_5" tags="dockarea">
-	<offset>
-		<position x="-0.0" y="-106.169" z="-464.4026"/>
-		<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
-	</offset>
-</connection>
-<connection name="con_dockarea_4" tags="dockarea">
-	<offset>
-		<position x="224.85" y="-5.4685999999999995" z="146.3632"/>
-	</offset>
-</connection>
-<connection name="con_dockarea_3" tags="dockarea">
-	<offset>
-		<position x="237.323" y="-5.4685999999999995" z="96.555"/>
-	</offset>
-</connection>
-<connection name="con_dockarea_2" tags="dockarea">
-	<offset>
-		<position x="-237.3226" y="-5.4685999999999995" z="96.555"/>
-	</offset>
-</connection>
-<connection name="con_dockarea_1" tags="dockarea">
-	<offset>
-		<position x="-224.84959999999998" y="-5.4685999999999995" z="146.3632"/>
-	</offset>
-</connection>
+				
+		<!-- Hangars -->
+		<connection name="con_dockarea_9" tags="dockarea">
+			<offset>
+				<position x="22.9386" y="-23.72" z="332.48519999999996"/>
+				<rotation yaw="90" pitch="0" roll="0"/>
+				<!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
+			</offset>
+		</connection>
+		<connection name="con_dockarea_10" tags="dockarea">
+			<offset>
+				<position x="-22.9386" y="-23.72" z="332.48519999999996"/>
+				<rotation yaw="90" pitch="0" roll="0"/>
+				<!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
+			</offset>
+		</connection>
+		<connection name="con_dockarea_8" tags="dockarea">
+			<offset>
+				<position x="-22.9386" y="15.3259" z="332.48519999999996"/>
+				<rotation yaw="90" pitch="0" roll="0"/>
+				<!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/>  -->
+			</offset>
+		</connection>
+		<connection name="con_dockarea_7" tags="dockarea">
+			<offset>
+				<position x="22.9386" y="15.3259" z="332.48519999999996"/>
+				<rotation yaw="90" pitch="0" roll="0"/>
+				<!-- <quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.999999999999985" qz="-0.0"/> -->
+			</offset>
+		</connection>
+		<connection name="con_dockarea_6" tags="dockarea">
+			<offset>
+				<position x="-0.0" y="-106.169" z="-523.4301"/>
+				<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
+			</offset>
+		</connection>
+		<connection name="con_dockarea_5" tags="dockarea">
+			<offset>
+				<position x="-0.0" y="-106.169" z="-464.4026"/>
+				<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
+			</offset>
+		</connection>
+		<connection name="con_dockarea_4" tags="dockarea">
+			<offset>
+				<position x="224.85" y="-5.4685999999999995" z="146.3632"/>
+			</offset>
+		</connection>
+		<connection name="con_dockarea_3" tags="dockarea">
+			<offset>
+				<position x="237.323" y="-5.4685999999999995" z="96.555"/>
+			</offset>
+		</connection>
+		<connection name="con_dockarea_2" tags="dockarea">
+			<offset>
+				<position x="-237.3226" y="-5.4685999999999995" z="96.555"/>
+			</offset>
+		</connection>
+		<connection name="con_dockarea_1" tags="dockarea">
+			<offset>
+				<position x="-224.84959999999998" y="-5.4685999999999995" z="146.3632"/>
+			</offset>
+		</connection>
 
-<!-- PDS -->
-<connection group="left-mid-pd" name="con_shieldgen_m_left-mid-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-467.3643" y="15.5837" z="-194.0053"/>
-		<quaternion qw="-0.9896924086188496" qx="-0.010154822224191515" qy="-0.1342447477389866" qz="-0.04882789788953756"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_shieldgen_m_right-mid-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="467.3643" y="15.5837" z="-194.0053"/>
-		<quaternion qw="-0.9896924086188496" qx="-0.010154822224191515" qy="0.1342447477389866" qz="0.04882789788953756"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_shieldgen_m_left-top--bottom-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-148.1602" y="-48.8606" z="8.2548"/>
-		<quaternion qw="-0.081886037502692" qx="-0.0690403716864649" qy="0.015457915275173165" qz="-0.9941273342961897"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_shieldgen_m_right-top--bottom-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="148.1602" y="-48.8606" z="8.2548"/>
-		<quaternion qw="-0.081886037502692" qx="-0.0690403716864649" qy="-0.015457915275173165" qz="0.9941273342961897"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_shieldgen_m_left-top-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-164.6387" y="37.806200000000004" z="253.30859999999998"/>
-		<quaternion qw="-0.996529523111995" qx="-0.02105510145091213" qy="0.0001777995963531675" qz="-0.08053297868808253"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_shieldgen_m_right-top-pd_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="164.6387" y="37.806200000000004" z="253.30859999999998"/>
-		<quaternion qw="-0.996529523111995" qx="-0.02105510145091213" qy="-0.0001777995963531675" qz="0.08053297868808253"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-459.7076" y="0.6901" z="-673.2127"/>
-		<quaternion qw="-0.41893700766249836" qx="0.5810525475680646" qy="0.5774885879027893" qz="-0.3916333124460893"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="459.7076" y="0.6901" z="-673.2127"/>
-		<quaternion qw="-0.41893700766249836" qx="0.5810525475680646" qy="-0.5774885879027893" qz="0.3916333124460893"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-503.981" y="-0.7288" z="-317.98760000000004"/>
-		<quaternion qw="-0.7010874192782817" qx="-0.0921158259612891" qy="-0.092068049892522" qz="-0.7010810076775553"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="503.981" y="-0.7288" z="-317.98760000000004"/>
-		<quaternion qw="-0.7010874192782817" qx="-0.0921158259612891" qy="0.092068049892522" qz="0.7010810076775553"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-269.5095" y="7.8296" z="58.420399999999994"/>
-		<quaternion qw="-0.7061962650836319" qx="-0.08839860940337345" qy="-0.08959303212161628" qz="-0.6967392694779976"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="269.5095" y="7.8296" z="58.420399999999994"/>
-		<quaternion qw="-0.7061962650836319" qx="-0.08839860940337345" qy="0.08959303212161628" qz="0.6967392694779976"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-132.4197" y="-1.638" z="841.7158000000001"/>
-		<quaternion qw="-0.7013426553149583" qx="-0.08948722959073094" qy="-0.08948722959073094" qz="-0.7015002147655516"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="132.4197" y="-1.638" z="841.7158000000001"/>
-		<quaternion qw="-0.7013426553149583" qx="-0.08948722959073094" qy="0.08948722959073094" qz="0.7015002147655516"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-55.2652" y="-20.180600000000002" z="790.6152"/>
-		<quaternion qw="-0.8920835472377722" qx="-0.016460741846811844" qy="-0.043525982696066334" qz="0.4494679939171063"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="55.2652" y="-20.180600000000002" z="790.6152"/>
-		<quaternion qw="-0.8920835472377722" qx="-0.016460741846811844" qy="0.043525982696066334" qz="-0.4494679939171063"/>
-	</offset>
-</connection>
-<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-51.2362" y="26.8764" z="559.9793"/>
-		<quaternion qw="-0.576362799643494" qx="-0.03510582485010194" qy="-0.025491540780141063" qz="0.8160414729640657"/>
-	</offset>
-</connection>
-<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="51.2362" y="26.8764" z="559.9793"/>
-		<quaternion qw="-0.576362799643494" qx="-0.03510582485010194" qy="0.025491540780141063" qz="-0.8160414729640657"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-75.1142" y="175.2037" z="-879.5804999999999"/>
-		<quaternion qw="-0.15795452321579995" qx="0.023037116769185864" qy="-0.024268462016128634" qz="0.9868792740745972"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="75.1142" y="175.2037" z="-879.5804999999999"/>
-		<quaternion qw="-0.15795452321579995" qx="0.023037116769185864" qy="0.024268462016128634" qz="-0.9868792740745972"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-36.188700000000004" y="-116.9493" z="-382.1121"/>
-		<quaternion qw="-0.0960823733388727" qx="-0.0911940847301198" qy="-0.015102794730403499" qz="-0.9910720064834525"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="36.188700000000004" y="-116.9493" z="-382.1121"/>
-		<quaternion qw="-0.0960823733388727" qx="-0.0911940847301198" qy="0.015102794730403499" qz="0.9910720064834525"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-248.72220000000002" y="-63.5918" z="-658.4835"/>
-		<quaternion qw="-0.07734899028993909" qx="-0.09283706438292984" qy="-0.027956004180778305" qz="-0.9922786277090376"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="248.72220000000002" y="-63.5918" z="-658.4835"/>
-		<quaternion qw="-0.07734899028993909" qx="-0.09283706438292984" qy="0.027956004180778305" qz="0.9922786277090376"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-235.35469999999998" y="-32.9232" z="48.1484"/>
-		<quaternion qw="-0.06661695580661005" qx="-0.0014647395041701419" qy="-0.036643432078098406" qz="-0.9971044552216095"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="235.35469999999998" y="-32.9232" z="48.1484"/>
-		<quaternion qw="-0.06661695580661005" qx="-0.0014647395041701419" qy="0.036643432078098406" qz="0.9971044552216095"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-215.342" y="-36.4423" z="44.4811"/>
-		<quaternion qw="-0.06676662185010927" qx="-0.0014587377891314612" qy="-0.03665103639409437" qz="-0.9970941739986378"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="215.342" y="-36.4423" z="44.4811"/>
-		<quaternion qw="-0.06676662185010927" qx="-0.0014587377891314612" qy="0.03665103639409437" qz="0.9970941739986378"/>
-	</offset>
-</connection>
-<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-121.82839999999999" y="-28.9161" z="628.1166"/>
-		<quaternion qw="-0.08076974767388281" qx="0.0001425327806732281" qy="-0.020428037341942727" qz="-0.9965234181069001"/>
-	</offset>
-</connection>
-<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="121.82839999999999" y="-28.9161" z="628.1166"/>
-		<quaternion qw="-0.08076974767388281" qx="0.0001425327806732281" qy="0.020428037341942727" qz="0.9965234181069001"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_8" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-17.2898" y="141.2598" z="-407.2023"/>
-		<quaternion qw="-0.9840705335334273" qx="-0.1683847629601821" qy="-0.019042692635248534" qz="-0.05375065107771543"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_8" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="17.2898" y="141.2598" z="-407.2023"/>
-		<quaternion qw="-0.9840705335334273" qx="-0.1683847629601821" qy="0.019042692635248534" qz="0.05375065107771543"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_7" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-69.8913" y="192.2764" z="-764.3725"/>
-		<quaternion qw="-0.9911593111786049" qx="-0.00013891309925805097" qy="0.00350692553924432" qz="-0.13263069795626684"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_7" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="69.8913" y="192.2764" z="-764.3725"/>
-		<quaternion qw="-0.9911593111786049" qx="-0.00013891309925805097" qy="-0.00350692553924432" qz="0.13263069795626684"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-241.9824" y="99.1811" z="-435.8842"/>
-		<quaternion qw="-0.9891668464458904" qx="-0.0036866170917253236" qy="-0.08120569041058898" qz="-0.12223336120573189"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_6" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="241.9824" y="99.1811" z="-435.8842"/>
-		<quaternion qw="-0.9891668464458904" qx="-0.0036866170917253236" qy="0.08120569041058898" qz="0.12223336120573189"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-268.7901" y="92.3963" z="-430.9756"/>
-		<quaternion qw="-0.9892079104396468" qx="-0.003208166270796839" qy="-0.08115110500741458" qz="-0.12195046432417642"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_5" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="268.7901" y="92.3963" z="-430.9756"/>
-		<quaternion qw="-0.9892079104396468" qx="-0.003208166270796839" qy="0.08115110500741458" qz="0.12195046432417642"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-237.56550000000001" y="32.0856" z="47.5027"/>
-		<quaternion qw="-0.9971054880374007" qx="-0.036739669549157014" qy="-0.0016137399476038234" qz="-0.06654500920803337"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_4" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="237.56550000000001" y="32.0856" z="47.5027"/>
-		<quaternion qw="-0.9971054880374007" qx="-0.036739669549157014" qy="0.0016137399476038234" qz="0.06654500920803337"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-217.2717" y="35.5716" z="44.7969"/>
-		<quaternion qw="-0.9971031686416082" qx="-0.03652852727877359" qy="-0.0015939906304332833" qz="-0.06669630404736564"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_3" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="217.2717" y="35.5716" z="44.7969"/>
-		<quaternion qw="-0.9971031686416082" qx="-0.03652852727877359" qy="0.0015939906304332833" qz="0.06669630404736564"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-130.23409999999998" y="40.509299999999996" z="319.89"/>
-		<quaternion qw="-0.9964974018298205" qx="-0.02301753252195161" qy="-0.000187484542887094" qz="-0.08039332181571038"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_2" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="130.23409999999998" y="40.509299999999996" z="319.89"/>
-		<quaternion qw="-0.9964974018298205" qx="-0.02301753252195161" qy="0.000187484542887094" qz="0.08039332181571038"/>
-	</offset>
-</connection>
-<connection group="left-top-pd" name="con_m_turret_left-top-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="-81.5291" y="33.6725" z="636.0215000000001"/>
-		<quaternion qw="-0.9965270254614008" qx="-0.020764113528681155" qy="-0.0" qz="-0.0806395629602539"/>
-	</offset>
-</connection>
-<connection group="right-top-pd" name="con_m_turret_right-top-pd_1" tags="turret small llaser pld red green hittable">
-	<offset>
-		<position x="81.5291" y="33.6725" z="636.0215000000001"/>
-		<quaternion qw="-0.9965270254614008" qx="-0.020764113528681155" qy="0.0" qz="0.0806395629602539"/>
-	</offset>
-</connection>
+		<!-- PDS -->
+		<connection group="left-mid-pd" name="con_shieldgen_m_left-mid-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-467.3643" y="15.5837" z="-194.0053"/>
+				<quaternion qw="-0.9896924086188496" qx="-0.010154822224191515" qy="-0.1342447477389866" qz="-0.04882789788953756"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_shieldgen_m_right-mid-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="467.3643" y="15.5837" z="-194.0053"/>
+				<quaternion qw="-0.9896924086188496" qx="-0.010154822224191515" qy="0.1342447477389866" qz="0.04882789788953756"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_shieldgen_m_left-top--bottom-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-148.1602" y="-48.8606" z="8.2548"/>
+				<quaternion qw="-0.081886037502692" qx="-0.0690403716864649" qy="0.015457915275173165" qz="-0.9941273342961897"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_shieldgen_m_right-top--bottom-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="148.1602" y="-48.8606" z="8.2548"/>
+				<quaternion qw="-0.081886037502692" qx="-0.0690403716864649" qy="-0.015457915275173165" qz="0.9941273342961897"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_shieldgen_m_left-top-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-164.6387" y="37.806200000000004" z="253.30859999999998"/>
+				<quaternion qw="-0.996529523111995" qx="-0.02105510145091213" qy="0.0001777995963531675" qz="-0.08053297868808253"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_shieldgen_m_right-top-pd_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="164.6387" y="37.806200000000004" z="253.30859999999998"/>
+				<quaternion qw="-0.996529523111995" qx="-0.02105510145091213" qy="-0.0001777995963531675" qz="0.08053297868808253"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-459.7076" y="0.6901" z="-673.2127"/>
+				<quaternion qw="-0.41893700766249836" qx="0.5810525475680646" qy="0.5774885879027893" qz="-0.3916333124460893"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="459.7076" y="0.6901" z="-673.2127"/>
+				<quaternion qw="-0.41893700766249836" qx="0.5810525475680646" qy="-0.5774885879027893" qz="0.3916333124460893"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-503.981" y="-0.7288" z="-317.98760000000004"/>
+				<quaternion qw="-0.7010874192782817" qx="-0.0921158259612891" qy="-0.092068049892522" qz="-0.7010810076775553"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="503.981" y="-0.7288" z="-317.98760000000004"/>
+				<quaternion qw="-0.7010874192782817" qx="-0.0921158259612891" qy="0.092068049892522" qz="0.7010810076775553"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-269.5095" y="7.8296" z="58.420399999999994"/>
+				<quaternion qw="-0.7061962650836319" qx="-0.08839860940337345" qy="-0.08959303212161628" qz="-0.6967392694779976"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="269.5095" y="7.8296" z="58.420399999999994"/>
+				<quaternion qw="-0.7061962650836319" qx="-0.08839860940337345" qy="0.08959303212161628" qz="0.6967392694779976"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-132.4197" y="-1.638" z="841.7158000000001"/>
+				<quaternion qw="-0.7013426553149583" qx="-0.08948722959073094" qy="-0.08948722959073094" qz="-0.7015002147655516"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="132.4197" y="-1.638" z="841.7158000000001"/>
+				<quaternion qw="-0.7013426553149583" qx="-0.08948722959073094" qy="0.08948722959073094" qz="0.7015002147655516"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-55.2652" y="-20.180600000000002" z="790.6152"/>
+				<quaternion qw="-0.8920835472377722" qx="-0.016460741846811844" qy="-0.043525982696066334" qz="0.4494679939171063"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="55.2652" y="-20.180600000000002" z="790.6152"/>
+				<quaternion qw="-0.8920835472377722" qx="-0.016460741846811844" qy="0.043525982696066334" qz="-0.4494679939171063"/>
+			</offset>
+		</connection>
+		<connection group="left-mid-pd" name="con_m_turret_left-mid-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-51.2362" y="26.8764" z="559.9793"/>
+				<quaternion qw="-0.576362799643494" qx="-0.03510582485010194" qy="-0.025491540780141063" qz="0.8160414729640657"/>
+			</offset>
+		</connection>
+		<connection group="right-mid-pd" name="con_m_turret_right-mid-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="51.2362" y="26.8764" z="559.9793"/>
+				<quaternion qw="-0.576362799643494" qx="-0.03510582485010194" qy="0.025491540780141063" qz="-0.8160414729640657"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-75.1142" y="175.2037" z="-879.5804999999999"/>
+				<quaternion qw="-0.15795452321579995" qx="0.023037116769185864" qy="-0.024268462016128634" qz="0.9868792740745972"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="75.1142" y="175.2037" z="-879.5804999999999"/>
+				<quaternion qw="-0.15795452321579995" qx="0.023037116769185864" qy="0.024268462016128634" qz="-0.9868792740745972"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-36.188700000000004" y="-116.9493" z="-382.1121"/>
+				<quaternion qw="-0.0960823733388727" qx="-0.0911940847301198" qy="-0.015102794730403499" qz="-0.9910720064834525"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="36.188700000000004" y="-116.9493" z="-382.1121"/>
+				<quaternion qw="-0.0960823733388727" qx="-0.0911940847301198" qy="0.015102794730403499" qz="0.9910720064834525"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-248.72220000000002" y="-63.5918" z="-658.4835"/>
+				<quaternion qw="-0.07734899028993909" qx="-0.09283706438292984" qy="-0.027956004180778305" qz="-0.9922786277090376"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="248.72220000000002" y="-63.5918" z="-658.4835"/>
+				<quaternion qw="-0.07734899028993909" qx="-0.09283706438292984" qy="0.027956004180778305" qz="0.9922786277090376"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-235.35469999999998" y="-32.9232" z="48.1484"/>
+				<quaternion qw="-0.06661695580661005" qx="-0.0014647395041701419" qy="-0.036643432078098406" qz="-0.9971044552216095"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="235.35469999999998" y="-32.9232" z="48.1484"/>
+				<quaternion qw="-0.06661695580661005" qx="-0.0014647395041701419" qy="0.036643432078098406" qz="0.9971044552216095"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-215.342" y="-36.4423" z="44.4811"/>
+				<quaternion qw="-0.06676662185010927" qx="-0.0014587377891314612" qy="-0.03665103639409437" qz="-0.9970941739986378"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="215.342" y="-36.4423" z="44.4811"/>
+				<quaternion qw="-0.06676662185010927" qx="-0.0014587377891314612" qy="0.03665103639409437" qz="0.9970941739986378"/>
+			</offset>
+		</connection>
+		<connection group="left-top--bottom-pd" name="con_m_turret_left-top--bottom-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-121.82839999999999" y="-28.9161" z="628.1166"/>
+				<quaternion qw="-0.08076974767388281" qx="0.0001425327806732281" qy="-0.020428037341942727" qz="-0.9965234181069001"/>
+			</offset>
+		</connection>
+		<connection group="right-top--bottom-pd" name="con_m_turret_right-top--bottom-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="121.82839999999999" y="-28.9161" z="628.1166"/>
+				<quaternion qw="-0.08076974767388281" qx="0.0001425327806732281" qy="0.020428037341942727" qz="0.9965234181069001"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_8" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-17.2898" y="141.2598" z="-407.2023"/>
+				<quaternion qw="-0.9840705335334273" qx="-0.1683847629601821" qy="-0.019042692635248534" qz="-0.05375065107771543"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_8" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="17.2898" y="141.2598" z="-407.2023"/>
+				<quaternion qw="-0.9840705335334273" qx="-0.1683847629601821" qy="0.019042692635248534" qz="0.05375065107771543"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_7" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-69.8913" y="192.2764" z="-764.3725"/>
+				<quaternion qw="-0.9911593111786049" qx="-0.00013891309925805097" qy="0.00350692553924432" qz="-0.13263069795626684"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_7" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="69.8913" y="192.2764" z="-764.3725"/>
+				<quaternion qw="-0.9911593111786049" qx="-0.00013891309925805097" qy="-0.00350692553924432" qz="0.13263069795626684"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-241.9824" y="99.1811" z="-435.8842"/>
+				<quaternion qw="-0.9891668464458904" qx="-0.0036866170917253236" qy="-0.08120569041058898" qz="-0.12223336120573189"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_6" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="241.9824" y="99.1811" z="-435.8842"/>
+				<quaternion qw="-0.9891668464458904" qx="-0.0036866170917253236" qy="0.08120569041058898" qz="0.12223336120573189"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-268.7901" y="92.3963" z="-430.9756"/>
+				<quaternion qw="-0.9892079104396468" qx="-0.003208166270796839" qy="-0.08115110500741458" qz="-0.12195046432417642"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_5" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="268.7901" y="92.3963" z="-430.9756"/>
+				<quaternion qw="-0.9892079104396468" qx="-0.003208166270796839" qy="0.08115110500741458" qz="0.12195046432417642"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-237.56550000000001" y="32.0856" z="47.5027"/>
+				<quaternion qw="-0.9971054880374007" qx="-0.036739669549157014" qy="-0.0016137399476038234" qz="-0.06654500920803337"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_4" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="237.56550000000001" y="32.0856" z="47.5027"/>
+				<quaternion qw="-0.9971054880374007" qx="-0.036739669549157014" qy="0.0016137399476038234" qz="0.06654500920803337"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-217.2717" y="35.5716" z="44.7969"/>
+				<quaternion qw="-0.9971031686416082" qx="-0.03652852727877359" qy="-0.0015939906304332833" qz="-0.06669630404736564"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_3" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="217.2717" y="35.5716" z="44.7969"/>
+				<quaternion qw="-0.9971031686416082" qx="-0.03652852727877359" qy="0.0015939906304332833" qz="0.06669630404736564"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-130.23409999999998" y="40.509299999999996" z="319.89"/>
+				<quaternion qw="-0.9964974018298205" qx="-0.02301753252195161" qy="-0.000187484542887094" qz="-0.08039332181571038"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_2" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="130.23409999999998" y="40.509299999999996" z="319.89"/>
+				<quaternion qw="-0.9964974018298205" qx="-0.02301753252195161" qy="0.000187484542887094" qz="0.08039332181571038"/>
+			</offset>
+		</connection>
+		<connection group="left-top-pd" name="con_m_turret_left-top-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="-81.5291" y="33.6725" z="636.0215000000001"/>
+				<quaternion qw="-0.9965270254614008" qx="-0.020764113528681155" qy="-0.0" qz="-0.0806395629602539"/>
+			</offset>
+		</connection>
+		<connection group="right-top-pd" name="con_m_turret_right-top-pd_1" tags="turret small starforge llaser pld red green hittable">
+			<offset>
+				<position x="81.5291" y="33.6725" z="636.0215000000001"/>
+				<quaternion qw="-0.9965270254614008" qx="-0.020764113528681155" qy="0.0" qz="0.0806395629602539"/>
+			</offset>
+		</connection>
 
-<!-- MTBS -->
+		<!-- MTBS -->
 
-<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-100.7754" y="70.5155" z="-232.9691"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="100.7754" y="70.5155" z="-232.9691"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-104.11330000000001" y="70.9761" z="-256.4769"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="104.11330000000001" y="70.9761" z="-256.4769"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-107.7142" y="71.39569999999999" z="-280.0211"/>
-		<quaternion qw="-0.7522417475811779" qx="-0.06845506026581348" qy="0.6536586877386231" qz="-0.04665380867454117"/>
-	</offset>
-</connection>
-<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="107.7142" y="71.39569999999999" z="-280.0211"/>
-		<quaternion qw="-0.7522417475811779" qx="-0.06845506026581348" qy="-0.6536586877386231" qz="0.04665380867454117"/>
-	</offset>
-</connection>
-<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-111.1461" y="71.84859999999999" z="-303.704"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="111.1461" y="71.84859999999999" z="-303.704"/>
-		<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
-	</offset>
-</connection>
-<connection group="left-bridge-mtb" name="con_shieldgen_m_left-bridge-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-139.6806" y="67.0148" z="-283.092"/>
-		<quaternion qw="-0.7641572744030621" qx="-0.06662512513243597" qy="0.6398043856495121" qz="-0.04769801653759554"/>
-	</offset>
-</connection>
-<connection group="right-bridge-mtb" name="con_shieldgen_m_right-bridge-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="139.6806" y="67.0148" z="-283.092"/>
-		<quaternion qw="-0.7641572744030621" qx="-0.06662512513243597" qy="-0.6398043856495121" qz="0.04769801653759554"/>
-	</offset>
-</connection>
-<connection group="left-fin-bottom-mtb" name="con_shieldgen_m_left-fin-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-167.9536" y="-26.2728" z="431.09580000000005"/>
-		<quaternion qw="-0.07998379884451969" qx="-0.12243545542195709" qy="-0.010969739938602754" qz="-0.9891874523990368"/>
-	</offset>
-</connection>
-<connection group="right-fin-bottom-mtb" name="con_shieldgen_m_right-fin-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="167.9536" y="-26.2728" z="431.09580000000005"/>
-		<quaternion qw="-0.07998379884451969" qx="-0.12243545542195709" qy="0.010969739938602754" qz="0.9891874523990368"/>
-	</offset>
-</connection>
-<connection group="left-front-bottom-mtb" name="con_shieldgen_m_left-front-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-33.1253" y="-51.810900000000004" z="347.31260000000003"/>
-		<quaternion qw="-0.04126810415710557" qx="0.6977838150043911" qy="-0.07067171951460538" qz="-0.7116180149195529"/>
-	</offset>
-</connection>
-<connection group="right-front-bottom-mtb" name="con_shieldgen_m_right-front-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="33.1253" y="-51.810900000000004" z="347.31260000000003"/>
-		<quaternion qw="-0.04126810415710557" qx="0.6977838150043911" qy="0.07067171951460538" qz="0.7116180149195529"/>
-	</offset>
-</connection>
-<connection group="left-back-bottom-mtb" name="con_shieldgen_m_left-back-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-335.4574" y="-50.309000000000005" z="-674.5915"/>
-		<quaternion qw="-0.0499215680589752" qx="0.6151071162354398" qy="-0.06536240327162512" qz="-0.7841420973507364"/>
-	</offset>
-</connection>
-<connection group="right-back-bottom-mtb" name="con_shieldgen_m_right-back-bottom-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="335.4574" y="-50.309000000000005" z="-674.5915"/>
-		<quaternion qw="-0.0499215680589752" qx="0.6151071162354398" qy="0.06536240327162512" qz="0.7841420973507364"/>
-	</offset>
-</connection>
-<connection group="left-back-mtb" name="con_shieldgen_m_left-back-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-332.3857" y="50.1076" z="-671.9694"/>
-		<quaternion qw="-0.7840318247274223" qx="-0.06537305174075939" qy="0.6152477026107703" qz="-0.04990717736816628"/>
-	</offset>
-</connection>
-<connection group="right-back-mtb" name="con_shieldgen_m_right-back-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="332.3857" y="50.1076" z="-671.9694"/>
-		<quaternion qw="-0.7840318247274223" qx="-0.06537305174075939" qy="-0.6152477026107703" qz="0.04990717736816628"/>
-	</offset>
-</connection>
-<connection group="left-front-mtb" name="con_shieldgen_m_left-front-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-32.2559" y="52.3369" z="347.2498"/>
-		<quaternion qw="-0.7057653065548948" qx="-0.07549481232482745" qy="0.7030650991443675" qz="-0.04353540789558666"/>
-	</offset>
-</connection>
-<connection group="right-front-mtb" name="con_shieldgen_m_right-front-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="32.2559" y="52.3369" z="347.2498"/>
-		<quaternion qw="-0.7057653065548948" qx="-0.07549481232482745" qy="-0.7030650991443675" qz="0.04353540789558666"/>
-	</offset>
-</connection>
-<connection group="left-fin-mtb" name="con_shieldgen_m_left-fin-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="-167.9537" y="26.1455" z="431.09580000000005"/>
-		<quaternion qw="-0.9892040273485274" qx="-0.009149953831410181" qy="-0.12231259914897208" qz="-0.08019537836907925"/>
-	</offset>
-</connection>
-<connection group="right-fin-mtb" name="con_shieldgen_m_right-fin-mtb_1" tags="medium shield starforge hittable standard">
-	<offset>
-		<position x="167.9537" y="26.1455" z="431.09580000000005"/>
-		<quaternion qw="-0.9892040273485274" qx="-0.009149953831410181" qy="0.12231259914897208" qz="0.08019537836907925"/>
-	</offset>
-</connection>
-<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-369.9378" y="-44.082300000000004" z="-658.2745"/>
-		<quaternion qw="-0.05012431391663585" qx="0.6126739101532777" qy="-0.06520693284646112" qz="-0.7860447117566768"/>
-	</offset>
-</connection>
-<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="369.9378" y="-44.082300000000004" z="-658.2745"/>
-		<quaternion qw="-0.05012431391663585" qx="0.6126739101532777" qy="0.06520693284646112" qz="0.7860447117566768"/>
-	</offset>
-</connection>
-<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-362.5139" y="-44.0358" z="-628.9662"/>
-		<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="-0.06598167978243206" qz="-0.7860653738924002"/>
-	</offset>
-</connection>
-<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="362.5139" y="-44.0358" z="-628.9662"/>
-		<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="0.06598167978243206" qz="0.7860653738924002"/>
-	</offset>
-</connection>
-<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-354.8377" y="-43.9414" z="-597.7274"/>
-		<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="-0.06598167978243206" qz="-0.7860653738924002"/>
-	</offset>
-</connection>
-<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="354.8377" y="-43.9414" z="-597.7274"/>
-		<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="0.06598167978243206" qz="0.7860653738924002"/>
-	</offset>
-</connection>
-<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-354.8378" y="43.3549" z="-597.7274"/>
-		<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="0.6126868479640832" qz="-0.050182488573673044"/>
-	</offset>
-</connection>
-<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="354.8378" y="43.3549" z="-597.7274"/>
-		<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="-0.6126868479640832" qz="0.050182488573673044"/>
-	</offset>
-</connection>
-<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-362.5139" y="43.4493" z="-628.9662"/>
-		<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="0.6126868479640832" qz="-0.050182488573673044"/>
-	</offset>
-</connection>
-<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="362.5139" y="43.4493" z="-628.9662"/>
-		<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="-0.6126868479640832" qz="0.050182488573673044"/>
-	</offset>
-</connection>
-<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-369.9378" y="43.4958" z="-658.2745"/>
-		<quaternion qw="-0.7859875294125971" qx="-0.06521342867625801" qy="0.6127473097038681" qz="-0.050115334767317166"/>
-	</offset>
-</connection>
-<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="369.9378" y="43.4958" z="-658.2745"/>
-		<quaternion qw="-0.7859875294125971" qx="-0.06521342867625801" qy="-0.6127473097038681" qz="0.050115334767317166"/>
-	</offset>
-</connection>
-<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-30.2705" y="-58.7365" z="320.9545"/>
-		<quaternion qw="-0.04156684759251959" qx="0.6974335524886022" qy="-0.07053996598926388" qz="-0.7119569862306162"/>
-	</offset>
-</connection>
-<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="30.2705" y="-58.7365" z="320.9545"/>
-		<quaternion qw="-0.04156684759251959" qx="0.6974335524886022" qy="0.07053996598926388" qz="0.7119569862306162"/>
-	</offset>
-</connection>
-<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-30.583900000000003" y="-59.715399999999995" z="297.0503"/>
-		<quaternion qw="-0.04169173923309142" qx="0.6975669861108528" qy="-0.07054361384748896" qz="-0.7118185845517647"/>
-	</offset>
-</connection>
-<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="30.583900000000003" y="-59.715399999999995" z="297.0503"/>
-		<quaternion qw="-0.04169173923309142" qx="0.6975669861108528" qy="0.07054361384748896" qz="0.7118185845517647"/>
-	</offset>
-</connection>
-<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-31.1551" y="-60.6572" z="273.0762"/>
-		<quaternion qw="-0.041681248360318064" qx="0.697524150676663" qy="-0.07054862236353805" qz="-0.7118606778299615"/>
-	</offset>
-</connection>
-<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="31.1551" y="-60.6572" z="273.0762"/>
-		<quaternion qw="-0.041681248360318064" qx="0.697524150676663" qy="0.07054862236353805" qz="0.7118606778299615"/>
-	</offset>
-</connection>
-<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-31.5401" y="-61.63380000000001" z="248.9853"/>
-		<quaternion qw="-0.04167825096725307" qx="0.6975644546951972" qy="-0.07055165402085155" qz="-0.7118210583124281"/>
-	</offset>
-</connection>
-<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="31.5401" y="-61.63380000000001" z="248.9853"/>
-		<quaternion qw="-0.04167825096725307" qx="0.6975644546951972" qy="0.07055165402085155" qz="0.7118210583124281"/>
-	</offset>
-</connection>
-<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-188.2432" y="-26.6919" z="477.3941"/>
-		<quaternion qw="-0.04894126796250879" qx="0.6099425141654204" qy="-0.06469441392219516" qz="-0.7882826361851766"/>
-	</offset>
-</connection>
-<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="188.2432" y="-26.6919" z="477.3941"/>
-		<quaternion qw="-0.04894126796250879" qx="0.6099425141654204" qy="0.06469441392219516" qz="0.7882826361851766"/>
-	</offset>
-</connection>
-<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-194.086" y="-26.7018" z="454.4536"/>
-		<quaternion qw="-0.049217934140666296" qx="0.6099796151493602" qy="-0.06449271962570301" qz="-0.7882532290935723"/>
-	</offset>
-</connection>
-<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="194.086" y="-26.7018" z="454.4536"/>
-		<quaternion qw="-0.049217934140666296" qx="0.6099796151493602" qy="0.06449271962570301" qz="0.7882532290935723"/>
-	</offset>
-</connection>
-<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-200.5437" y="-26.6196" z="431.3901"/>
-		<quaternion qw="-0.04921144201721654" qx="0.6099796923522091" qy="-0.06449572415174147" qz="-0.7882533288598488"/>
-	</offset>
-</connection>
-<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="200.5437" y="-26.6196" z="431.3901"/>
-		<quaternion qw="-0.04921144201721654" qx="0.6099796923522091" qy="0.06449572415174147" qz="0.7882533288598488"/>
-	</offset>
-</connection>
-<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-206.448" y="-26.648" z="407.7731"/>
-		<quaternion qw="-0.049205449286032946" qx="0.6099821401225354" qy="-0.06445781778771346" qz="-0.7882549094158166"/>
-	</offset>
-</connection>
-<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="206.448" y="-26.648" z="407.7731"/>
-		<quaternion qw="-0.049205449286032946" qx="0.6099821401225354" qy="0.06445781778771346" qz="0.7882549094158166"/>
-	</offset>
-</connection>
-<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-206.448" y="25.8338" z="407.7731"/>
-		<quaternion qw="-0.7882908692254966" qx="-0.06334724528882565" qy="0.6099426673833176" qz="-0.05054279884762955"/>
-	</offset>
-</connection>
-<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="206.448" y="25.8338" z="407.7731"/>
-		<quaternion qw="-0.7882908692254966" qx="-0.06334724528882565" qy="-0.6099426673833176" qz="0.05054279884762955"/>
-	</offset>
-</connection>
-<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-200.5437" y="25.805600000000002" z="431.3901"/>
-		<quaternion qw="-0.7882908692254966" qx="-0.06334845764635845" qy="0.6099424916886118" qz="-0.050543399591107464"/>
-	</offset>
-</connection>
-<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="200.5437" y="25.805600000000002" z="431.3901"/>
-		<quaternion qw="-0.7882908692254966" qx="-0.06334845764635845" qy="-0.6099424916886118" qz="0.050543399591107464"/>
-	</offset>
-</connection>
-<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-194.086" y="25.887" z="454.4536"/>
-		<quaternion qw="-0.7882911768767858" qx="-0.06335094620670224" qy="0.6099421397192033" qz="-0.05053972959650064"/>
-	</offset>
-</connection>
-<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="194.086" y="25.887" z="454.4536"/>
-		<quaternion qw="-0.7882911768767858" qx="-0.06335094620670224" qy="-0.6099421397192033" qz="0.05053972959650064"/>
-	</offset>
-</connection>
-<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-188.2432" y="25.875300000000003" z="477.3941"/>
-		<quaternion qw="-0.7882973298611844" qx="-0.06342453329322667" qy="0.6099344410526714" qz="-0.05044428538525315"/>
-	</offset>
-</connection>
-<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="188.2432" y="25.875300000000003" z="477.3941"/>
-		<quaternion qw="-0.7882973298611844" qx="-0.06342453329322667" qy="-0.6099344410526714" qz="0.05044428538525315"/>
-	</offset>
-</connection>
-<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-31.5401" y="61.0447" z="248.9853"/>
-		<quaternion qw="-0.7096003339954425" qx="-0.0706823621385273" qy="0.6998233794688469" qz="-0.04145608791090457"/>
-	</offset>
-</connection>
-<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_4" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="31.5401" y="61.0447" z="248.9853"/>
-		<quaternion qw="-0.7096003339954425" qx="-0.0706823621385273" qy="-0.6998233794688469" qz="0.04145608791090457"/>
-	</offset>
-</connection>
-<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-31.1551" y="60.0705" z="273.0762"/>
-		<quaternion qw="-0.7096154828261189" qx="-0.07093659756220924" qy="0.699797658860786" qz="-0.04119590164948896"/>
-	</offset>
-</connection>
-<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_3" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="31.1551" y="60.0705" z="273.0762"/>
-		<quaternion qw="-0.7096154828261189" qx="-0.07093659756220924" qy="-0.699797658860786" qz="0.04119590164948896"/>
-	</offset>
-</connection>
-<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-30.583900000000003" y="59.128899999999994" z="297.0503"/>
-		<quaternion qw="-0.7095996293906838" qx="-0.07067749249232937" qy="0.6998239991403369" qz="-0.04146598908535295"/>
-	</offset>
-</connection>
-<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_2" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="30.583900000000003" y="59.128899999999994" z="297.0503"/>
-		<quaternion qw="-0.7095996293906838" qx="-0.07067749249232937" qy="-0.6998239991403369" qz="0.04146598908535295"/>
-	</offset>
-</connection>
-<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="-30.270599999999998" y="58.1487" z="320.9545"/>
-		<quaternion qw="-0.7096711431543448" qx="-0.07130998420508462" qy="0.6997503559941166" qz="-0.04038804294321729"/>
-	</offset>
-</connection>
-<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_1" tags="turret medium mtbdual d6x red green hittable">
-	<offset>
-		<position x="30.270599999999998" y="58.1487" z="320.9545"/>
-		<quaternion qw="-0.7096711431543448" qx="-0.07130998420508462" qy="-0.6997503559941166" qz="0.04038804294321729"/>
-	</offset>
-</connection>
+		<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-100.7754" y="70.5155" z="-232.9691"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="100.7754" y="70.5155" z="-232.9691"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-104.11330000000001" y="70.9761" z="-256.4769"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="104.11330000000001" y="70.9761" z="-256.4769"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-107.7142" y="71.39569999999999" z="-280.0211"/>
+				<quaternion qw="-0.7522417475811779" qx="-0.06845506026581348" qy="0.6536586877386231" qz="-0.04665380867454117"/>
+			</offset>
+		</connection>
+		<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="107.7142" y="71.39569999999999" z="-280.0211"/>
+				<quaternion qw="-0.7522417475811779" qx="-0.06845506026581348" qy="-0.6536586877386231" qz="0.04665380867454117"/>
+			</offset>
+		</connection>
+		<connection group="left-bridge-mtb" name="con_m_turret_left-bridge-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-111.1461" y="71.84859999999999" z="-303.704"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="0.653657941465873" qz="-0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="right-bridge-mtb" name="con_m_turret_right-bridge-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="111.1461" y="71.84859999999999" z="-303.704"/>
+				<quaternion qw="-0.75224240646801" qx="-0.06845498211165284" qy="-0.653657941465873" qz="0.04665375541055683"/>
+			</offset>
+		</connection>
+		<connection group="left-bridge-mtb" name="con_shieldgen_m_left-bridge-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-139.6806" y="67.0148" z="-283.092"/>
+				<quaternion qw="-0.7641572744030621" qx="-0.06662512513243597" qy="0.6398043856495121" qz="-0.04769801653759554"/>
+			</offset>
+		</connection>
+		<connection group="right-bridge-mtb" name="con_shieldgen_m_right-bridge-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="139.6806" y="67.0148" z="-283.092"/>
+				<quaternion qw="-0.7641572744030621" qx="-0.06662512513243597" qy="-0.6398043856495121" qz="0.04769801653759554"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-bottom-mtb" name="con_shieldgen_m_left-fin-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-167.9536" y="-26.2728" z="431.09580000000005"/>
+				<quaternion qw="-0.07998379884451969" qx="-0.12243545542195709" qy="-0.010969739938602754" qz="-0.9891874523990368"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-bottom-mtb" name="con_shieldgen_m_right-fin-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="167.9536" y="-26.2728" z="431.09580000000005"/>
+				<quaternion qw="-0.07998379884451969" qx="-0.12243545542195709" qy="0.010969739938602754" qz="0.9891874523990368"/>
+			</offset>
+		</connection>
+		<connection group="left-front-bottom-mtb" name="con_shieldgen_m_left-front-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-33.1253" y="-51.810900000000004" z="347.31260000000003"/>
+				<quaternion qw="-0.04126810415710557" qx="0.6977838150043911" qy="-0.07067171951460538" qz="-0.7116180149195529"/>
+			</offset>
+		</connection>
+		<connection group="right-front-bottom-mtb" name="con_shieldgen_m_right-front-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="33.1253" y="-51.810900000000004" z="347.31260000000003"/>
+				<quaternion qw="-0.04126810415710557" qx="0.6977838150043911" qy="0.07067171951460538" qz="0.7116180149195529"/>
+			</offset>
+		</connection>
+		<connection group="left-back-bottom-mtb" name="con_shieldgen_m_left-back-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-335.4574" y="-50.309000000000005" z="-674.5915"/>
+				<quaternion qw="-0.0499215680589752" qx="0.6151071162354398" qy="-0.06536240327162512" qz="-0.7841420973507364"/>
+			</offset>
+		</connection>
+		<connection group="right-back-bottom-mtb" name="con_shieldgen_m_right-back-bottom-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="335.4574" y="-50.309000000000005" z="-674.5915"/>
+				<quaternion qw="-0.0499215680589752" qx="0.6151071162354398" qy="0.06536240327162512" qz="0.7841420973507364"/>
+			</offset>
+		</connection>
+		<connection group="left-back-mtb" name="con_shieldgen_m_left-back-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-332.3857" y="50.1076" z="-671.9694"/>
+				<quaternion qw="-0.7840318247274223" qx="-0.06537305174075939" qy="0.6152477026107703" qz="-0.04990717736816628"/>
+			</offset>
+		</connection>
+		<connection group="right-back-mtb" name="con_shieldgen_m_right-back-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="332.3857" y="50.1076" z="-671.9694"/>
+				<quaternion qw="-0.7840318247274223" qx="-0.06537305174075939" qy="-0.6152477026107703" qz="0.04990717736816628"/>
+			</offset>
+		</connection>
+		<connection group="left-front-mtb" name="con_shieldgen_m_left-front-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-32.2559" y="52.3369" z="347.2498"/>
+				<quaternion qw="-0.7057653065548948" qx="-0.07549481232482745" qy="0.7030650991443675" qz="-0.04353540789558666"/>
+			</offset>
+		</connection>
+		<connection group="right-front-mtb" name="con_shieldgen_m_right-front-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="32.2559" y="52.3369" z="347.2498"/>
+				<quaternion qw="-0.7057653065548948" qx="-0.07549481232482745" qy="-0.7030650991443675" qz="0.04353540789558666"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-mtb" name="con_shieldgen_m_left-fin-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="-167.9537" y="26.1455" z="431.09580000000005"/>
+				<quaternion qw="-0.9892040273485274" qx="-0.009149953831410181" qy="-0.12231259914897208" qz="-0.08019537836907925"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-mtb" name="con_shieldgen_m_right-fin-mtb_1" tags="medium shield starforge hittable standard">
+			<offset>
+				<position x="167.9537" y="26.1455" z="431.09580000000005"/>
+				<quaternion qw="-0.9892040273485274" qx="-0.009149953831410181" qy="0.12231259914897208" qz="0.08019537836907925"/>
+			</offset>
+		</connection>
+		<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-369.9378" y="-44.082300000000004" z="-658.2745"/>
+				<quaternion qw="-0.05012431391663585" qx="0.6126739101532777" qy="-0.06520693284646112" qz="-0.7860447117566768"/>
+			</offset>
+		</connection>
+		<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="369.9378" y="-44.082300000000004" z="-658.2745"/>
+				<quaternion qw="-0.05012431391663585" qx="0.6126739101532777" qy="0.06520693284646112" qz="0.7860447117566768"/>
+			</offset>
+		</connection>
+		<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-362.5139" y="-44.0358" z="-628.9662"/>
+				<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="-0.06598167978243206" qz="-0.7860653738924002"/>
+			</offset>
+		</connection>
+		<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="362.5139" y="-44.0358" z="-628.9662"/>
+				<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="0.06598167978243206" qz="0.7860653738924002"/>
+			</offset>
+		</connection>
+		<connection group="left-back-bottom-mtb" name="con_m_turret_left-back-bottom-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-354.8377" y="-43.9414" z="-597.7274"/>
+				<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="-0.06598167978243206" qz="-0.7860653738924002"/>
+			</offset>
+		</connection>
+		<connection group="right-back-bottom-mtb" name="con_m_turret_right-back-bottom-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="354.8377" y="-43.9414" z="-597.7274"/>
+				<quaternion qw="-0.05019722202103196" qx="0.6125584745980266" qy="0.06598167978243206" qz="0.7860653738924002"/>
+			</offset>
+		</connection>
+		<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-354.8378" y="43.3549" z="-597.7274"/>
+				<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="0.6126868479640832" qz="-0.050182488573673044"/>
+			</offset>
+		</connection>
+		<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="354.8378" y="43.3549" z="-597.7274"/>
+				<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="-0.6126868479640832" qz="0.050182488573673044"/>
+			</offset>
+		</connection>
+		<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-362.5139" y="43.4493" z="-628.9662"/>
+				<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="0.6126868479640832" qz="-0.050182488573673044"/>
+			</offset>
+		</connection>
+		<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="362.5139" y="43.4493" z="-628.9662"/>
+				<quaternion qw="-0.7859658904489265" qx="-0.06598608355718408" qy="-0.6126868479640832" qz="0.050182488573673044"/>
+			</offset>
+		</connection>
+		<connection group="left-back-mtb" name="con_m_turret_left-back-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-369.9378" y="43.4958" z="-658.2745"/>
+				<quaternion qw="-0.7859875294125971" qx="-0.06521342867625801" qy="0.6127473097038681" qz="-0.050115334767317166"/>
+			</offset>
+		</connection>
+		<connection group="right-back-mtb" name="con_m_turret_right-back-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="369.9378" y="43.4958" z="-658.2745"/>
+				<quaternion qw="-0.7859875294125971" qx="-0.06521342867625801" qy="-0.6127473097038681" qz="0.050115334767317166"/>
+			</offset>
+		</connection>
+		<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_1" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-30.2705" y="-58.7365" z="320.9545"/>
+				<quaternion qw="-0.04156684759251959" qx="0.6974335524886022" qy="-0.07053996598926388" qz="-0.7119569862306162"/>
+			</offset>
+		</connection>
+		<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_1" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="30.2705" y="-58.7365" z="320.9545"/>
+				<quaternion qw="-0.04156684759251959" qx="0.6974335524886022" qy="0.07053996598926388" qz="0.7119569862306162"/>
+			</offset>
+		</connection>
+		<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_2" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-30.583900000000003" y="-59.715399999999995" z="297.0503"/>
+				<quaternion qw="-0.04169173923309142" qx="0.6975669861108528" qy="-0.07054361384748896" qz="-0.7118185845517647"/>
+			</offset>
+		</connection>
+		<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_2" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="30.583900000000003" y="-59.715399999999995" z="297.0503"/>
+				<quaternion qw="-0.04169173923309142" qx="0.6975669861108528" qy="0.07054361384748896" qz="0.7118185845517647"/>
+			</offset>
+		</connection>
+		<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_3" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-31.1551" y="-60.6572" z="273.0762"/>
+				<quaternion qw="-0.041681248360318064" qx="0.697524150676663" qy="-0.07054862236353805" qz="-0.7118606778299615"/>
+			</offset>
+		</connection>
+		<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_3" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="31.1551" y="-60.6572" z="273.0762"/>
+				<quaternion qw="-0.041681248360318064" qx="0.697524150676663" qy="0.07054862236353805" qz="0.7118606778299615"/>
+			</offset>
+		</connection>
+		<connection group="left-front-bottom-mtb" name="con_m_turret_left-front-bottom-mtb_4" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-31.5401" y="-61.63380000000001" z="248.9853"/>
+				<quaternion qw="-0.04167825096725307" qx="0.6975644546951972" qy="-0.07055165402085155" qz="-0.7118210583124281"/>
+			</offset>
+		</connection>
+		<connection group="right-front-bottom-mtb" name="con_m_turret_right-front-bottom-mtb_4" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="31.5401" y="-61.63380000000001" z="248.9853"/>
+				<quaternion qw="-0.04167825096725307" qx="0.6975644546951972" qy="0.07055165402085155" qz="0.7118210583124281"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-188.2432" y="-26.6919" z="477.3941"/>
+				<quaternion qw="-0.04894126796250879" qx="0.6099425141654204" qy="-0.06469441392219516" qz="-0.7882826361851766"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="188.2432" y="-26.6919" z="477.3941"/>
+				<quaternion qw="-0.04894126796250879" qx="0.6099425141654204" qy="0.06469441392219516" qz="0.7882826361851766"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-194.086" y="-26.7018" z="454.4536"/>
+				<quaternion qw="-0.049217934140666296" qx="0.6099796151493602" qy="-0.06449271962570301" qz="-0.7882532290935723"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="194.086" y="-26.7018" z="454.4536"/>
+				<quaternion qw="-0.049217934140666296" qx="0.6099796151493602" qy="0.06449271962570301" qz="0.7882532290935723"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-200.5437" y="-26.6196" z="431.3901"/>
+				<quaternion qw="-0.04921144201721654" qx="0.6099796923522091" qy="-0.06449572415174147" qz="-0.7882533288598488"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="200.5437" y="-26.6196" z="431.3901"/>
+				<quaternion qw="-0.04921144201721654" qx="0.6099796923522091" qy="0.06449572415174147" qz="0.7882533288598488"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-bottom-mtb" name="con_m_turret_left-fin-bottom-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-206.448" y="-26.648" z="407.7731"/>
+				<quaternion qw="-0.049205449286032946" qx="0.6099821401225354" qy="-0.06445781778771346" qz="-0.7882549094158166"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-bottom-mtb" name="con_m_turret_right-fin-bottom-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="206.448" y="-26.648" z="407.7731"/>
+				<quaternion qw="-0.049205449286032946" qx="0.6099821401225354" qy="0.06445781778771346" qz="0.7882549094158166"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-206.448" y="25.8338" z="407.7731"/>
+				<quaternion qw="-0.7882908692254966" qx="-0.06334724528882565" qy="0.6099426673833176" qz="-0.05054279884762955"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_4" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="206.448" y="25.8338" z="407.7731"/>
+				<quaternion qw="-0.7882908692254966" qx="-0.06334724528882565" qy="-0.6099426673833176" qz="0.05054279884762955"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-200.5437" y="25.805600000000002" z="431.3901"/>
+				<quaternion qw="-0.7882908692254966" qx="-0.06334845764635845" qy="0.6099424916886118" qz="-0.050543399591107464"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_3" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="200.5437" y="25.805600000000002" z="431.3901"/>
+				<quaternion qw="-0.7882908692254966" qx="-0.06334845764635845" qy="-0.6099424916886118" qz="0.050543399591107464"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-194.086" y="25.887" z="454.4536"/>
+				<quaternion qw="-0.7882911768767858" qx="-0.06335094620670224" qy="0.6099421397192033" qz="-0.05053972959650064"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_2" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="194.086" y="25.887" z="454.4536"/>
+				<quaternion qw="-0.7882911768767858" qx="-0.06335094620670224" qy="-0.6099421397192033" qz="0.05053972959650064"/>
+			</offset>
+		</connection>
+		<connection group="left-fin-mtb" name="con_m_turret_left-fin-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-188.2432" y="25.875300000000003" z="477.3941"/>
+				<quaternion qw="-0.7882973298611844" qx="-0.06342453329322667" qy="0.6099344410526714" qz="-0.05044428538525315"/>
+			</offset>
+		</connection>
+		<connection group="right-fin-mtb" name="con_m_turret_right-fin-mtb_1" tags="turret medium starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="188.2432" y="25.875300000000003" z="477.3941"/>
+				<quaternion qw="-0.7882973298611844" qx="-0.06342453329322667" qy="-0.6099344410526714" qz="0.05044428538525315"/>
+			</offset>
+		</connection>
+		<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_4" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-31.5401" y="61.0447" z="248.9853"/>
+				<quaternion qw="-0.7096003339954425" qx="-0.0706823621385273" qy="0.6998233794688469" qz="-0.04145608791090457"/>
+			</offset>
+		</connection>
+		<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_4" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="31.5401" y="61.0447" z="248.9853"/>
+				<quaternion qw="-0.7096003339954425" qx="-0.0706823621385273" qy="-0.6998233794688469" qz="0.04145608791090457"/>
+			</offset>
+		</connection>
+		<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_3" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-31.1551" y="60.0705" z="273.0762"/>
+				<quaternion qw="-0.7096154828261189" qx="-0.07093659756220924" qy="0.699797658860786" qz="-0.04119590164948896"/>
+			</offset>
+		</connection>
+		<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_3" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="31.1551" y="60.0705" z="273.0762"/>
+				<quaternion qw="-0.7096154828261189" qx="-0.07093659756220924" qy="-0.699797658860786" qz="0.04119590164948896"/>
+			</offset>
+		</connection>
+		<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_2" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-30.583900000000003" y="59.128899999999994" z="297.0503"/>
+				<quaternion qw="-0.7095996293906838" qx="-0.07067749249232937" qy="0.6998239991403369" qz="-0.04146598908535295"/>
+			</offset>
+		</connection>
+		<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_2" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="30.583900000000003" y="59.128899999999994" z="297.0503"/>
+				<quaternion qw="-0.7095996293906838" qx="-0.07067749249232937" qy="-0.6998239991403369" qz="0.04146598908535295"/>
+			</offset>
+		</connection>
+		<connection group="left-front-mtb" name="con_m_turret_left-front-mtb_1" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="-30.270599999999998" y="58.1487" z="320.9545"/>
+				<quaternion qw="-0.7096711431543448" qx="-0.07130998420508462" qy="0.6997503559941166" qz="-0.04038804294321729"/>
+			</offset>
+		</connection>
+		<connection group="right-front-mtb" name="con_m_turret_right-front-mtb_1" tags="turret large starforge mtbdual d6x red green hittable">
+			<offset>
+				<position x="30.270599999999998" y="58.1487" z="320.9545"/>
+				<quaternion qw="-0.7096711431543448" qx="-0.07130998420508462" qy="-0.6997503559941166" qz="0.04038804294321729"/>
+			</offset>
+		</connection>
 
-<!-- Missiles -->
-<connection group="missile" name="con_m_turret_missile_4" tags="turret medium boronlauncher unhittable noshield">
-	<offset>
-		<position x="196.70499999999998" y="-0.6649999999999999" z="566.1463"/>
-		<quaternion qw="-0.5588424866103483" qx="-0.5582014002003933" qy="-0.43323817814047055" qz="0.4340633052620421"/>
-	</offset>
-</connection>
-<connection group="missile" name="con_m_turret_missile_3" tags="turret medium boronlauncher unhittable noshield">
-	<offset>
-		<position x="438.50870000000003" y="-0.2163" z="-73.07209999999999"/>
-		<quaternion qw="-0.5611982642944447" qx="-0.5605217603698256" qy="-0.43018175996227836" qz="0.4310632409526138"/>
-	</offset>
-</connection>
-<connection group="missile" name="con_m_turret_missile_2" tags="turret medium boronlauncher unhittable noshield">
-	<offset>
-		<position x="-440.84630000000004" y="-1.2312" z="-81.8162"/>
-		<quaternion qw="-0.5605214472950947" qx="-0.5611988470548578" qy="0.4310633086538638" qz="-0.4301813398078706"/>
-	</offset>
-</connection>
-<connection group="missile" name="con_m_turret_missile_1" tags="turret medium boronlauncher unhittable noshield">
-	<offset>
-		<position x="-196.70510000000002" y="1.3401" z="566.1464"/>
-		<quaternion qw="-0.558201705898664" qx="-0.5588423929968563" qy="0.4340629691400317" qz="-0.4332382417824037"/>
-	</offset>
-</connection>
-<connection name="con_room_001" value="-1" tags="window dynamicroom ">
-	<offset>
-		<position x="0" y="-15" z="0"/>
-	</offset>
-</connection>
+		<!-- Missiles -->
+		<connection group="missile" name="con_m_turret_missile_4" tags="turret medium starforge boronlauncher unhittable noshield">
+			<offset>
+				<position x="196.70499999999998" y="-0.6649999999999999" z="566.1463"/>
+				<quaternion qw="-0.5588424866103483" qx="-0.5582014002003933" qy="-0.43323817814047055" qz="0.4340633052620421"/>
+			</offset>
+		</connection>
+		<connection group="missile" name="con_m_turret_missile_3" tags="turret medium starforge boronlauncher unhittable noshield">
+			<offset>
+				<position x="438.50870000000003" y="-0.2163" z="-73.07209999999999"/>
+				<quaternion qw="-0.5611982642944447" qx="-0.5605217603698256" qy="-0.43018175996227836" qz="0.4310632409526138"/>
+			</offset>
+		</connection>
+		<connection group="missile" name="con_m_turret_missile_2" tags="turret medium starforge boronlauncher unhittable noshield">
+			<offset>
+				<position x="-440.84630000000004" y="-1.2312" z="-81.8162"/>
+				<quaternion qw="-0.5605214472950947" qx="-0.5611988470548578" qy="0.4310633086538638" qz="-0.4301813398078706"/>
+			</offset>
+		</connection>
+		<connection group="missile" name="con_m_turret_missile_1" tags="turret medium starforge boronlauncher unhittable noshield">
+			<offset>
+				<position x="-196.70510000000002" y="1.3401" z="566.1464"/>
+				<quaternion qw="-0.558201705898664" qx="-0.5588423929968563" qy="0.4340629691400317" qz="-0.4332382417824037"/>
+			</offset>
+		</connection>
+		<connection name="con_room_001" value="-1" tags="window dynamicroom ">
+			<offset>
+				<position x="0" y="-15" z="0"/>
+			</offset>
+		</connection>
 
 
 		</connections>

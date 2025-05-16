@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sith Terminus-based refitted Large transports-->
+<macros>
+  <macro name="gage_macro" class="ship_l">
+    <component ref="gage_ship" />
+    <properties>
+      <identification name="{420008,1}" basename="{420008,1}" description="{420008,2}"  icon="ship_l_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <threatscore value="36" />
+      <explosiondamage value="3000" />
+      <storage missile="0" unit="20" />
+      <hull max="700000" />
+      <secrecy level="1" />
+      <purpose primary="trade" />
+      <people capacity="60" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_l_01" />
+      </sounds>
+      <physics mass="250.875">
+        <inertia pitch="100" yaw="100" roll="100" />
+        <drag forward="153.5" reverse="600" horizontal="70" vertical="70" pitch="260" yaw="260" roll="260" />
+      </physics>
+      <thruster tags="large" />
+      <ship type="freighter" />
+      <jerk>
+        <forward accel="0.2" decel="0.8" ratio="3" />
+        <forward_boost accel="0.2" ratio="3" />
+        <forward_travel accel="0.4" decel="0.9" ratio="3" />
+        <strafe value="0.4" />
+        <angular value="0.25" />
+      </jerk>
+      <steeringcurve>
+        <point position="1.01" value="1" />
+        <point position="1.2" value="0.9" />
+        <point position="1.6" value="0.8" />
+        <point position="2.1" value="0.45" />
+        <point position="2.4" value="0.28" />
+        <point position="2.7" value="0.2" />
+      </steeringcurve>
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_rsd_l_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_dockarea_1">
+        <macro ref="dockarea_sideinv_s_mc80l_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dockarea_2">
+        <macro ref="dockarea_sideinv_s_mc80r_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_inv">
+        <macro ref="inv_xs_dock_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="shipstorage_sw_s_cap12_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_container_64000_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

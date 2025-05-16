@@ -781,33 +781,33 @@
 				</offset>
 			</connection>
 <!-- Weapon Changes -->
-			<connection name="con_weapon_01" tags="component weapon swmed ga60x medium symmetry_1">
+			<connection name="con_weapon_01" tags="component weapon swmed starforge ga60x medium symmetry_1">
 				<offset>
 					<position x="27.7837" z="2.74611" y="-3.54207"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_02" tags="component weapon swmed ga60x medium symmetry_1">
+			<connection name="con_weapon_02" tags="component weapon swmed starforge ga60x medium symmetry_1">
 				<offset>
 					<position x="-27.7837" z="2.74611" y="-3.54207"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_03" tags="component weapon swmed ga60x medium symmetry_1">
+			<connection name="con_weapon_03" tags="component weapon swmed starforge ga60x medium symmetry_1">
 				<offset>
 					<position x="27.9949" z="7.25576" y="-1.94377"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_04" tags="component weapon swmed ga60x medium symmetry_1">
+			<connection name="con_weapon_04" tags="component weapon swmed starforge ga60x medium symmetry_1">
 				<offset>
 					<position x="-27.9949" z="7.25576" y="-1.94377"/>
 				</offset>
 			</connection>
 
-			<connection name="con_weapon_05" tags="component weapon small tie7x tie9x krupx symmetry_1">
+			<connection name="con_weapon_05" tags="component weapon small starforge tie7x tie9x krupx symmetry_1">
 				<offset>
 					<position x="3.15382" z="28.4184" y="-3.98962"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_06" tags="component weapon small tie7x tie9x krupx symmetry_1">
+			<connection name="con_weapon_06" tags="component weapon small starforge tie7x tie9x krupx symmetry_1">
 				<offset>
 					<position x="-3.15382" z="28.4184" y="-3.98962"/>
 				</offset>

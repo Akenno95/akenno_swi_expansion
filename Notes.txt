@@ -1,0 +1,19 @@
+Changes
+
+Small Turret = RH3X                                                 .
+Medium Turret = D6X / HX4X                                          .              
+Large Turret = X22 (Damage wie PXL-4-17(175tt htbquad))             .
+Extra Large Turret = PXL-4-17 (175tt htbquad)                       .
+
+Harrower Engines
+Harrower M6,M7,M14,M15 auf Large                                    .
+Harrower 2 Engines
+Harrower 2 L1,L4 auf Extra Large                                    . 
+Bulk Trader   Engines
+
+Shield Regen maybe anpassen (gerade XL)
+Turret Damage maybe anpassen
+
+Protectyon Shield                                                   .
+TS-Hexa-Dock
+Terran Disc / Bridge Defense                                        .

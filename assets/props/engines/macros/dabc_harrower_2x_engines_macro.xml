@@ -1,0 +1,37 @@
+<macros>
+	<macro name="dabc_harrower_2x_engines_macro" class="engine">
+		<component ref="dabc_harrower_2_engines" />
+		<properties>
+			<identification name="{420103, 1}" basename="{420103, 1}" shortname="{420103, 1}" makerrace="argon" description="{420103, 2}" />
+			<thrust forward="72450" reverse="158060" />
+			<travel charge = "5" thrust = "70" attack = "0" release = "0" />
+			<boost duration="100" thrust="3" attack="15" release="5" recharge="92" acceleration="1.5" coast="1.3"/>  
+			<angular />
+			<effects>
+				<!-- <boosting ref="arg_boost_fx_xl" /> -->
+				<explosion ref="explosion_engine_xl" />
+				<sefx_shield ref="sefx_shield_l_01" />
+			</effects>
+			<sounds>
+				<enginedetail ref="enginedetail_ship_xl_01" />
+			</sounds>
+			<hull max="825000" threshold="0.15" />
+			<decelerationcurve>
+				<point position="1.01" value="1" />
+				<point position="1.25" value="3" />
+				<point position="1.75" value="5" />
+				<point position="2.1" value="30" />
+				<point position="2.5" value="50" />
+				<point position="3" value="200" />
+			</decelerationcurve>
+			<strafecurve>
+				<point position="0.8" value="1" />
+				<point position="1" value="1.5" />
+				<point position="1.25" value="3" />
+				<point position="1.75" value="7" />
+				<point position="2.1" value="15" />
+				<point position="2.5" value="25" />
+			</strafecurve>
+		</properties>
+	</macro>
+</macros>

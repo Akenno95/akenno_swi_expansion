@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/groups">
+<!--Asteroid groups (regular ones with resources)-->
+
+  <group name="asteroid_isotope5_xxl" resource="isotope5" yield="800" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_xxl_01_macro" />
+  </group>
+  <group name="asteroid_isotope5_xl" resource="isotope5" yield="800" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_xl_01_macro" />
+    <select macro="env_ast_isotope5_xl_02_macro" />
+  </group>
+  <group name="asteroid_isotope5_l" resource="isotope5" yield="400" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_l_01_macro" />
+    <select macro="env_ast_isotope5_l_02_macro" />
+    <select macro="env_ast_isotope5_l_03_macro" />
+    <select macro="env_ast_isotope5_l_04_macro" />
+    <select macro="env_ast_isotope5_l_05_macro" />
+  </group>
+  <group name="asteroid_isotope5_m" resource="isotope5" yield="200" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_m_01_macro" />
+    <select macro="env_ast_isotope5_m_02_macro" />
+    <select macro="env_ast_isotope5_m_03_macro" />
+    <select macro="env_ast_isotope5_m_04_macro" />
+    <select macro="env_ast_isotope5_m_05_macro" />
+    <select macro="env_ast_isotope5_m_06_macro" />
+  </group>
+  <group name="asteroid_isotope5_s" resource="isotope5" yield="100" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_s_01_macro" />
+    <select macro="env_ast_isotope5_s_02_macro" />
+    <select macro="env_ast_isotope5_s_03_macro" />
+    <select macro="env_ast_isotope5_s_04_macro" />
+    <select macro="env_ast_isotope5_s_05_macro" />
+  </group>
+  <group name="asteroid_isotope5_xs" resource="isotope5" yield="10" yieldvariation="0.5">
+    <select macro="env_ast_isotope5_xs_01_macro" />
+    <select macro="env_ast_isotope5_xs_02_macro" />
+    <select macro="env_ast_isotope5_xs_03_macro" />
+    <select macro="env_ast_isotope5_xs_04_macro" />
+    <select macro="env_ast_isotope5_xs_05_macro" />
+  </group>
+
+  
+  <group name="asteroid_isotope5_m_highyield" resource="isotope5" yield="2000" yieldvariation="0.5">
+    <select macro="env_ast_ice_m_01_macro" />
+    <select macro="env_ast_ice_m_02_macro" />
+    <select macro="env_ast_ice_m_03_macro" />
+    <select macro="env_ast_ice_m_04_macro" />
+    <select macro="env_ast_ice_m_05_macro" />
+    <select macro="env_ast_ice_m_06_macro" />
+  </group>
+</add>
+</diff>

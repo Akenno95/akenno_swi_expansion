@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<components>
+	<component name="ware_starforge_droids" class="object">
+		<source geometry="extensions\ego_dlc_terran\assets\wares\ware_terranmre_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="object">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="Box01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.vertexcolor_lightcone"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.5678684" y="1.095328" z="0.1151084"/>
+							<center x="6.556511E-07" y="5.960464E-08" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

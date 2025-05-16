@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_m_starforge_green" class="turret">
+		<source geometry="extensions\starwarsmod_m1\assets\props\WeaponSystems\standard\turret_m_imp_mqtl_data" />
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part iklink forceoutline" parent="part_gun">
+				<parts>
+					<part name="part_barrel">
+						<size>
+							<max x="4.54495" y="1.58851" z="6.43287" />
+							<center x="-1.90735e-006" y="-2.02656e-006" z="-1.46031" />
+						</size>
+						<size_raw>
+							<max x="4.54495" y="1.58851" z="6.43287" />
+							<center x="-1.90735e-006" y="-2.02656e-006" z="-1.46031" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="-0.000000" z="12.185500" />
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_01" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="4.1" y="1.15" z="5.0"/>
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_02" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="4.1" y="-1.15" z="5.0"/>
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_03" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="-4.1" y="1.15" z="5.0"/>
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_04" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="-4.1" y="-1.15" z="5.0"/>
+				</offset>
+			</connection>
+			
+			<connection name="Connection02" tags="part iklink forceoutline" parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="180 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_gun">
+						<size>
+							<max x="6.48589" y="3.00713" z="4.05609" />
+							<center x="-6.67572e-006" y="4.76837e-007" z="1.12435" />
+						</size>
+						<size_raw>
+							<max x="6.48589" y="3.00713" z="4.05609" />
+							<center x="-6.67572e-006" y="4.76837e-007" z="1.12435" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="4.175459" z="-4.720440" />
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part iklink forceoutline" parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<size>
+							<max x="6.3271" y="4.01378" z="8.45678" />
+							<center x="-3.38554e-005" y="5.42334" z="-1.32359" />
+						</size>
+						<size_raw>
+							<max x="6.3271" y="4.01378" z="8.45678" />
+							<center x="-3.38554e-005" y="5.42334" z="-1.32359" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part animation">
+				<animations>
+					<animation name="gun_firing" start="70" end="80"/>
+				</animations>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<size>
+							<max x="8" y="6" z="12" />
+							<center x="0" y="5" z="0" />
+						</size>
+						<size_raw>
+							<max x="8" y="6" z="12" />
+							<center x="0" y="5" z="0" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_imp_mqtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="con_laser_turret_l" tags="turret medium starforge green component hittable">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

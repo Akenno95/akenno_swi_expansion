@@ -1,0 +1,9 @@
+<macros>  
+    <macro name="storage_m_macro" class="storage">    
+        <component ref="generic_storage" />    
+        <properties>      
+            <cargo max="24000" tags="container liquid solid" />      
+            <hull integrated="1" />    
+        </properties>  
+    </macro> 
+</macros>

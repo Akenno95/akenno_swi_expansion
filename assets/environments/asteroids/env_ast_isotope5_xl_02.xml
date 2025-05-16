@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<components>
+	<component name="env_ast_isotope5_xl_02" class="asteroid">
+		<source geometry="assets\environments\asteroids\env_ast_ore_xl_02_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="asteroid">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part cluster_l_detail ">
+				<offset/>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1056.678" y="1275.578" z="1181.58"/>
+							<center x="0.7813721" y="2.129883" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part cluster_l_detail  ">
+				<offset/>
+				<parts/>
+			</connection>
+		</connections>
+	</component>
+</components>

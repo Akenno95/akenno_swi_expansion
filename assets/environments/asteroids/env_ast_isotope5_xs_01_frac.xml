@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<components>
+	<component name="env_ast_isotope5_xs_01_frac" class="asteroid">
+		<source geometry="assets\environments\asteroids\env_ast_ore_xs_01_frac_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="asteroid">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+									<material id="2" ref="asteroids.ast_ore_01_frac"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.880045" y="3.907282" z="2.529479"/>
+							<center x="-1.561642E-05" y="0" z="-3.576279E-07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset/>
+				<parts/>
+			</connection>
+			<connection name="connection_pickup01" tags="pickup ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

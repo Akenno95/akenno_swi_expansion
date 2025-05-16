@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.71) at 14.01.2022_10-57-51-->
+<macros>
+  <macro name="defence_starforge_pillar_macro" class="defencemodule">
+    <component ref="defence_starforge_pillar" />
+    <properties>
+      <identification name="{420605,5}" shortname="{420605,5}" size="large" description="{420605,4}" />
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="5000000" />
+      <secrecy level="10" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+          <set ref="piratebase" />
+        </sets>
+      </build>
+      <shield haswaveprotection="1" />
+      <ownership claim="1" />
+      <threatscore value="150" />
+      <radar range="150000" />
+    </properties>
+  </macro>
+</macros>

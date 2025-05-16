@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<components>
+	<component name="ware_starforge_alloy" class="object">
+		<source geometry="assets\wares\ware_claytronics_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="object">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="default001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.vertexcolor_lightcone"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="52.48148" y="63.55857" z="63.55856"/>
+							<center x="0.8940239" y="6.659964" z="1.622225"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

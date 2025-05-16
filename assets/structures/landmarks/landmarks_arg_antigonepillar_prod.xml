@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported on 2024-08-28 14:31:31-->
+<components>
+  <component name="landmarks_arg_antigonepillar_prod" class="production">
+    <source geometry="extensions\ego_dlc_timelines\assets\structures\landmarks\landmarks_arg_antigonepillar_01_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="Point_01_01" shadow="0" r="146" g="197" b="255" intensity="1.280423" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="52.70253" y="-521.8912" z="-52.42191" />
+            </offset>
+          </omni>
+          <omni name="Point_01_02" shadow="0" r="146" g="197" b="255" intensity="1.280423" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="52.7025" y="-521.8912" z="52.4219" />
+            </offset>
+          </omni>
+          <omni name="Point_01_03" shadow="0" r="146" g="197" b="255" intensity="1.280423" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="52.70253" y="521.8912" z="52.42187" />
+            </offset>
+          </omni>
+          <omni name="Point_01_04" shadow="0" r="146" g="197" b="255" intensity="1.280423" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="52.7025" y="521.8912" z="-52.42195" />
+            </offset>
+          </omni>
+          <spot name="ego_spot_01_01" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="70.70775" y="-246.358" z="-42.59138" />
+              <quaternion qx="1.736e-07" qy="-0.1736481" qz="0.9848078" qw="-4.61e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_02" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-45.93005" y="-557.9351" z="29.97985" />
+              <quaternion qx="-0.9848077" qy="0" qz="0" qw="-0.1736484" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_03" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-10.58246" y="557.9351" z="-35.09054" />
+              <quaternion qx="0.1736483" qy="0" qz="0" qw="-0.9848077" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_04" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="70.70778" y="-246.3578" z="42.59145" />
+              <quaternion qx="-0.9848077" qy="-1.635e-07" qz="-1.943e-07" qw="-0.1736482" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_05" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="14.36265" y="-246.3578" z="-56.92478" />
+              <quaternion qx="2.91e-07" qy="-0.1736481" qz="0.9848078" qw="-2.54e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_06" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-10.58246" y="557.9351" z="35.0905" />
+              <quaternion qx="3.38e-08" qy="-0.9848077" qz="-0.1736483" qw="-1.917e-07" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_07" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-45.93005" y="557.9351" z="29.9798" />
+              <quaternion qx="1.31e-08" qy="-0.9848077" qz="-0.1736483" qw="-7.44e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_08" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="14.36265" y="246.3578" z="-56.92482" />
+              <quaternion qx="0.1736483" qy="0" qz="0" qw="-0.9848077" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_09" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="14.36267" y="-246.3578" z="56.92482" />
+              <quaternion qx="-0.9848077" qy="-1.635e-07" qz="-1.943e-07" qw="-0.1736482" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_10" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-10.58246" y="-557.9351" z="-35.09045" />
+              <quaternion qx="2.91e-07" qy="-0.1736481" qz="0.9848078" qw="-2.54e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_11" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-45.93005" y="-557.9351" z="-29.97975" />
+              <quaternion qx="1.736e-07" qy="-0.1736481" qz="0.9848078" qw="-4.61e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_12" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="14.36265" y="-246.3578" z="-56.92478" />
+              <quaternion qx="2.91e-07" qy="-0.1736481" qz="0.9848078" qw="-2.54e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_13" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="70.70775" y="246.358" z="42.5914" />
+              <quaternion qx="1.31e-08" qy="-0.9848077" qz="-0.1736483" qw="-7.44e-08" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_14" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-45.93005" y="557.9351" z="-29.9798" />
+              <quaternion qx="0.1736483" qy="0" qz="0" qw="-0.9848077" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_15" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-10.58246" y="-557.9351" z="35.0906" />
+              <quaternion qx="-0.9848077" qy="0" qz="0" qw="-0.1736484" />
+            </offset>
+          </spot>
+          <spot name="ego_spot_01_16" angle="104.2" gradientindex="7" shadow="0" r="255" g="236" b="230" intensity="0.9152144" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="70.70775" y="246.3578" z="-42.59144" />
+              <quaternion qx="0.1736483" qy="0" qz="0" qw="-0.9848077" />
+            </offset>
+          </spot>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="production" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="con_mission_01" tags="mission ">
+        <offset>
+          <position x="100.4231" y="296.6753" z="0.3790789" />
+        </offset>
+      </connection>
+      <connection name="con_mission_02" tags="mission ">
+        <offset>
+          <position x="-8.126113" y="0" z="130.89" />
+        </offset>
+      </connection>
+      <connection name="con_snap_01" tags="snap ">
+        <offset>
+          <position x="-200" y="0" z="0" />
+          <quaternion qx="0" qy="0.7071066" qz="0" qw="-0.7071069" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <offset>
+          <position x="-15.05753" y="0" z="8.17966e-05" />
+        </offset>
+        <animations>
+          <animation name="loop" start="1" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="169.3235" y="1741.823" z="98.20607" />
+              <center x="7.552475" y="0" z="-5.5026e-06" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="100" value="0" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <offset>
+          <position x="-15.05753" y="0" z="8.17966e-05" />
+        </offset>
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_hulltexture_02" />
+                  <material id="4" ref="p2generic.gen_p2_hullpattern_01" />
+                  <material id="5" ref="p2generic.gen_p2_hullpattern_01" />
+                  <material id="6" ref="p2fx.fx_p2_lightcones_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="176.3257" y="1587.078" z="136.7833" />
+              <center x="-0.5503082" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_hulltexture_02" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_hulltexture_02" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_hulltexture_02" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="163.0821" y="1739.55" z="123.56" />
+              <center x="-36.918" y="0" z="8.39233e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_xs_main" tags="detail_xs forceoutline nocollision part ">
+        <offset>
+          <position x="-15.05753" y="0" z="8.17966e-05" />
+        </offset>
+        <parts>
+          <part name="detail_xs_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_hulltexture_02" />
+                  <material id="4" ref="p2generic.gen_p2_alphatexture_01" />
+                  <material id="5" ref="p2fx.fx_p2_lightcones_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="165.0569" y="1586.109" z="127.8366" />
+              <center x="-10.31486" y="0" z="-1.52588e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

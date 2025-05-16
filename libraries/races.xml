@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/races">
+
+      <race id="starforge_droids" name="{420401,8}" description="{420401,9}" shortname="{420401,8}" names="20304" tags="workforce">
+        <character height="1.75" width="0.25">
+          <speed slowwalk="0.87" walk="1.47" run="3.8" acceleration="4" />
+        </character>
+        <trail brightness="1" contrast="1" saturation="0.1" hue="130" />
+        <icon active="race_starforge" inactive="race_starforge" />
+      </race>
+
+
+
+  </add>
+</diff>

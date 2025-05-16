@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mdscript name="Setup_dabcmod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4 extract\libraries\md.xsd">
+<mdscript  name="Setup_dabcmod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 	<cues>
 		<cue name="SetupThingsFordabcmod" instantiate="false" version="4">
 			<conditions>

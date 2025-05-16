@@ -456,22 +456,22 @@
 			
 <!-- Weapon changes -->
 
-			<connection name="con_weapon_01" tags="component weapon medium swmed ga60x symmetry_1">
+			<connection name="con_weapon_01" tags="component weapon medium swmed starforge ga60x symmetry_1">
 				<offset>
 					<position x="10.4899" y="-3.35313" z="10.6529"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_02" tags="component weapon medium swmed ga60x symmetry_1">
+			<connection name="con_weapon_02" tags="component weapon medium swmed starforge ga60x symmetry_1">
 				<offset>
 					<position x="-10.4899" y="-3.35313" z="10.6529"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_03" tags="component weapon small tie7x tie9x nk3 sw7a symmetry_2">
+			<connection name="con_weapon_03" tags="component weapon small starforge tie7x tie9x nk3 sw7a symmetry_2">
 				<offset>
 					<position x="0.812705" y="0.338412" z="1.33703"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_04" tags="component weapon small tie7x tie9x nk3 sw7a symmetry_2">
+			<connection name="con_weapon_04" tags="component weapon small starforge tie7x tie9x nk3 sw7a symmetry_2">
 				<offset>
 					<position x="-0.812705" y="0.338412" z="1.33703"/>
 				</offset>

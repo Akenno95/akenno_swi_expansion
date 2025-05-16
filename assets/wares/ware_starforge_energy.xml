@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <components>
-	<component name="ware_starforgeenergy" class="object">
+	<component name="ware_starforge_energy" class="object">
 		<source geometry="assets\wares\ware_energycells_data"/>
 		<layers>
 			<layer>

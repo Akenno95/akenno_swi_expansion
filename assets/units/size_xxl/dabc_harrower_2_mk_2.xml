@@ -480,6 +480,7 @@
 					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
+
 			<!--Countermeasures-->
 			<connection name="con_countermeasures_5" tags="countermeasures">
 				<offset>
@@ -584,148 +585,148 @@
 					<quaternion qw="-0.9933908823526291" qx="-0.009783544467882332" qy="0.09589117799016163" qz="0.06231949213503964"/>
 				</offset>
 			</connection>
-			<!--Missile Launchers turret medium boronlauncher unhittable-->
-			<connection group="missiles" name="con_m_turret_missiles_1" tags="turret medium boronlauncher unhittable noshield">
+			<!--Missile Launchers turret medium starforge boronlauncher unhittable-->
+			<connection group="missiles" name="con_m_turret_missiles_1" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="8.4729" y="216.48520000000002" z="126.37769999999999"/>
 					<quaternion qw="-0.5757938931127732" qx="-0.8175948829671309" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_2" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_2" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="-8.7696" y="216.4857" z="126.3779"/>
 					<quaternion qw="-0.5757938931127732" qx="-0.8175948829671309" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_3" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_3" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="-8.6773" y="-252.9411" z="126.4438"/>
 					<quaternion qw="-3.2679489653813835e-07" qx="-0.0" qy="0.8175948714491161" qz="0.5757939094676122"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_4" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_4" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="8.3236" y="-252.9433" z="126.4446"/>
 					<quaternion qw="-3.2679489653813835e-07" qx="-0.0" qy="0.8175948714491161" qz="0.5757939094676122"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_5" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_5" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="396.1865" y="22.0363" z="2136.0249"/>
 					<quaternion qw="-0.7071068967259818" qx="-0.7071066656470943" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_6" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_6" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="-396.18699999999995" y="22.0363" z="2136.0249"/>
 					<quaternion qw="-0.7071068967259818" qx="-0.7071066656470943" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_7" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_7" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="-1452.4136" y="-19.561400000000003" z="-721.3403"/>
 					<quaternion qw="-0.55596196333993" qx="-0.5559620475834867" qy="0.43692819602652516" qz="-0.43692819602652516"/>
 				</offset>
 			</connection>
-			<connection group="missiles" name="con_m_turret_missiles_8" tags="turret medium boronlauncher unhittable noshield">
+			<connection group="missiles" name="con_m_turret_missiles_8" tags="turret medium starforge boronlauncher unhittable noshield">
 				<offset>
 					<position x="1452.41" y="-19.561400000000003" z="-721.3403"/>
 					<quaternion qw="-0.55596196333993" qx="-0.5559620475834867" qy="-0.43692819602652516" qz="0.43692819602652516"/>
 				</offset>
 			</connection>
 			<!--Large Turrets-->
-			<!--Top Large Turrets turret large 175tthtbquad green red hittable-->
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<!--Top Large Turrets turret large starforge 175tthtbquad green red hittable-->
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_1" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-285.2567" y="223.0525" z="-769.6157999999999"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_1" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="285.2567" y="223.0525" z="-769.6157999999999"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_2" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-315.7829" y="223.0524" z="-924.8788"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_2" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="315.7829" y="223.0524" z="-924.8788"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_3" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-346.0783" y="223.0524" z="-1080.4254"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_3" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="346.0783" y="223.0524" z="-1080.4254"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_4" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-376.5305" y="223.0524" z="-1235.677"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_4" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="376.5305" y="223.0524" z="-1235.677"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_8" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_8" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-493.01529999999997" y="178.1351" z="-1212.4801"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_8" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_8" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="493.01529999999997" y="178.1351" z="-1212.4801"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_7" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_7" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-462.59680000000003" y="178.1351" z="-1057.4171"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_7" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_7" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="462.59680000000003" y="178.1351" z="-1057.4171"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_6" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_6" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-432.3419" y="178.1351" z="-902.0512"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_6" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_6" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="432.3419" y="178.1351" z="-902.0512"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_5" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-left-htb" name="con_l_turret_top-mid-left-htb_5" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-401.84740000000005" y="178.1351" z="-746.9614"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="0.6360781781950866" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_5" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-mid-right-htb" name="con_l_turret_top-mid-right-htb_5" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="401.84740000000005" y="178.1351" z="-746.9614"/>
 					<quaternion qw="-0.7716246180780002" qx="-0.0" qy="-0.6360781781950866" qz="0.0"/>
@@ -755,31 +756,31 @@
 					<quaternion qw="-0.773284371260206" qx="-0.0522877009580255" qy="-0.6307032335761192" qz="0.03886783567243028"/>
 				</offset>
 			</connection>
-			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_1" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-0.0" y="380.0567" z="-1399.7993"/>
 					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_2" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-155.8654" y="326.8491" z="-1439.5"/>
 					<quaternion qw="-0.7771459037343097" qx="-0.0" qy="0.629320462331381" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_3" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-272.194" y="287.9055" z="-1414.78"/>
 					<quaternion qw="-0.7771459037343097" qx="-0.0" qy="0.629320462331381" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_5" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_5" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="272.194" y="287.9055" z="-1414.78"/>
 					<quaternion qw="-0.7771459037343097" qx="-0.0" qy="-0.629320462331381" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-ss-htb" name="con_l_turret_top-ss-htb_4" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="155.865" y="326.8491" z="-1439.5"/>
 					<quaternion qw="-0.7771459037343097" qx="-0.0" qy="-0.629320462331381" qz="-0.0"/>
@@ -791,25 +792,25 @@
 					<quaternion qw="-0.9951788213363975" qx="-0.09807706981189367" qy="-4.315395387118709e-06" qz="-4.384049404641051e-05"/>
 				</offset>
 			</connection>
-			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_1" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-557.9673" y="142.6728" z="-445.3811"/>
 					<quaternion qw="-0.9953377024462472" qx="-0.005004859154232501" qy="-0.06961808273712175" qz="-0.06656674868039987"/>
 				</offset>
 			</connection>
-			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_2" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-787.9059" y="111.4467" z="-412.1484"/>
 					<quaternion qw="-0.9953373166329845" qx="-0.005004088285804431" qy="-0.06961759385772508" qz="-0.0665730864819901"/>
 				</offset>
 			</connection>
-			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_4" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="787.906" y="111.4467" z="-412.1484"/>
 					<quaternion qw="-0.9953373166329845" qx="-0.005004088285804431" qy="0.06961759385772508" qz="0.0665730864819901"/>
 				</offset>
 			</connection>
-			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="top-forward-htb" name="con_l_turret_top-forward-htb_3" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="557.967" y="142.6728" z="-445.3811"/>
 					<quaternion qw="-0.9953377024462472" qx="-0.005004859154232501" qy="0.06961808273712175" qz="0.06656674868039987"/>
@@ -821,98 +822,98 @@
 					<quaternion qw="-0.9997907833276763" qx="-0.01621023883463966" qy="-0.00020224987898767425" qz="-0.01247304393248396"/>
 				</offset>
 			</connection>
-			<!--Bot Large Turrets turret large 175tthtbquad green red hittable-->
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_8" tags="turret large 175tthtbquad green red hittable">
+			<!--Bot Large Turrets turret large starforge 175tthtbquad green red hittable-->
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_8" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-493.0121" y="-215.18329999999997" z="-1212.4886999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_8" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_8" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="493.0121" y="-215.18329999999997" z="-1212.4886999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_7" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_7" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-462.5933" y="-215.18329999999997" z="-1057.4109"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_7" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_7" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="462.5933" y="-215.18329999999997" z="-1057.4109"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_6" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_6" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-432.35970000000003" y="-215.18320000000003" z="-902.0583999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_6" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_6" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="432.35970000000003" y="-215.18320000000003" z="-902.0583999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_5" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_5" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-401.8582" y="-215.18329999999997" z="-746.9868"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_5" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_5" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="401.8582" y="-215.18329999999997" z="-746.9868"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_4" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-376.64680000000004" y="-260.1006" z="-1235.7697"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_4" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="376.64680000000004" y="-260.1006" z="-1235.7697"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_3" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-346.1395" y="-260.10049999999995" z="-1080.5172"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_3" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="346.1395" y="-260.10049999999995" z="-1080.5172"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_2" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-315.8248" y="-260.10049999999995" z="-924.9390999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="0.0" qz="0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_2" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="315.8248" y="-260.10049999999995" z="-924.9390999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.6360778846444142" qy="-0.0" qz="-0.7716248600623604"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-left-htb" name="con_l_turret_bot-mid-left-htb_1" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-285.33270000000005" y="-260.10080000000005" z="-769.7429"/>
 					<quaternion qw="-1.3826794896208222e-05" qx="-0.6360778845378234" qy="1.199999782173551e-05" qz="0.7716248599330553"/>
 				</offset>
 			</connection>
-			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-mid-right-htb" name="con_l_turret_bot-mid-right-htb_1" tags="turret large starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="285.33270000000005" y="-260.10080000000005" z="-769.7429"/>
 					<quaternion qw="-1.3826794896208222e-05" qx="-0.6360778845378234" qy="-1.199999782173551e-05" qz="-0.7716248599330553"/>
@@ -942,13 +943,13 @@
 					<quaternion qw="-0.03889801097007814" qx="0.6303915425913803" qy="0.052418298476004724" qz="0.7735281311993198"/>
 				</offset>
 			</connection>
-			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_2" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_2" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-787.8620999999999" y="-148.4999" z="-412.09590000000003"/>
 					<quaternion qw="-0.06656756568316063" qx="-0.06962024377065179" qy="-0.005003877069291562" qz="-0.9953375015895908"/>
 				</offset>
 			</connection>
-			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_1" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_1" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="-557.9273" y="-179.7261" z="-445.3809"/>
 					<quaternion qw="-0.06656407344603406" qx="-0.06957132782215575" qy="-0.00500686864313997" qz="-0.9953411403823934"/>
@@ -960,62 +961,62 @@
 					<quaternion qw="-0.04295710426297736" qx="0.637949346565709" qy="0.04916455744206468" qz="0.7673057830495288"/>
 				</offset>
 			</connection>
-			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_4" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_4" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="787.863" y="-148.4993" z="-412.10190000000006"/>
 					<quaternion qw="-0.06656806457411221" qx="-0.06962222729641226" qy="0.005003876204071649" qz="0.995337329485877"/>
 				</offset>
 			</connection>
-			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_3" tags="turret large 175tthtbquad green red hittable">
+			<connection group="bot-forward-htb" name="con_l_turret_bot-forward-htb_3" tags="turret extralarge starforge 175tthtbquad green red hittable">
 				<offset>
 					<position x="557.8956" y="-179.7301" z="-445.36850000000004"/>
 					<quaternion qw="-0.06656407344603406" qx="-0.06957338308644309" qy="0.005006872939533206" qz="0.9953409967019069"/>
 				</offset>
 			</connection>
-			<!--Medium Turrets turret medium mtbdual d6x mtbquad hx4x green red hittable-->
-			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<!--Medium Turrets turret medium starforge mtbdual d6x mtbquad hx4x green red hittable-->
+			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1164.6516" y="63.9889" z="-644.7622"/>
 					<quaternion qw="-0.7785583375019266" qx="-0.06186543393657566" qy="0.6225302248991086" qz="-0.0497564295055485"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1164.6516" y="63.9889" z="-644.7622"/>
 					<quaternion qw="-0.7785583375019266" qx="-0.06186543393657566" qy="-0.6225302248991086" qz="0.0497564295055485"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1184.1132" y="63.9453" z="-730.8480000000001"/>
 					<quaternion qw="-0.7785586512879488" qx="-0.06185850779336228" qy="0.6225306225170257" qz="-0.049755155982401475"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1184.1132" y="63.9453" z="-730.8480000000001"/>
 					<quaternion qw="-0.7785586512879488" qx="-0.06185850779336228" qy="-0.6225306225170257" qz="0.049755155982401475"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1203.4643" y="63.92060000000001" z="-816.962"/>
 					<quaternion qw="-0.7785602202151399" qx="-0.06184324087299765" qy="0.6225316948294083" qz="-0.04973616380161967"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1203.4643" y="63.92060000000001" z="-816.962"/>
 					<quaternion qw="-0.7785602202151399" qx="-0.06184324087299765" qy="-0.6225316948294083" qz="0.04973616380161967"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-left-mtb" name="con_m_turret_top-back-left-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1223.1890999999998" y="63.8075" z="-904.4233"/>
 					<quaternion qw="-0.7785602202151399" qx="-0.06184324087299765" qy="0.6225316948294083" qz="-0.04973616380161967"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-back-right-mtb" name="con_m_turret_top-back-right-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1223.1890999999998" y="63.8075" z="-904.4233"/>
 					<quaternion qw="-0.7785602202151399" qx="-0.06184324087299765" qy="-0.6225316948294083" qz="0.04973616380161967"/>
@@ -1033,49 +1034,49 @@
 					<quaternion qw="-0.9928795101901524" qx="-0.005786379039942193" qy="0.10655883538813236" qz="0.05293402179028209"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-773.0561" y="58.7031" z="732.6637"/>
 					<quaternion qw="-0.7799715322079358" qx="-0.04044642120249163" qy="0.6236590326697978" qz="-0.03252548118763882"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="773.0561" y="58.7031" z="732.6637"/>
 					<quaternion qw="-0.7799715322079358" qx="-0.04044642120249163" qy="-0.6236590326697978" qz="0.03252548118763882"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-753.664" y="58.726" z="818.6774"/>
 					<quaternion qw="-0.7799712193003404" qx="-0.040447069608506615" qy="0.6236593810045538" qz="-0.032525499354224975"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="753.664" y="58.726" z="818.6774"/>
 					<quaternion qw="-0.7799712193003404" qx="-0.040447069608506615" qy="-0.6236593810045538" qz="0.032525499354224975"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-734.2393000000001" y="58.744" z="905.0287000000001"/>
 					<quaternion qw="-0.7799705934845647" qx="-0.04050095500096326" qy="0.6236566312600236" qz="-0.03252617759197838"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="734.2393000000001" y="58.744" z="905.0287000000001"/>
 					<quaternion qw="-0.7799705934845647" qx="-0.04050095500096326" qy="-0.6236566312600236" qz="0.03252617759197838"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-left-mtb" name="con_m_turret_top-front-left-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-714.7299" y="58.77869999999999" z="991.0519"/>
 					<quaternion qw="-0.7799715322079358" qx="-0.04047018972094438" qy="0.6236575891782069" qz="-0.03252359373720355"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="top-front-right-mtb" name="con_m_turret_top-front-right-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="714.7299" y="58.77869999999999" z="991.0519"/>
 					<quaternion qw="-0.7799715322079358" qx="-0.04047018972094438" qy="-0.6236575891782069" qz="0.03252359373720355"/>
@@ -1093,49 +1094,49 @@
 					<quaternion qw="-0.9910727283482874" qx="-0.008734884647326574" qy="0.1063654224238751" qz="0.07990585602488896"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1222.1137" y="-88.28" z="-904.6798000000001"/>
 					<quaternion qw="-0.04969534919388476" qx="0.6225567249621873" qy="-0.06186945035993572" qz="-0.7785407295607679"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1222.1137" y="-88.28" z="-904.6798000000001"/>
 					<quaternion qw="-0.04969534919388476" qx="0.6225567249621873" qy="0.06186945035993572" qz="0.7785407295607679"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1203.2225" y="-88.2561" z="-817.0275"/>
 					<quaternion qw="-0.04969534919388476" qx="0.6225567249621873" qy="-0.06186945035993572" qz="-0.7785407295607679"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1203.2225" y="-88.2561" z="-817.0275"/>
 					<quaternion qw="-0.04969534919388476" qx="0.6225567249621873" qy="0.06186945035993572" qz="0.7785407295607679"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1183.7483" y="-88.3015" z="-730.9398"/>
 					<quaternion qw="-0.049720318288922746" qx="0.622559038932358" qy="-0.06184940728815426" qz="-0.7785388775205585"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1183.7483" y="-88.3015" z="-730.9398"/>
 					<quaternion qw="-0.049720318288922746" qx="0.622559038932358" qy="0.06184940728815426" qz="0.7785388775205585"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-left-mtb" name="con_m_turret_bot-back-left-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-1164.585" y="-88.2972" z="-644.8312999999999"/>
 					<quaternion qw="-0.049754276208301564" qx="0.6225577760782007" qy="-0.06186725952767886" qz="-0.7785362995018844"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-back-right-mtb" name="con_m_turret_bot-back-right-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="1164.585" y="-88.2972" z="-644.8312999999999"/>
 					<quaternion qw="-0.049754276208301564" qx="0.6225577760782007" qy="0.06186725952767886" qz="0.7785362995018844"/>
@@ -1153,49 +1154,49 @@
 					<quaternion qw="-0.008700217032444101" qx="-0.9910268249341373" qy="-0.07991000244279049" qz="-0.10679199405453749"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-772.4535000000001" y="-95.8228" z="732.3742"/>
 					<quaternion qw="-0.03252109156453148" qx="0.6236687140581357" qy="-0.040485559432551825" qz="-0.7799619434215724"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_4" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_4" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="772.4535000000001" y="-95.8228" z="732.3742"/>
 					<quaternion qw="-0.03252109156453148" qx="0.6236687140581357" qy="0.040485559432551825" qz="0.7799619434215724"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-753.3344999999999" y="-95.8152" z="818.4953999999999"/>
 					<quaternion qw="-0.03253308521478246" qx="0.6236700726276888" qy="-0.04046559331807249" qz="-0.7799613930396795"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_3" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_3" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="753.3344999999999" y="-95.8152" z="818.4953999999999"/>
 					<quaternion qw="-0.03253308521478246" qx="0.6236700726276888" qy="0.04046559331807249" qz="0.7799613930396795"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-733.9689" y="-95.8267" z="904.8974"/>
 					<quaternion qw="-0.032538582302915425" qx="0.6236676154550244" qy="-0.04047156040984154" qz="-0.7799628189166152"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_2" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_2" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="733.9689" y="-95.8267" z="904.8974"/>
 					<quaternion qw="-0.032538582302915425" qx="0.6236676154550244" qy="0.04047156040984154" qz="0.7799628189166152"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-left-mtb" name="con_m_turret_bot-front-left-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="-714.8989" y="-95.8157" z="990.9416"/>
 					<quaternion qw="-0.03253908203815128" qx="0.6236682156055073" qy="-0.04047153449687228" qz="-0.7799623195251327"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_1" tags="turret medium mtbdual d6x mtbquad hx4x green red hittable">
+			<connection group="bot-front-right-mtb" name="con_m_turret_bot-front-right-mtb_1" tags="turret medium starforge mtbdual d6x mtbquad hx4x green red hittable">
 				<offset>
 					<position x="714.8989" y="-95.8157" z="990.9416"/>
 					<quaternion qw="-0.03253908203815128" qx="0.6236682156055073" qy="0.04047153449687228" qz="0.7799623195251327"/>
@@ -1213,242 +1214,242 @@
 					<quaternion qw="-0.0057872944889818395" qx="-0.9928806358656539" qy="-0.05293412756766149" qz="-0.10654824392810676"/>
 				</offset>
 			</connection>
-			<!--Top PD turret small duallaser rh2x quadlaser rh3x red green hittable-->
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<!--Top PD turret small starforge duallaser rh2x quadlaser rh3x red green hittable-->
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-544.1784" y="28.0078" z="2199.2058"/>
 					<quaternion qw="-0.7871290069056087" qx="-0.03796395974984308" qy="0.6148889661226229" qz="-0.029970378518701973"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="544.1784" y="28.0078" z="2199.2058"/>
 					<quaternion qw="-0.7871290069056087" qx="-0.03796395974984308" qy="-0.6148889661226229" qz="0.029970378518701973"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-614.7228" y="28.0364" z="1917.1157999999998"/>
 					<quaternion qw="-0.7865738873843412" qx="-0.048942742724995235" qy="0.6143604778884395" qz="-0.03830575450671656"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="614.7228" y="28.0364" z="1917.1157999999998"/>
 					<quaternion qw="-0.7865738873843412" qx="-0.048942742724995235" qy="-0.6143604778884395" qz="0.03830575450671656"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-698.8474" y="28.636499999999998" z="1558.7085"/>
 					<quaternion qw="-0.786574813627711" qx="-0.04893402810132721" qy="0.6143602205872445" qz="-0.0383019949911557"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="698.8474" y="28.636499999999998" z="1558.7085"/>
 					<quaternion qw="-0.786574813627711" qx="-0.04893402810132721" qy="-0.6143602205872445" qz="0.0383019949911557"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-797.5467" y="28.0508" z="1180.9587999999999"/>
 					<quaternion qw="-0.7865751223751076" qx="-0.048932757435041836" qy="0.6143603901658369" qz="-0.03829455712850885"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="797.5467" y="28.0508" z="1180.9587999999999"/>
 					<quaternion qw="-0.7865751223751076" qx="-0.048932757435041836" qy="-0.6143603901658369" qz="0.03829455712850885"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-315.0461" y="54.8238" z="2188.6509"/>
 					<quaternion qw="-0.71839778835008" qx="0.033660273499814555" qy="-0.6921670252384575" qz="-0.060633430169966446"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="315.0461" y="54.8238" z="2188.6509"/>
 					<quaternion qw="-0.71839778835008" qx="0.033660273499814555" qy="0.6921670252384575" qz="0.060633430169966446"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-303.4706" y="67.5867" z="1840.6486999999997"/>
 					<quaternion qw="-0.7192417566490201" qx="0.012242368505936489" qy="-0.6936735396171161" qz="-0.0368570256648278"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="303.4706" y="67.5867" z="1840.6486999999997"/>
 					<quaternion qw="-0.7192417566490201" qx="0.012242368505936489" qy="0.6936735396171161" qz="0.0368570256648278"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-290.217" y="79.7461" z="1482.3268"/>
 					<quaternion qw="-0.7189054086352675" qx="0.0259233448301472" qy="-0.6928624557930451" qz="-0.04944300739444334"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="290.217" y="79.7461" z="1482.3268"/>
 					<quaternion qw="-0.7189054086352675" qx="0.0259233448301472" qy="0.6928624557930451" qz="0.04944300739444334"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-278.4375" y="92.00930000000001" z="1137.7446"/>
 					<quaternion qw="-0.718634957270427" qx="0.0321088142358268" qy="-0.6924041110312102" qz="-0.055761718628286036"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="278.4375" y="92.00930000000001" z="1137.7446"/>
 					<quaternion qw="-0.718634957270427" qx="0.0321088142358268" qy="0.6924041110312102" qz="0.055761718628286036"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-265.0878" y="106.079" z="756.084"/>
 					<quaternion qw="-0.7195383535408753" qx="0.014029324938452615" qy="-0.6932487931063398" qz="-0.03839071088246398"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="265.0878" y="106.079" z="756.084"/>
 					<quaternion qw="-0.7195383535408753" qx="0.014029324938452615" qy="0.6932487931063398" qz="0.03839071088246398"/>
 				</offset>
 			</connection>
-			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-left-pd" name="con_s_turret_top-front-left-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-815.1194999999999" y="65.6622" z="277.43739999999997"/>
 					<quaternion qw="-0.7759970464433529" qx="-0.043426188998751794" qy="0.6283892541682998" qz="-0.03270619614148549"/>
 				</offset>
 			</connection>
-			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-front-right-pd" name="con_s_turret_top-front-right-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="815.1194999999999" y="65.6622" z="277.43739999999997"/>
 					<quaternion qw="-0.7759970464433529" qx="-0.043426188998751794" qy="-0.6283892541682998" qz="0.03270619614148549"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1394.2515" y="39.6126" z="-506.41290000000004"/>
 					<quaternion qw="-0.7814971333284856" qx="-0.05735345946270642" qy="0.6196258725876786" qz="-0.04512858636138286"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1394.2515" y="39.6126" z="-506.41290000000004"/>
 					<quaternion qw="-0.7814971333284856" qx="-0.05735345946270642" qy="-0.6196258725876786" qz="0.04512858636138286"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1478.6151" y="21.9857" z="-895.5244"/>
 					<quaternion qw="-0.7809462295383419" qx="-0.06469151997262693" qy="0.6191049603127039" qz="-0.05144941136382286"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1478.6151" y="21.9857" z="-895.5244"/>
 					<quaternion qw="-0.7809462295383419" qx="-0.06469151997262693" qy="-0.6191049603127039" qz="0.05144941136382286"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1274.3215" y="113.7538" z="-1979.5509"/>
 					<quaternion qw="-0.11152831427862622" qx="-0.07318055910840891" qy="0.9844335467221266" qz="-0.11444052154216815"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1274.3215" y="113.7538" z="-1979.5509"/>
 					<quaternion qw="-0.11152831427862622" qx="-0.07318055910840891" qy="-0.9844335467221266" qz="0.11444052154216815"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-979.9739999999999" y="56.624399999999994" z="-299.9203"/>
 					<quaternion qw="-0.7807291344952431" qx="-0.0527958779208566" qy="0.6212780913300531" qz="-0.041087066799186715"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="979.9739999999999" y="56.624399999999994" z="-299.9203"/>
 					<quaternion qw="-0.7807291344952431" qx="-0.0527958779208566" qy="-0.6212780913300531" qz="0.041087066799186715"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-95.5391" y="245.167" z="-192.73329999999999"/>
 					<quaternion qw="-0.7744279044382066" qx="-0.05693200730230015" qy="0.6286561967380316" qz="-0.04256235043852783"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="95.5391" y="245.167" z="-192.73329999999999"/>
 					<quaternion qw="-0.7744279044382066" qx="-0.05693200730230015" qy="-0.6286561967380316" qz="0.04256235043852783"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-269.6879" y="249.7436" z="-1014.208"/>
 					<quaternion qw="-0.774440557526712" qx="-0.05693122570937309" qy="0.6286405803840618" qz="-0.04256382373957831"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="269.6879" y="249.7436" z="-1014.208"/>
 					<quaternion qw="-0.774440557526712" qx="-0.05693122570937309" qy="-0.6286405803840618" qz="0.04256382373957831"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1062.6944999999998" y="200.27759999999998" z="-1333.5968"/>
 					<quaternion qw="-0.9394948962196522" qx="-0.04762375390538841" qy="0.327639313851434" qz="-0.0879420153291098"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1062.6944999999998" y="200.27759999999998" z="-1333.5968"/>
 					<quaternion qw="-0.9394948962196522" qx="-0.04762375390538841" qy="-0.327639313851434" qz="0.0879420153291098"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1061.1281" y="211.76819999999998" z="-1677.3815"/>
 					<quaternion qw="-0.435471360745813" qx="-0.09594987987581405" qy="0.8946095046501507" qz="-0.028846987912413906"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1061.1281" y="211.76819999999998" z="-1677.3815"/>
 					<quaternion qw="-0.435471360745813" qx="-0.09594987987581405" qy="-0.8946095046501507" qz="0.028846987912413906"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-510.0844" y="258.2944" z="-2214.4278"/>
 					<quaternion qw="-0.4688570379352701" qx="-0.061879517166258335" qy="0.8809764697618925" qz="-0.014982091299571407"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="510.0844" y="258.2944" z="-2214.4278"/>
 					<quaternion qw="-0.4688570379352701" qx="-0.061879517166258335" qy="-0.8809764697618925" qz="0.014982091299571407"/>
 				</offset>
 			</connection>
-			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-left-pd" name="con_s_turret_top-back-left-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-337.5538" y="457.52740000000006" z="-2315.2136"/>
 					<quaternion qw="-0.17237014686540764" qx="-0.10697446173457285" qy="0.9790251516290555" qz="-0.018834794501167287"/>
 				</offset>
 			</connection>
-			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="top-back-right-pd" name="con_s_turret_top-back-right-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="337.5538" y="457.52740000000006" z="-2315.2136"/>
 					<quaternion qw="-0.17237014686540764" qx="-0.10697446173457285" qy="-0.9790251516290555" qz="0.018834794501167287"/>
@@ -1478,121 +1479,121 @@
 					<quaternion qw="-0.4094182474466361" qx="-0.5150159801095617" qy="0.5884854233762328" qz="0.46991504057989963"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-265.08750000000003" y="-143.1286" z="756.0312"/>
 					<quaternion qw="-0.03837240369741265" qx="-0.6941947376010967" qy="0.014080629860022877" qz="-0.7186257445876625"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="265.08750000000003" y="-143.1286" z="756.0312"/>
 					<quaternion qw="-0.03837240369741265" qx="-0.6941947376010967" qy="-0.014080629860022877" qz="0.7186257445876625"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-278.2536" y="-129.12699999999998" z="1136.2536"/>
 					<quaternion qw="-0.055690499830301575" qx="-0.6939856864728692" qy="0.03223191811216976" qz="-0.7171077594436153"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="278.2536" y="-129.12699999999998" z="1136.2536"/>
 					<quaternion qw="-0.055690499830301575" qx="-0.6939856864728692" qy="-0.03223191811216976" qz="0.7171077594436153"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-290.1997" y="-116.7232" z="1484.6362"/>
 					<quaternion qw="-0.04939471885593483" qx="-0.694199758383958" qy="0.026015212052443795" qz="-0.7176141483768724"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="290.1997" y="-116.7232" z="1484.6362"/>
 					<quaternion qw="-0.04939471885593483" qx="-0.694199758383958" qy="-0.026015212052443795" qz="0.7176141483768724"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-303.50939999999997" y="-104.6389" z="1840.4348"/>
 					<quaternion qw="-0.03683549164396231" qx="-0.6949409367530036" qy="0.012306640278673592" qz="-0.7180172613421332"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="303.50939999999997" y="-104.6389" z="1840.4348"/>
 					<quaternion qw="-0.03683549164396231" qx="-0.6949409367530036" qy="-0.012306640278673592" qz="0.7180172613421332"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-315.01030000000003" y="-91.8724" z="2188.7566"/>
 					<quaternion qw="-0.06054327886961977" qx="-0.6940926710474997" qy="0.03382285373851619" qz="-0.7165374309461061"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="315.01030000000003" y="-91.8724" z="2188.7566"/>
 					<quaternion qw="-0.06054327886961977" qx="-0.6940926710474997" qy="-0.03382285373851619" qz="0.7165374309461061"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-797.5003" y="-65.0992" z="1181.1254999999999"/>
 					<quaternion qw="-0.03829446102713045" qx="0.6143660673246772" qy="-0.04893308407350825" qz="-0.7865706725130975"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="797.5003" y="-65.0992" z="1181.1254999999999"/>
 					<quaternion qw="-0.03829446102713045" qx="0.6143660673246772" qy="0.04893308407350825" qz="0.7865706725130975"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-698.9393" y="-65.67150000000001" z="1558.7595000000001"/>
 					<quaternion qw="-0.038300956258559206" qx="0.6143665057330288" qy="-0.04893403866794144" qz="-0.7865699544495153"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="698.9393" y="-65.67150000000001" z="1558.7595000000001"/>
 					<quaternion qw="-0.038300956258559206" qx="0.6143665057330288" qy="0.04893403866794144" qz="0.7865699544495153"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-614.5204" y="-65.0854" z="1917.8869"/>
 					<quaternion qw="-0.03830495332324962" qx="0.6143666243379494" qy="-0.04894304150732156" qz="-0.7865691070328843"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="614.5204" y="-65.0854" z="1917.8869"/>
 					<quaternion qw="-0.03830495332324962" qx="0.6143666243379494" qy="0.04894304150732156" qz="0.7865691070328843"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-815.1258" y="-102.71" z="277.41729999999995"/>
 					<quaternion qw="-0.032715488067274895" qx="0.6282284430827005" qy="-0.04341973901321544" qz="-0.7761272101958739"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="815.1258" y="-102.71" z="277.41729999999995"/>
 					<quaternion qw="-0.032715488067274895" qx="0.6282284430827005" qy="0.04341973901321544" qz="0.7761272101958739"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-left-pd" name="con_s_turret_bot-front-left-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-544.0975" y="-65.0619" z="2199.2574999999997"/>
 					<quaternion qw="-0.02996983853958582" qx="0.6149077115527317" qy="-0.03796494170881535" qz="-0.787114336200237"/>
 				</offset>
 			</connection>
-			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-front-right-pd" name="con_s_turret_bot-front-right-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="544.0975" y="-65.0619" z="2199.2574999999997"/>
 					<quaternion qw="-0.02996983853958582" qx="0.6149077115527317" qy="0.03796494170881535" qz="0.787114336200237"/>
@@ -1610,121 +1611,121 @@
 					<quaternion qw="-0.06562263649728184" qx="-0.0007643485130101418" qy="0.012073912542327305" qz="0.9977711691497286"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-510.1513" y="-295.3331" z="-2214.3871"/>
 					<quaternion qw="-0.015461710670931921" qx="0.8773139178968774" qy="-0.0617616023753443" qz="-0.4756750250324159"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_9" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_9" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="510.1513" y="-295.3331" z="-2214.3871"/>
 					<quaternion qw="-0.015461710670931921" qx="0.8773139178968774" qy="0.0617616023753443" qz="0.4756750250324159"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1037.3032" y="-147.6761" z="-2096.5603"/>
 					<quaternion qw="-0.01770490169085885" qx="0.8664655268616506" qy="-0.06291116374855547" qz="-0.4949406153189306"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_8" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_8" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1037.3032" y="-147.6761" z="-2096.5603"/>
 					<quaternion qw="-0.01770490169085885" qx="0.8664655268616506" qy="0.06291116374855547" qz="0.4949406153189306"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-857.9370000000001" y="-149.9892" z="-1397.9223"/>
 					<quaternion qw="-0.05646128507608693" qx="0.27199924132086367" qy="-0.03239122644814076" qz="-0.9600934040277627"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_7" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_7" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="857.9370000000001" y="-149.9892" z="-1397.9223"/>
 					<quaternion qw="-0.05646128507608693" qx="0.27199924132086367" qy="0.03239122644814076" qz="0.9600934040277627"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-269.93719999999996" y="-286.7715" z="-1014.6184999999999"/>
 					<quaternion qw="-0.042587442871502026" qx="0.62833021683929" qy="-0.05691529741991797" qz="-0.7746922596979782"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_6" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_6" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="269.93719999999996" y="-286.7715" z="-1014.6184999999999"/>
 					<quaternion qw="-0.042587442871502026" qx="0.62833021683929" qy="0.05691529741991797" qz="0.7746922596979782"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-95.6139" y="-282.1961" z="-192.49009999999998"/>
 					<quaternion qw="-0.04258644377873752" qx="0.6283456003988692" qy="-0.05691633248879465" qz="-0.7746797611669546"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_5" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_5" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="95.6139" y="-282.1961" z="-192.49009999999998"/>
 					<quaternion qw="-0.04258644377873752" qx="0.6283456003988692" qy="0.05691633248879465" qz="0.7746797611669546"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1274.6641" y="-151.3333" z="-1979.5857999999998"/>
 					<quaternion qw="-0.11383254468096382" qx="0.9851381618075985" qy="-0.07412201370532351" qz="-0.10512317064315661"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_4" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_4" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1274.6641" y="-151.3333" z="-1979.5857999999998"/>
 					<quaternion qw="-0.11383254468096382" qx="0.9851381618075985" qy="0.07412201370532351" qz="0.10512317064315661"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1478.4770999999998" y="-59.040000000000006" z="-895.0943000000001"/>
 					<quaternion qw="-0.05138968071001968" qx="0.6198246305009346" qy="-0.06473931421702113" qz="-0.7803751337245516"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_3" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_3" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1478.4770999999998" y="-59.040000000000006" z="-895.0943000000001"/>
 					<quaternion qw="-0.05138968071001968" qx="0.6198246305009346" qy="0.06473931421702113" qz="0.7803751337245516"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-1394.2156" y="-74.05239999999999" z="-506.3066"/>
 					<quaternion qw="-0.04513099221955817" qx="0.6195948951613469" qy="-0.0573514905529958" qz="-0.7815216989710698"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_2" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_2" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="1394.2156" y="-74.05239999999999" z="-506.3066"/>
 					<quaternion qw="-0.04513099221955817" qx="0.6195948951613469" qy="0.0573514905529958" qz="0.7815216989710698"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-249.83550000000002" y="-329.7364" z="-2280.3415"/>
 					<quaternion qw="-0.008286731950420213" qx="-0.990699498290786" qy="0.06312380167542868" qz="0.1202548120534388"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_10" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_10" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="249.83550000000002" y="-329.7364" z="-2280.3415"/>
 					<quaternion qw="-0.008286731950420213" qx="-0.990699498290786" qy="-0.06312380167542868" qz="-0.1202548120534388"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-left-pd" name="con_s_turret_bot-back-left-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="-979.9270999999999" y="-93.6768" z="-299.8663"/>
 					<quaternion qw="-0.04109225345168132" qx="0.6212028633900499" qy="-0.052792371733201775" qz="-0.7807889565747259"/>
 				</offset>
 			</connection>
-			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_1" tags="turret small duallaser rh2x quadlaser rh3x red green hittable">
+			<connection group="bot-back-right-pd" name="con_s_turret_bot-back-right-pd_1" tags="turret small starforge duallaser rh2x quadlaser rh3x red green hittable">
 				<offset>
 					<position x="979.9270999999999" y="-93.6768" z="-299.8663"/>
 					<quaternion qw="-0.04109225345168132" qx="0.6212028633900499" qy="0.052792371733201775" qz="0.7807889565747259"/>
@@ -1742,6 +1743,60 @@
 					<quaternion qw="-0.5165448279943649" qx="-0.4113351268033426" qy="-0.46823357758267864" qz="-0.5871474865432667"/>
 				</offset>
 			</connection>
+
+		<!-- Silencer -->
+			<connection name="con_weapon_extralarge_01" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_02" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="90" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_03" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="45" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_04" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="135" />
+				</offset>
+			</connection>
+
+
+			<connection name="con_weapon_extralarge_05" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="-200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_06" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="-200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="90" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_07" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="-200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="45" />
+				</offset>
+			</connection>
+			<connection name="con_weapon_extralarge_08" tags="weapon extralarge silencer">
+				<offset>
+					<position x="0" y="-200" z="-500" />
+					<rotation yaw="0" pitch="0" roll="135" />
+				</offset>
+			</connection>
+
+
 		</connections>
 	</component>
 </components>

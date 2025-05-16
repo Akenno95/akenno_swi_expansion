@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Exported on 2023-12-20 17:06:06-->
 <components>
-  <component name="landmarks_arg_antigonespire_001" class="production">
+  <component name="landmarks_arg_antigonespire_prod" class="production">
     <source geometry="extensions\ego_dlc_timelines\assets\structures\landmarks\landmarks_arg_antigonespire_01_data" />
     <layers>
       <layer>

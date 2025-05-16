@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.53) at 15.09.2018_10-42-10-->
+<macros>
+  <macro name="env_ast_isotope5_xl_02_macro" class="asteroid">
+    <component ref="env_ast_isotope5_xl_02" />
+    <properties>
+      <identification name="{420402,1}" description="{420402,2}" />
+      <hull max="150000" />
+      <drop ref="asteroid_isotope5_xl" />
+    </properties>
+  </macro>
+</macros>

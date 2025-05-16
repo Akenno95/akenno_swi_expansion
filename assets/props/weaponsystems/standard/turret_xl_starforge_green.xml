@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+	<component name="turret_xl_starforge_green" class="turret">
+		<source geometry="extensions\sov_dreadnaughts\assets\props\WeaponSystems\standard\turret_l_175tt_turbolaser_quad_green_data" />
+		<connections>
+			<connection name="Connection01" tags="part iklink forceoutline nocollision " parent="part_gun">
+				<parts>
+					<part name="part_barrel">
+						<size>
+							<max x="9.3361" y="1.691" z="8.13794" />
+							<center x="0.00622177" y="-7.7486e-005" z="8.13346" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="0" y="1.0567" z="4.5189" />
+				</offset>
+			</connection>
+			<connection name="Connection02" tags="part iklink forceoutline nocollision " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-20.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_gun">
+						<size>
+							<max x="11.57" y="4.65542" z="4.93884" />
+							<center x="-0.00876999" y="-0.00247765" z="0.0167809" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="12.8293" z="18.4883" />
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part iklink forceoutline " parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<size>
+							<max x="25.152" y="11.5325" z="28.1862" />
+							<center x="-0.00060463" y="15.7931" z="-5.02372" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part forceoutline ">
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<size>
+							<max x="11.125" y="3.82455" z="29.125" />
+							<center x="-4.95911e-005" y="3.75865" z="0.00267029" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.720tt_quad_hull" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+
+			<connection name="con_laser_01" tags="laser" parent="part_barrel">
+				<offset>
+					<position x="7.646699999999999" y="0" z="13.2"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_02" tags="laser" parent="part_barrel">
+				<offset>
+					<position x="2.5774" y="0" z="13.2"/>
+				</offset>
+			</connection>			
+			<connection name="con_laser_03" tags="laser" parent="part_barrel">
+				<offset>
+					<position x="-2.5774" y="0" z="13.2"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_04" tags="laser" parent="part_barrel">
+				<offset>
+					<position x="-7.646699999999999" y="0" z="13.2"/>
+				</offset>
+			</connection>	
+
+			<connection name="con_laser_turret_l" tags="turret extralarge starforge green component hittable">
+				<offset/>
+			</connection>
+
+		</connections>
+	</component>
+</components>

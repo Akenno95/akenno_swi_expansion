@@ -4,65 +4,240 @@
 <!-- Production method -->
 	<add sel="/wares/production">
 		<method id="starforge" name="{420000,1}">
-			<!-- <default race="sith" /> -->
+			<default race="starforge_droids" />
 		</method>
 	</add>  
 
 <!-- Patch -->
-	<!-- Supremacy Mk 4 -->
-		<add sel="/wares/ware[@id='sith_supremacy']">
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
-	
-	<!-- Claytronics -->
-		<add sel="/wares/ware[@id='claytronics']">
-			<production time="100" amount="100" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
-	
-	<!-- Hullparts -->
-		<add sel="/wares/ware[@id='hullparts']">
-			<production time="100" amount="300" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
-	
-	<!-- Computronicsubstrate -->
-		<add sel="/wares/ware[@id='computronicsubstrate']">
-			<production time="100" amount="100" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
-	
-	<!-- Siliconcarbide -->
-		<add sel="/wares/ware[@id='siliconcarbide']">
-			<production time="100" amount="100" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
-	
-	<!-- Energycells -->
-		<add sel="/wares/ware[@id='energycells']">
-			<production time="10" amount="1000" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-		</add>
+	<!-- SWI Changes -->
+		<!-- Supremacy Mk 4 -->
+			<add sel="/wares/ware[@id='sith_supremacy']">
+				<production time="60" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="10" />
+						<ware ware="starforge_energy" amount="100" />
+					</primary>
+				</production>
+			</add>
 
+		<!-- Shipsupplies -->
+			<add sel="/wares/ware[@id='shipsupplies']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- Dock -->
+			<add sel="/wares/ware[@id='module_imp_equip_dockarea_m_01']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='module_imp_build_dockarea_m_01']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='module_imp_equip_dockarea_m_01_new']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='module_imp_build_dockarea_m_01_new']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='module_imperial_tradestation_dock_ms']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='dockarea_imp_m_station_01_hightech']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='pier_imp_harbor_01']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='pier_imp_harbor_02']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='pier_imp_harbor_03']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='pier_imp_harbor_04']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='pier_imp_harbor']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='pier_golan3_pier']">
+				<production time="100" amount="50" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- CYC Scrapper -->
+			<add sel="/wares/ware[@id='cor_scrapper']">
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+     			<owner faction="sith" />
+			</add>
+
+		<!-- Tug -->
+			<add sel="/wares/ware[@id='quad_jumper']">
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="5" />
+						<ware ware="starforge_energy" amount="50" />
+					</primary>
+				</production>
+     			<owner faction="sith" />
+			</add>
+	
+	<!-- Vanilla Changes -->
+		<!-- Claytronics -->
+			<add sel="/wares/ware[@id='claytronics']">
+				<production time="100" amount="100" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="1" />
+					</primary>
+				</production>
+			</add>
+		
+		<!-- Hullparts -->
+			<add sel="/wares/ware[@id='hullparts']">
+				<production time="100" amount="300" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="1" />
+					</primary>
+				</production>
+			</add>
+		
+		<!-- Computronicsubstrate -->
+			<add sel="/wares/ware[@id='computronicsubstrate']">
+				<production time="100" amount="100" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="1" />
+					</primary>
+				</production>
+			</add>
+		
+		<!-- Siliconcarbide -->
+			<add sel="/wares/ware[@id='siliconcarbide']">
+				<production time="100" amount="100" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="1" />
+					</primary>
+				</production>
+			</add>
+		
+		<!-- Energycells -->
+			<add sel="/wares/ware[@id='energycells']">
+				<production time="10" amount="1000" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="1" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- Workunits -->
+			<add sel="/wares/ware[@id='workunit_busy']">
+				<production time="600" amount="200" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="10" />
+					</primary>
+				</production>
+			</add>
+			<add sel="/wares/ware[@id='workunit_idle']">
+				<production time="600" amount="200" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- Drones -->
+			<add sel="/wares/ware[@id='ship_gen_xs_cargodrone_empty_01_a']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="1" />
+					</primary>
+				</production>
+			</add>
 
 
 <add sel="/wares">
@@ -83,9 +258,10 @@
 					<ware ware="metallicmicrolattice" amount="125" />
 				</primary>
 			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
+			<production time="60" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="10" />
+					<ware ware="starforge_energy" amount="100" />
 				</primary>
 			</production>
 			<component ref="sith_supremacy_mk_5_macro" amount="1" />
@@ -104,7 +280,7 @@
 					<ware ware="hullparts" amount="400" />
 				</primary>
 				<research>
-					<ware ware="research_supremacy" />
+					<!-- <ware ware="research_supremacy" /> -->
 				</research>
 			</production>
 			<production time="500" amount="1" method="terran" name="{999840,590070}">
@@ -114,9 +290,10 @@
 					<ware ware="metallicmicrolattice" amount="125" />
 				</primary>
 			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
+			<production time="60" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="10" />
+					<ware ware="starforge_energy" amount="100" />
 				</primary>
 			</production>
 			<component ref="sith_supremacy_mk_3_macro" amount="1" />
@@ -136,9 +313,10 @@
 					<ware ware="shipsupplies" amount="20" />
 				</primary>
 			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="30" />
+					<ware ware="starforge_energy" amount="300" />
 				</primary>
 			</production>
 			<component ref="x_70b_macro" amount="1" />
@@ -168,9 +346,10 @@
 					<ware ware="shipsupplies" amount="40" />
 				</primary>
 			</production>
-			<production time="50" amount="1" method="starforge" name="{420000,1}">
+			<production time="180" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="10" />
+					<ware ware="starforge_alloy" amount="100" />
+					<ware ware="starforge_energy" amount="1000" />
 				</primary>
 			</production>
 			<component ref="terminus_mk_2_macro" amount="1" />
@@ -179,6 +358,106 @@
 			<owner faction="ascendancy" />
 			<owner faction="sith" />
 		</ware>
+	
+	<!-- Gage-Class -->
+		<!-- Gage Transport -->
+			<ware id="gage" name="{420008,1}" description="{420008,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
+				<price min="5686156" average="6603125" max="7420094" />
+				<production time="1600" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="hullparts" amount="3625" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="1600" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="computronicsubstrate" amount="124" />
+						<ware ware="metallicmicrolattice" amount="1136" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+				<component ref="gage_macro" amount="1" />
+				<restriction licence="capitalship" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Gage Liquid -->
+			<ware id="gage_liquid" name="{420008,3}" description="{420008,4}" group="ships_sw" transport="ship" volume="1" tags="ship">
+				<price min="5686156" average="6603125" max="7420094" />
+				<production time="1600" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="hullparts" amount="3625" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="1600" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="computronicsubstrate" amount="124" />
+						<ware ware="metallicmicrolattice" amount="1136" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+				<component ref="gage_liquid_macro" amount="1" />
+				<restriction licence="capitalship" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Gage Solid -->
+			<ware id="gage_solid" name="{420008,5}" description="{420008,6}" group="ships_sw" transport="ship" volume="1" tags="ship">
+				<price min="5686156" average="6603125" max="7420094" />
+				<production time="1600" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="hullparts" amount="3625" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="1600" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="14000" />
+						<ware ware="computronicsubstrate" amount="124" />
+						<ware ware="metallicmicrolattice" amount="1136" />
+						<ware ware="rhydoniumcell" amount="125" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+				<component ref="gage_solid_macro" amount="1" />
+				<restriction licence="capitalship" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
 	<!-- Harrower Mk 2 -->
 		<ware id="harrower_mk_2" name="{420005,1}" description="{420005,2}" group="ships_sw" transport="ship" volume="1" tags="ship nocustomgamestart">
@@ -200,14 +479,44 @@
 					<ware ware="shipsupplies" amount="220" />
 				</primary>
 			</production>
-			<production time="200" amount="1" method="starforge" name="{420000,1}">
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="50" />
+					<ware ware="starforge_alloy" amount="300" />
+					<ware ware="starforge_energy" amount="3000" />
 				</primary>
 			</production>
 			<component ref="harrower_mk_2_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="sith" />
+		</ware>
+		<ware id="harrower_silencer" name="{420005,3}" description="{420005,4}" group="ships_sw" transport="ship" volume="1" tags="ship">
+			<price min="42590308" average="53496950" max="69330593" />
+			<production time="3400" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="50000" />
+					<ware ware="hullparts" amount="20250" />
+					<ware ware="rhydoniumcell" amount="375" />
+					<ware ware="shipsupplies" amount="220" />
+				</primary>
+			</production>
+			<production time="3400" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="50000" />
+					<ware ware="computronicsubstrate" amount="690" />
+					<ware ware="metallicmicrolattice" amount="6348" />
+					<ware ware="rhydoniumcell" amount="375" />
+					<ware ware="shipsupplies" amount="220" />
+				</primary>
+			</production>
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="300" />
+					<ware ware="starforge_energy" amount="3000" />
+				</primary>
+			</production>
+			<component ref="harrower_silencer_macro" amount="1" />
+			<restriction licence="capitalship" />
+			<owner faction="sith"/>
 		</ware>
 
 		<ware id="harrower_i_mk_2" name="{420006,1}" description="{420006,2}" group="ships_sw" transport="ship" volume="1" tags="ship ">
@@ -229,14 +538,44 @@
 					<ware ware="shipsupplies" amount="240" />
 				</primary>
 			</production>
-			<production time="200" amount="1" method="starforge" name="{420000,1}">
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="50" />
+					<ware ware="starforge_alloy" amount="300" />
+					<ware ware="starforge_energy" amount="3000" />
 				</primary>
 			</production>
 			<component ref="harrower_i_mk_2_macro" amount="1" />
 			<restriction licence="capitalship" />
 		<owner faction="sith" />
+		</ware>
+		<ware id="harrower_i_silencer" name="{420006,3}" description="{420006,4}" group="ships_sw" transport="ship" volume="1" tags="ship ">
+			<price min="55590308" average="65496950" max="80330593" />
+			<production time="3400" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="80000" />
+					<ware ware="hullparts" amount="32000" />
+					<ware ware="rhydoniumcell" amount="500" />
+					<ware ware="shipsupplies" amount="240" />
+				</primary>
+			</production>
+			<production time="3400" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="80000" />
+					<ware ware="computronicsubstrate" amount="720" />
+					<ware ware="metallicmicrolattice" amount="7348" />
+					<ware ware="rhydoniumcell" amount="500" />
+					<ware ware="shipsupplies" amount="240" />
+				</primary>
+			</production>
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="300" />
+					<ware ware="starforge_energy" amount="3000" />
+				</primary>
+			</production>
+			<component ref="harrower_i_silencer_macro" amount="1"/>
+			<restriction licence="" />
+			<owner faction="" />
 		</ware>
 
 	<!-- Harrower 2 Mk 2 -->
@@ -259,14 +598,43 @@
 					<ware ware="shipsupplies" amount="900" />
 				</primary>
 			</production>
-			<production time="500" amount="1" method="starforge" name="{420000,1}">
+			<production time="600" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="200" />
+					<ware ware="starforge_alloy" amount="1000" />
+					<ware ware="starforge_energy" amount="10000" />
 				</primary>
 			</production>
 			<component ref="dabc_harrower_2_mk_2_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="sith" />
+		</ware>
+
+	<!-- Bulk Freighter -->
+		<ware id="bulk_freighter" name="{420009,1}" description="{420009,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
+			<price min="441117" average="552020" max="718923" />
+			<production time="360" amount="1" method="default" name="{20206,101}">
+			  <primary>
+				<ware ware="energycells" amount="400" />
+				<ware ware="hullparts" amount="400" />
+				<ware ware="shipsupplies" amount="10" />
+			  </primary>
+			</production>
+			<production time="360" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="400" />
+					<ware ware="computronicsubstrate" amount="15" />
+					<ware ware="metallicmicrolattice" amount="130" />
+				</primary>
+			</production>
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="30" />
+					<ware ware="starforge_energy" amount="300" />
+				</primary>
+			</production>
+			<component ref="bulk_freighter_macro" amount="1" />
+			<restriction licence="" />
+			<owner faction="" />
 		</ware>
 
 		
@@ -288,325 +656,364 @@
 		</ware>
 	
 <!-- Turrets -->
-	<!-- RH2X -->
-		<ware id="turret_m_duallaser_green_rh2x" name="{420204,1} {999840,102}" description="{420204,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="20806" average="26675" max="32543" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="2" />
-					<ware ware="energycells" amount="19" />
-					<ware ware="turretcomponents" amount="9" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="20" />
-					<ware ware="computronicsubstrate" amount="2" />
-					<ware ware="metallicmicrolattice" amount="32" />
-					<ware ware="siliconcarbide" amount="7" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_duallaser_green_rh2x_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+	<!-- Starforge Variants -->
+		<!-- RH2X -->
+			<ware id="turret_m_duallaser_green_rh2x" name="{420204,1} {999840,102}" description="{420204,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="20806" average="26675" max="32543" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="2" />
+						<ware ware="energycells" amount="19" />
+						<ware ware="turretcomponents" amount="9" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="20" />
+						<ware ware="computronicsubstrate" amount="2" />
+						<ware ware="metallicmicrolattice" amount="32" />
+						<ware ware="siliconcarbide" amount="7" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_duallaser_green_rh2x_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- D6X -->
-		<ware id="turret_m_mtbdual_green_d6x" name="{420205,1} {999840,102}" description="{420205,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="81036" average="96713" max="105389" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="13" />
-					<ware ware="energycells" amount="78" />
-					<ware ware="turretcomponents" amount="20" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="88" />
-					<ware ware="computronicsubstrate" amount="10" />
-					<ware ware="metallicmicrolattice" amount="140" />
-					<ware ware="siliconcarbide" amount="30" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_mtbdual_green_d6x_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- D6X -->
+			<ware id="turret_m_mtbdual_green_d6x" name="{420205,1} {999840,102}" description="{420205,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="81036" average="96713" max="105389" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="13" />
+						<ware ware="energycells" amount="78" />
+						<ware ware="turretcomponents" amount="20" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="88" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="140" />
+						<ware ware="siliconcarbide" amount="30" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_mtbdual_green_d6x_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- XX-22 -->
-		<ware id="turret_l_double_turbolaser_green_xx22" name="{420206,1} {999840,102}" description="{420206,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="281874" average="361377" max="440879" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="31" />
-					<ware ware="energycells" amount="247" />
-					<ware ware="turretcomponents" amount="35" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="271" />
-					<ware ware="computronicsubstrate" amount="31" />
-					<ware ware="metallicmicrolattice" amount="434" />
-					<ware ware="siliconcarbide" amount="92" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_l_double_turbolaser_green_xx22_macro" amount="1" />
-			<restriction licence="capitalequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- XX-22 -->
+			<ware id="turret_l_double_turbolaser_green_xx22" name="{420206,1} {999840,102}" description="{420206,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="281874" average="361377" max="440879" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="31" />
+						<ware ware="energycells" amount="247" />
+						<ware ware="turretcomponents" amount="35" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="271" />
+						<ware ware="computronicsubstrate" amount="31" />
+						<ware ware="metallicmicrolattice" amount="434" />
+						<ware ware="siliconcarbide" amount="92" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_l_double_turbolaser_green_xx22_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- PLD -->
-		<ware id="turret_m_llaser_green_02_pld" name="{420207,1} {999840,102}" description="{420207,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="19684" average="25237" max="30789" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="2" />
-					<ware ware="energycells" amount="16" />
-					<ware ware="turretcomponents" amount="12" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="19" />
-					<ware ware="computronicsubstrate" amount="2" />
-					<ware ware="metallicmicrolattice" amount="30" />
-					<ware ware="siliconcarbide" amount="6" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_llaser_green_02_pld_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
-		
-		<ware id="turret_m_llaser_green_pld" name="{420207,1} {999840,102}" description="{420207,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="19684" average="25237" max="30789" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="2" />
-					<ware ware="energycells" amount="16" />
-					<ware ware="turretcomponents" amount="12" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="19" />
-					<ware ware="computronicsubstrate" amount="2" />
-					<ware ware="metallicmicrolattice" amount="30" />
-					<ware ware="siliconcarbide" amount="6" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_llaser_green_pld_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
+		<!-- PLD -->
+			<ware id="turret_m_llaser_green_02_pld" name="{420207,1} {999840,102}" description="{420207,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="19684" average="25237" max="30789" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="2" />
+						<ware ware="energycells" amount="16" />
+						<ware ware="turretcomponents" amount="12" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="19" />
+						<ware ware="computronicsubstrate" amount="2" />
+						<ware ware="metallicmicrolattice" amount="30" />
+						<ware ware="siliconcarbide" amount="6" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_llaser_green_02_pld_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="kuat" />
+			</ware>
+			
+			<ware id="turret_m_llaser_green_pld" name="{420207,1} {999840,102}" description="{420207,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="19684" average="25237" max="30789" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="2" />
+						<ware ware="energycells" amount="16" />
+						<ware ware="turretcomponents" amount="12" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="19" />
+						<ware ware="computronicsubstrate" amount="2" />
+						<ware ware="metallicmicrolattice" amount="30" />
+						<ware ware="siliconcarbide" amount="6" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_llaser_green_pld_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="kuat" />
+			</ware>
 
-	<!-- HX4X -->
-		<ware id="turret_m_mtbquad_green_hx4x" name="{420208,1} {999840,102}" description="{420208,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="81036" average="96713" max="105389" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="13" />
-					<ware ware="energycells" amount="78" />
-					<ware ware="turretcomponents" amount="20" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="88" />
-					<ware ware="computronicsubstrate" amount="10" />
-					<ware ware="metallicmicrolattice" amount="140" />
-					<ware ware="siliconcarbide" amount="30" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_mtbquad_green_hx4x_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
+		<!-- HX4X -->
+			<ware id="turret_m_mtbquad_green_hx4x" name="{420208,1} {999840,102}" description="{420208,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="81036" average="96713" max="105389" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="13" />
+						<ware ware="energycells" amount="78" />
+						<ware ware="turretcomponents" amount="20" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="88" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="140" />
+						<ware ware="siliconcarbide" amount="30" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_mtbquad_green_hx4x_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="kuat" />
+			</ware>
 
-	<!-- RH3X -->
-		<ware id="turret_m_quadlaser_green_rh3x" name="{420209,1} {999840,102}" description="{420209,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="29772" average="38170" max="46567" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="4" />
-					<ware ware="energycells" amount="24" />
-					<ware ware="turretcomponents" amount="14" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="29" />
-					<ware ware="computronicsubstrate" amount="3" />
-					<ware ware="metallicmicrolattice" amount="46" />
-					<ware ware="siliconcarbide" amount="10" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_quadlaser_green_rh3x_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0.4" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
-		
-		<ware id="turret_m_quadlaser_green_02_rh3x" name="{420209,1} {999840,102}" description="{420209,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="29772" average="38170" max="46567" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="advancedelectronics" amount="4" />
-					<ware ware="energycells" amount="24" />
-					<ware ware="turretcomponents" amount="14" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="29" />
-					<ware ware="computronicsubstrate" amount="3" />
-					<ware ware="metallicmicrolattice" amount="46" />
-					<ware ware="siliconcarbide" amount="10" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="1" />
-				</primary>
-			</production>
-			<component ref="turret_m_quadlaser_green_02_rh3x_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0.4" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
+		<!-- RH3X -->
+			<ware id="turret_m_quadlaser_green_rh3x" name="{420209,1} {999840,102}" description="{420209,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="29772" average="38170" max="46567" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="4" />
+						<ware ware="energycells" amount="24" />
+						<ware ware="turretcomponents" amount="14" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="29" />
+						<ware ware="computronicsubstrate" amount="3" />
+						<ware ware="metallicmicrolattice" amount="46" />
+						<ware ware="siliconcarbide" amount="10" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_quadlaser_green_rh3x_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.4" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="kuat" />
+			</ware>
+			
+			<ware id="turret_m_quadlaser_green_02_rh3x" name="{420209,1} {999840,102}" description="{420209,3}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="29772" average="38170" max="46567" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="4" />
+						<ware ware="energycells" amount="24" />
+						<ware ware="turretcomponents" amount="14" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="29" />
+						<ware ware="computronicsubstrate" amount="3" />
+						<ware ware="metallicmicrolattice" amount="46" />
+						<ware ware="siliconcarbide" amount="10" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_quadlaser_green_02_rh3x_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.4" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+				<owner faction="sienar" />
+				<owner faction="kuat" />
+			</ware>
+
+	<!-- Starforge Weaponry -->
+		<!-- S Turret -->
+			<ware id="turret_s_starforge_green" name="{420210,1} {999840,102}" description="{420210,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="29772" average="38170" max="46567" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_s_starforge_green_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- M Turret -->
+			<ware id="turret_m_starforge_green" name="{420210,2} {999840,102}" description="{420210,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="81036" average="96713" max="105389" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_m_starforge_green_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- L Turret -->
+			<ware id="turret_l_starforge_green" name="{420210,3} {999840,102}" description="{420210,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="281874" average="361377" max="440879" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_l_starforge_green_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- XL Turret -->
+			<ware id="turret_xl_starforge_green" name="{420210,4} {999840,102}" description="{420210,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="281874" average="361377" max="440879" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="turret_xl_starforge_green_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0.4" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
 	
-	<!-- Modules -->
+<!-- Modules -->
 	
-	 <!-- <replace sel="//wares/ware[@id='research_xxl_construction_executor']">
-     <ware id="research_xxl_construction_executor" name="{999840,890210}" description="{999840,890230}" transport="research" volume="1" tags="research" sortorder="801">
-      <price min="1" average="1" max="1" />
-      <research time="3600">
-        <primary>
-          <ware ware="advancedelectronics" amount="10000" />
-          <ware ware="energycells" amount="560000" />
-          <ware ware="rhydoniumcell" amount="8000" />
-          <ware ware="antimattercells" amount="50000" />
-          <ware ware="hydrogen" amount="50000" />
-          <ware ware="smartchips" amount="100000" />
-          <ware ware="fieldcoils" amount="70000" />
-        </primary>
-        <research>
-          <ware ware="research_xxl_construction" />
-        </research>
-      </research>
-    </ware>
-  </replace>
-  
-  <replace sel="//wares/ware[@id='research_xxl_construction_bellator']">
-     <ware id="research_xxl_construction_bellator" name="{999840,890310}" description="{999840,890330}" transport="research" volume="1" tags="research" sortorder="801">
-      <price min="1" average="1" max="1" />
-      <research time="1800">
-        <primary>
-          <ware ware="advancedelectronics" amount="3000" />
-          <ware ware="energycells" amount="320000" />
-          <ware ware="rhydoniumcell" amount="7000" />
-          <ware ware="antimattercells" amount="8000" />
-          <ware ware="hydrogen" amount="10000" />
-          <ware ware="smartchips" amount="30000" />
-          <ware ware="fieldcoils" amount="50000" />
-        </primary>
-        <research>
-          <ware ware="research_xxl_construction" />
-        </research>
-      </research>
-    </ware>
-  </replace>
-  
-  <replace sel="//wares/ware[@id='research_xxl_construction_praetor']">
-     <ware id="research_xxl_construction_praetor" name="{999840,890510}" description="{999840,890530}" transport="research" volume="1" tags="research" sortorder="801">
-      <price min="1" average="1" max="1" />
-      <research time="1800">
-        <primary>
-          <ware ware="advancedelectronics" amount="1800" />
-          <ware ware="energycells" amount="400000" />
-          <ware ware="rhydoniumcell" amount="4000" />
-          <ware ware="antimattercells" amount="8000" />
-          <ware ware="hydrogen" amount="8000" />
-          <ware ware="smartchips" amount="25000" />
-          <ware ware="fieldcoils" amount="45000" />
-        </primary>
-        <research>
-          <ware ware="research_xxl_construction" />
-        </research>
-      </research>
-    </ware>
-  </replace> -->
-  
-	
+
 <!-- Engines -->
 		<ware id="engine_l_gemon4x" name="{420101, 1}" description="{420101, 3}" group="engines" transport="equipment" volume="1" tags="engine equipment">
 			<price min="285256" average="380342" max="475427" />
@@ -627,7 +1034,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="engine_l_gemon4x_macro" amount="1" />
@@ -657,7 +1065,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="engine_tiehdx_macro" amount="1" />
@@ -669,9 +1078,136 @@
 			<owner faction="sienar" />
 			<owner faction="kuat" />
 			<owner faction="miningguild" />
-			</ware>
+		</ware>
+
+		<ware id="harrower_2_engines_ware" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="149878" average="200000" max="249798" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="155" />
+					<ware ware="engineparts" amount="47" />
+					<ware ware="antimatterconverters" amount="70" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="155" />
+					<ware ware="computronicsubstrate" amount="1" />
+					<ware ware="metallicmicrolattice" amount="111" />
+					<ware ware="siliconcarbide" amount="23" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="310" />
+					<ware ware="hullparts" amount="82" />
+					<ware ware="claytronics" amount="24" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
+				</primary>
+			</production>
+			<component ref="dabc_harrower_2x_engines_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="galempire" />
+			<owner faction="kuat" />
+			<owner faction="sith" />
+			<owner faction="ascendancy" />
+		</ware>
+
+		<ware id="engine_bffx" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="92058" average="122745" max="153431" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+				<ware ware="energycells" amount="114" />
+				<ware ware="engineparts" amount="91" />
+				<ware ware="antimatterconverters" amount="28" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="23" />
+					<ware ware="computronicsubstrate" amount="3" />
+					<ware ware="metallicmicrolattice" amount="38" />
+					<ware ware="siliconcarbide" amount="8" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
+				</primary>
+			</production>
+			<component ref="engine_bffx_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="sith" />
+		</ware>
+
+		 <ware id="engine_x70b" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="156202" average="181603" max="217003" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+				<ware ware="energycells" amount="131" />
+				<ware ware="engineparts" amount="135" />
+				<ware ware="antimatterconverters" amount="50" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="23" />
+					<ware ware="computronicsubstrate" amount="3" />
+					<ware ware="metallicmicrolattice" amount="38" />
+					<ware ware="siliconcarbide" amount="8" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
+				</primary>
+			</production>
+			<component ref="engine_x70b_macro" amount="1" />
+			<restriction licence="militaryequipment" />
+			<use threshold="0" />
+			<owner faction="sith" />
+		</ware>
+
+		<ware id="engine_harrower2" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="1818720" average="2024960" max="2331200" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+				<ware ware="energycells" amount="1640" />
+				<ware ware="engineparts" amount="450" />
+				<ware ware="antimatterconverters" amount="450" />
+				</primary>
+			</production>
+			<production time="10" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+				<ware ware="energycells" amount="1519" />
+				<ware ware="computronicsubstrate" amount="176" />
+				<ware ware="metallicmicrolattice" amount="2430" />
+				<ware ware="siliconcarbide" amount="516" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
+				</primary>
+			</production>
+			<component ref="engine_harrower2_macro" amount="1" />
+			<restriction licence="capitalequipment" />
+			<use threshold="0" />
+			<owner faction="sith" />
+		</ware>
 	
 <!-- Weapons -->
+	<!-- Starforge Variants -->
 		<ware id="weapon_ls9x_s_laser" name="{420201,1}" description="{420201,2}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 			<price min="51922" average="66567" max="81211" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
@@ -691,7 +1227,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="weapon_ls9x_s_laser_macro" amount="1" />
@@ -721,7 +1258,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="weapon_ls7x_s_laser_macro" amount="1" />
@@ -751,7 +1289,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="weapon_ga60x_m_laser_macro" amount="1" />
@@ -761,6 +1300,44 @@
 			<owner faction="ascendancy" />
 			<owner faction="sith" />
 		</ware>
+
+	<!-- Super Weapon -->
+		<ware id="weapon_silencer" name="{420211,1}" description="{420211,2}" group="weapons" transport="equipment" volume="1" tags="equipment weapon missiononly">
+			<price min="1000000" average="5000000" max="10000000" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="1000" />
+					<ware ware="energycells" amount="18000" />
+					<ware ware="weaponcomponents" amount="5000" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="18000" />
+					<ware ware="computronicsubstrate" amount="4" />
+					<ware ware="metallicmicrolattice" amount="704" />
+					<ware ware="siliconcarbide" amount="93" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="960" />
+					<ware ware="hullparts" amount="518" />
+					<ware ware="claytronics" amount="99" />
+				</primary>
+			</production>
+			<production time="1" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
+				</primary>
+			</production>
+			<component ref="weapon_silencer_macro" amount="1" />
+			<restriction licence="generaluseequipment" />
+			<use threshold="0" />
+			<owner faction="sith"/>
+		</ware>
+
 	
 <!-- Shields -->
 	<!-- TaB -->
@@ -783,7 +1360,8 @@
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_lh_tab_macro" amount="1" />
@@ -796,15 +1374,17 @@
 
 	<!-- Starforge S Inv -->
 		<ware id="shield_s_inv_starforge" name="{420302, 1}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_s_inv_starforge_macro" amount="1" />
@@ -817,15 +1397,17 @@
 
 	<!-- Starforge M -->
 		<ware id="shield_m_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_m_starforge_macro" amount="1" />
@@ -838,15 +1420,17 @@
 
 	<!-- Starforge M Inv -->
 		<ware id="shield_m_inv_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_m_inv_starforge_macro" amount="1" />
@@ -859,15 +1443,17 @@
 
 	<!-- Starforge LH -->
 		<ware id="shield_lh_starforge" name="{420302, 3}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_lh_starforge_macro" amount="1" />
@@ -880,15 +1466,17 @@
 
 	<!-- Starforge L Station -->
 		<ware id="shield_l_station_starforge" name="{420302, 4}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_l_station_starforge_macro" amount="1" />
@@ -901,15 +1489,17 @@
 
 	<!-- Starforge XL -->
 		<ware id="shield_xl_starforge" name="{420302, 5}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_xl_starforge_macro" amount="1" />
@@ -922,15 +1512,17 @@
 
 	<!-- Starforge LL -->
 		<ware id="shield_ll_starforge" name="{420302, 8}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_ll_starforge_macro" amount="1" />
@@ -943,15 +1535,17 @@
 
 	<!-- Starforge XLL -->
 		<ware id="shield_xll_starforge" name="{420302, 7}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1000000" average="5000000" max="10000000" />
+			<price min="10000" average="50000" max="100000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<production time="1" amount="1" method="starforge" name="{420000,1}">
 				<primary>
-					<ware ware="starforgeenergy" amount="1" />
+					<ware ware="starforge_alloy" amount="1" />
+					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
 			<component ref="shield_xll_starforge_macro" amount="1" />
@@ -967,272 +1561,488 @@
 
 
 <!-- Economy -->
-	<!-- Starforge Energy -->
-		<ware id="starforgeenergy" name="{420401,1}" description="{420401,2}" factoryname="{420401,3}" group="energy" transport="container" volume="1" tags="container economy stationbuilding">
-			<price min="1000000" average="5000000" max="10000000" />
-			<production time="600" amount="10" method="default" name="{20206,101}">
-				<!-- <primary>
-					<ware ware="energycells" amount="1" />
-				</primary> -->
-				<effects>
-					<effect type="sunlight" product="0.1" />
-					<effect type="work" product="0.2" />
-				</effects>
-			</production>
-			<production time="600" amount="10" method="terran" name="{999840,590070}">
-				<!-- <primary>
-					<ware ware="energycells" amount="1" />
-				</primary> -->
-				<effects>
-					<effect type="sunlight" product="0.1" />
-					<effect type="work" product="0.2" />
-				</effects>
-			</production>
-			<production time="60" amount="100" method="starforge" name="{420000,1}">
-				<!-- <primary>
-					<ware ware="energycells" amount="1" />
-				</primary> -->
-				<effects>
-					<effect type="sunlight" product="1.0" />
-					<effect type="work" product="0.2" />
-				</effects>
-			</production>
-			<icon active="ware_starforgeenergy" video="ware_starforgeenergy_macro" />
-		</ware>
-	
+	<!-- Starforge -->				<!-- production time = 3.600 = one hour (in seconds) -->
+		<!-- Starforge Energy -->
+			<ware id="starforge_energy" name="{420401,1}" description="{420401,2}" factoryname="{420401,3}" group="energy" transport="container" volume="1" tags="container economy stationbuilding">
+				<price min="1000" average="5000" max="10000" />
+				<production time="60" amount="100" method="starforge" name="{420000,1}">
+					<effects>
+						<effect type="sunlight" product="10.0" />
+						<effect type="work" product="0.5" />
+					</effects>
+				</production>
+				<icon active="ware_starforge_energy" video="ware_starforge_energy_macro" />
+			</ware>
+
+		<!-- Starforge Droids -->
+			<ware id="starforge_droids" name="{420401,8}" description="{420401,9}" factoryname="{420401,3}" group="food" transport="container" volume="10" tags="container economy">
+				<price min="1000" average="5000" max="10000" />
+				<production time="60" amount="100" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+					<effects>
+						<effect type="work" product="0.5" />
+					</effects>
+				</production>
+				<icon active="ware_starforge_droids" video="ware_starforge_droids_macro" />
+			</ware>
+		
+		<!-- Starforge Debris -->
+			<ware id="starforge_debris" name="{420401,4}" description="{420401,5}" factoryname="{420401,3}" group="refined" transport="solid" volume="20" tags="economy recycling solid">
+				<price min="100" average="500" max="1000" />
+				<production time="60" amount="10" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+					<primary>
+						<ware ware="energycells" amount="1000" />
+						<ware ware="scrapmetal" amount="100" />
+					</primary>
+					<effects>
+						<effect type="work" product="0.2" />
+					</effects>
+				</production>
+				<icon active="ware_starforge_debris" video="ware_starforge_debris_macro" />
+			</ware>
+
+		<!-- Starforge Alloy -->
+			<ware id="starforge_alloy" name="{420401,14}" description="{420401,15}" factoryname="{420401,3}" group="shiptech" transport="container" volume="20" tags="container economy stationbuilding">
+				<price min="1000" average="5000" max="10000" />
+				<production time="60" amount="5" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="10000" />
+						<ware ware="starforge_debris" amount="10" />
+					</primary>
+				</production>
+				<production time="60" amount="5" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="10000" />
+						<ware ware="starforge_debris" amount="10" />
+					</primary>
+				</production>
+				<production time="60" amount="100" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="100" />
+					</primary>
+					<effects>
+						<effect type="work" product="0.5" />
+					</effects>
+				</production>
+				<production time="60" amount="5" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+					<primary>
+					  <ware ware="energycells" amount="10000" />
+					  <ware ware="starforge_debris" amount="10" />
+					</primary>
+					<effects>
+					  <effect type="work" product="0.2" />
+					</effects>
+				  </production>
+				<icon active="ware_starforge_alloy" video="ware_starforge_alloy_macro" />
+			</ware>
+
+	<!-- Isotope-5 -->
+		<!-- Isotope-5 Ore -->
+			<ware id="isotope5" name="{420402,1}" description="{420402,2}" factoryname="{420402,1}" group="minerals" transport="solid" volume="10" tags="economy minable mineral solid">
+				<price min="100" average="500" max="1000" />
+				<container ref="sm_gen_pickup_solid_01_macro" />
+				<icon active="ware_isotope5" video="ware_isotope5_macro" />
+			</ware>
+
+
 
 <!-- Buildings -->
-	<!-- Starforge Building -->
-		<ware id="prod_starforge" name="{420401,3}" description="{420401,2}" transport="container" volume="1" tags="module">
-			<price min="1000000" average="5000000" max="10000000" />
-			<production time="500" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="claytronics" amount="7000" />
-					<ware ware="energycells" amount="1000000" />
-					<ware ware="hullparts" amount="2000" />
-				</primary>
-			</production>
-			<production time="500" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="computronicsubstrate" amount="200" />
-					<ware ware="energycells" amount="1000000" />
-					<ware ware="siliconcarbide" amount="700" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="60">
-				<research>
-					<ware ware="research_module_production" />
-				</research>
-			</research>
-			<component ref="prod_starforge_macro" amount="1" />
-			<restriction licence="station_gen_basic" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+	<!-- Starforge -->
+		<!-- Production -->
+			<!-- Starforge Core -->
+				<ware id="prod_starforge" name="{420401,3}" description="{420401,2}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					  </production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<research time="60">
+						<research>
+							<ware ware="research_module_production" />
+						</research>
+					</research>
+					<component ref="prod_starforge_macro" amount="1" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
 
-	<!-- Starforge Factory -->
-		<ware id="prod_starforge_factory" name="{420604,1}" description="{420604,2}" transport="container" volume="1" tags="module">
-			<price min="1000000" average="5000000" max="10000000" />
-			<production time="10" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="60">
-				<research>
-					<ware ware="research_module_production" />
-				</research>
-			</research>
-			<component ref="prod_starforge_factory_macro" amount="1" />
-			<restriction licence="station_gen_basic" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+			<!-- Starforge Factory -->
+				<ware id="prod_starforge_factory" name="{420604,1}" description="{420604,2}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					  </production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<research time="60">
+						<research>
+							<ware ware="research_module_production" />
+						</research>
+					</research>
+					<component ref="prod_starforge_factory_macro" amount="1" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
 
-	<!-- Starforge Container -->
-		<ware id="storage_starforge_container" name="{420601,1}" description="{420601,2}" transport="container" volume="1" tags="module">
-			<price min="100000" average="500000" max="1000000" />
-			<production time="10" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
-				<research>
-					<ware ware="research_module_storage" />
-				</research>
-			</research>
-			<component ref="storage_starforge_container_macro" amount="1" />
-			<restriction licence="station_gen_basic" />
-			<owner faction="sith" />
-		</ware>
+			<!-- Droid Factory -->
+				<ware id="prod_starforge_droid_factory" name="{420401,10}" description="{420401,11}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					  </production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<component ref="prod_starforge_droid_factory_macro" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
 
-		<ware id="storage_starforge_solid" name="{420602,1}" description="{420602,2}" transport="container" volume="1" tags="module">
-			<price min="100000" average="500000" max="1000000" />
-			<production time="10" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
+			<!-- Analyzer -->
+				<ware id="prod_starforge_analyzer" name="{420604,11}" description="{420604,3}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+						  <ware ware="energycells" amount="100000" />
+						  <ware ware="hullparts" amount="20000" />
+						  <ware ware="claytronics" amount="5000" />
+						  <ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="terran" name="{999840,590070}">
+						<primary>
+							<ware ware="computronicsubstrate" amount="2000" />
+							<ware ware="energycells" amount="100000" />
+							<ware ware="siliconcarbide" amount="10000" />
+							<ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<component ref="prod_starforge_analyzer_macro" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
+
+			<!-- Smeltery -->
+				<ware id="prod_starforge_smeltery" name="{420401,12}" description="{420401,13}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="energycells" amount="100000" />
+							<ware ware="hullparts" amount="20000" />
+							<ware ware="claytronics" amount="5000" />
+							<ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="terran" name="{999840,590070}">
+						<primary>
+							<ware ware="computronicsubstrate" amount="2000" />
+							<ware ware="energycells" amount="100000" />
+							<ware ware="siliconcarbide" amount="10000" />
+							<ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<component ref="prod_starforge_smeltery_macro" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
+
+		<!-- Habitat -->
+			<ware id="hab_starforge_antigonepillar_hab" name="{420401,6}" description="{420401,7}" transport="container" volume="1" tags="module">
+				<price min="100000" average="500000" max="1000000" />
+				<production time="360" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_energy" amount="10000" />
+						<ware ware="starforge_alloy" amount="1000" />
+					</primary>
+				  </production>
+				<production time="360" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="10000" />
+						<ware ware="starforge_alloy" amount="1000" />
+					</primary>
+				</production>
+				<research time="1">
 				<research>
-					<ware ware="research_module_storage" />
+					<ware ware="research_module_habitation" />
 				</research>
-			</research>
-			<component ref="storage_starforge_solid_macro" amount="1" />
-			<restriction licence="station_gen_basic" />
-			<owner faction="sith" />
-		</ware>
+				</research>
+				<component ref="hab_starforge_antigonepillar_hab_macro" amount="1" />
+				<restriction licence="station_gen_advanced" />
+				<owner faction="sith" />
+			</ware>
+
 		
-		<ware id="storage_starforge_liquid" name="{420603,1}" description="{420603,2}" transport="container" volume="1" tags="module">
-			<price min="100000" average="500000" max="1000000" />
-			<production time="10" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
-				<research>
-					<ware ware="research_module_storage" />
-				</research>
-			</research>
-			<component ref="storage_starforge_liquid_macro" amount="1" />
-			<restriction licence="station_gen_basic" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Storage -->
+				<ware id="storage_starforge_container" name="{420601,1}" description="{420601,2}" transport="container" volume="1" tags="module">
+					<price min="10000" average="50000" max="100000" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+						<research>
+							<ware ware="research_module_storage" />
+						</research>
+					</research>
+					<component ref="storage_starforge_container_macro" amount="1" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
 
-	<!-- Defence -->
-		<ware id="defence_starforge_tube_01" name="{420605,3}" description="{420605,4}" transport="container" volume="1" tags="module">
-			<price min="462691" average="544342" max="625993" />
-			<production time="334" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="claytronics" amount="85" />
-					<ware ware="energycells" amount="170" />
-					<ware ware="hullparts" amount="312" />
-				</primary>
-			</production>
-			<production time="334" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="computronicsubstrate" amount="79" />
-					<ware ware="energycells" amount="680" />
-					<ware ware="siliconcarbide" amount="308" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
-			<research>
-				<ware ware="research_module_defence" />
-			</research>
-			</research>
-			<component ref="defence_starforge_tube_01_macro" amount="1" />
-			<restriction licence="station_gen_intermediate" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="galempire" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
-	
-		<ware id="defence_starforge_disc_01" name="{420605,2}" description="{420605,4}" transport="container" volume="1" tags="module">
-			<price min="533140" average="627224" max="721308" />
-			<production time="384" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="claytronics" amount="98" />
-					<ware ware="energycells" amount="196" />
-					<ware ware="hullparts" amount="359" />
-				</primary>
-			</production>
-			<production time="384" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="computronicsubstrate" amount="91" />
-					<ware ware="energycells" amount="784" />
-					<ware ware="siliconcarbide" amount="355" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
-			<research>
-				<ware ware="research_module_defence" />
-			</research>
-			</research>
-			<component ref="defence_starforge_disc_01_macro" amount="1" />
-			<restriction licence="station_gen_intermediate" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="galempire" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
+				<ware id="storage_starforge_solid" name="{420602,1}" description="{420602,2}" transport="container" volume="1" tags="module">
+					<price min="10000" average="50000" max="100000" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+						<research>
+							<ware ware="research_module_storage" />
+						</research>
+					</research>
+					<component ref="storage_starforge_solid_macro" amount="1" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
+				
+				<ware id="storage_starforge_liquid" name="{420603,1}" description="{420603,2}" transport="container" volume="1" tags="module">
+					<price min="10000" average="50000" max="100000" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+						<research>
+							<ware ware="research_module_storage" />
+						</research>
+					</research>
+					<component ref="storage_starforge_liquid_macro" amount="1" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
 
-		<ware id="defence_starforge_claim_ring" name="{420605,1}" description="{420605,4}" transport="container" volume="1" tags="module">
-			<price min="16000000" average="18000000" max="20000000" />
-			<production time="1000" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="claytronics" amount="1000" />
-					<ware ware="energycells" amount="1500" />
-					<ware ware="hullparts" amount="4000" />
-				</primary>
-			</production>
-			<production time="1000" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="computronicsubstrate" amount="1609" />
-					<ware ware="energycells" amount="22500" />
-					<ware ware="siliconcarbide" amount="9184" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforgeenergy" amount="10" />
-				</primary>
-			</production>
-			<research time="10">
-				<research>
-					<ware ware="research_module_defence" />
-				</research>
-			</research>
-			<component ref="defence_starforge_claim_ring_macro" amount="1" />
-			<restriction licence="station_gen_advanced" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-			<owner faction="galempire" />
-			<owner faction="sienar" />
-			<owner faction="kuat" />
-		</ware>
+		<!-- Defence -->
+				<ware id="defence_starforge_tube_01" name="{420605,3}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="462691" average="544342" max="625993" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+					<research>
+						<ware ware="research_module_defence" />
+					</research>
+					</research>
+					<component ref="defence_starforge_tube_01_macro" amount="1" />
+					<restriction licence="station_gen_intermediate" />
+					<owner faction="ascendancy" />
+					<owner faction="sith" />
+					<owner faction="galempire" />
+					<owner faction="sienar" />
+					<owner faction="kuat" />
+				</ware>
+
+				<ware id="defence_starforge_tube_02" name="{420605,8}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="462691" average="544342" max="625993" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+					<research>
+						<ware ware="research_module_defence" />
+					</research>
+					</research>
+					<component ref="defence_starforge_tube_02_macro" amount="1" />
+					<restriction licence="station_gen_intermediate" />
+					<owner faction="ascendancy" />
+					<owner faction="sith" />
+					<owner faction="galempire" />
+					<owner faction="sienar" />
+					<owner faction="kuat" />
+				</ware>
+			
+				<ware id="defence_starforge_disc_01" name="{420605,2}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="533140" average="627224" max="721308" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+					<research>
+						<ware ware="research_module_defence" />
+					</research>
+					</research>
+					<component ref="defence_starforge_disc_01_macro" amount="1" />
+					<restriction licence="station_gen_intermediate" />
+					<owner faction="ascendancy" />
+					<owner faction="sith" />
+					<owner faction="galempire" />
+					<owner faction="sienar" />
+					<owner faction="kuat" />
+				</ware>
+			
+				<ware id="defence_starforge_disc_02" name="{420605,7}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="533140" average="627224" max="721308" />
+					<production time="36" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<production time="36" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="1000" />
+							<ware ware="starforge_alloy" amount="100" />
+						</primary>
+					</production>
+					<research time="10">
+					<research>
+						<ware ware="research_module_defence" />
+					</research>
+					</research>
+					<component ref="defence_starforge_disc_02_macro" amount="1" />
+					<restriction licence="station_gen_intermediate" />
+					<owner faction="ascendancy" />
+					<owner faction="sith" />
+					<owner faction="galempire" />
+					<owner faction="sienar" />
+					<owner faction="kuat" />
+				</ware>
+
+				<ware id="defence_starforge_claim_ring" name="{420605,1}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="16000000" average="18000000" max="20000000" />
+					<production time="120" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="3000" />
+							<ware ware="starforge_alloy" amount="300" />
+						</primary>
+					</production>
+					<production time="120" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="3000" />
+							<ware ware="starforge_alloy" amount="300" />
+						</primary>
+					</production>
+					<research time="10">
+						<research>
+							<ware ware="research_module_defence" />
+						</research>
+					</research>
+					<component ref="defence_starforge_claim_ring_macro" amount="1" />
+					<restriction licence="station_gen_advanced" />
+					<owner faction="ascendancy" />
+					<owner faction="sith" />
+					<owner faction="galempire" />
+					<owner faction="sienar" />
+					<owner faction="kuat" />
+				</ware>
+				
+				<ware id="defence_starforge_pillar" name="{420605,5}" description="{420605,4}" transport="container" volume="1" tags="module">
+					<price min="1433988" average="1790186" max="2146384" />
+					<production time="120" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="starforge_energy" amount="3000" />
+							<ware ware="starforge_alloy" amount="300" />
+						</primary>
+					</production>
+					<production time="120" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="3000" />
+							<ware ware="starforge_alloy" amount="300" />
+						</primary>
+					</production>
+					<research time="10">
+						<research>
+							<ware ware="research_module_defence" />
+						</research>
+					</research>
+					<component ref="defence_starforge_pillar_macro" />
+					<restriction licence="station_gen_advanced" />
+					<owner faction="sith" />
+				</ware>
 
 </add>
 </diff>

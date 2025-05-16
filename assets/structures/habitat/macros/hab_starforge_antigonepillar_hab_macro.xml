@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="hab_starforge_antigonepillar_hab_macro" class="habitation">
+    <component ref="landmarks_arg_antigonepillar_hab" />
+    <properties>
+      <identification name="{420401,6}" shortname="{420401,6}" makerrace="sith" size="large" description="{420401,7}" />
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="10000000" />
+      <workforce race="starforge_droids" capacity="5000" />
+    </properties>
+  </macro>
+</macros>

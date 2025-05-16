@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<add sel="/regionyields">
+
+  <resource ware="isotope5" effect_r="207" effect_g="127" effect_b="84">
+    <yield name="lowest" resourcedensity="0.05" replenishtime="900" scaneffect="scfx_dynamic_lowyield_01" scaneffectdensity="0.01" scaneffectintensity="0.1" />
+    <yield name="verylow" resourcedensity="0.2" replenishtime="1800" scaneffect="scfx_dynamic_lowyield_01" scaneffectdensity="0.01" scaneffectintensity="0.3" />
+    <yield name="lowminus" resourcedensity="0.2" replenishtime="1200" scaneffect="scfx_dynamic_lowyield_01" scaneffectdensity="0.01" scaneffectintensity="0.3" />
+    <yield name="low" resourcedensity="0.4" replenishtime="2700" scaneffect="scfx_dynamic_lowyield_01" scaneffectdensity="0.01" scaneffectintensity="0.6" />
+    <yield name="lowplus" resourcedensity="1.8" replenishtime="1800" scaneffect="scfx_dynamic_lowyield_01" scaneffectdensity="0.01" scaneffectintensity="0.6" />
+    <yield name="medlow" resourcedensity="4" replenishtime="2000" scaneffect="scfx_dynamic_normalyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="medium" resourcedensity="1.0" replenishtime="3600" scaneffect="scfx_dynamic_normalyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="medplus" resourcedensity="16" replenishtime="2400" scaneffect="scfx_dynamic_normalyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="medhigh" resourcedensity="32" replenishtime="2400" scaneffect="scfx_dynamic_normalyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="highlow" resourcedensity="48" replenishtime="3600" scaneffect="scfx_dynamic_highyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="high" resourcedensity="3" replenishtime="4500" scaneffect="scfx_dynamic_highyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="highplus" resourcedensity="120" replenishtime="3600" scaneffect="scfx_dynamic_highyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="veryhigh" resourcedensity="5" replenishtime="5400" scaneffect="scfx_dynamic_highyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+    <yield name="highest" resourcedensity="60000" replenishtime="24000" scaneffect="scfx_dynamic_highyield_01" scaneffectdensity="0.01" scaneffectintensity="1.0" />
+  </resource>
+
+
+
+</add>  
+</diff>

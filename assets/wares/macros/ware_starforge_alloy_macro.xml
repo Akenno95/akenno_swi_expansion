@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <macro name="ware_starforgeenergy_macro" class="object">
-    <component ref="ware_starforgeenergy" />
+  <macro name="ware_starforge_alloy_macro" class="object">
+    <component ref="ware_starforge_alloy" />
     <properties>
       <identification unique="0" />
     </properties>

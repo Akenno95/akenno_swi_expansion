@@ -14,15 +14,27 @@
       <explosiondamage value="2000" shield="15000" />
       <hull max="10000000" />
       <ownership claim="1" />
+      <storage unit="30" />
       <relation>
         <kill>
           <faction change="-0.1" />
         </kill>
       </relation>
-      <threatscore value="200" />
+      <threatscore value="300" />
       <radar range="150000" />
     </properties>
     <connections>
+
+      <connection ref="con_shipstorage_m_01">
+        <macro ref="shipstorage_gen_m_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="shipstorage_gen_s_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+
     </connections>
   </macro>
 </macros>

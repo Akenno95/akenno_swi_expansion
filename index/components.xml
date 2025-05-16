@@ -3,13 +3,28 @@
 	<add sel="/index">
 	
 		<!--Ships-->
-			<entry name="sith_supremacy_mk_5" value="extensions\akenno_swi_expansion\assets\units\size_s\sith_supremacy_mk_5" />			
-			<entry name="sith_supremacy_mk_3" value="extensions\akenno_swi_expansion\assets\units\size_s\sith_supremacy_mk_3" />			
-			<entry name="x_70b" value="extensions\akenno_swi_expansion\assets\units\size_m\x_70b" />	
-			<entry name="terminus_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_l\terminus_mk_2" />
-			<entry name="harrower_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_mk_2" />	
-			<entry name="harrower_i_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_i_mk_2" />	
-			<entry name="dabc_harrower_2_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xxl\dabc_harrower_2_mk_2" />	
+			<!-- S -->
+				<entry name="sith_supremacy_mk_5" value="extensions\akenno_swi_expansion\assets\units\size_s\sith_supremacy_mk_5" />			
+				<entry name="sith_supremacy_mk_3" value="extensions\akenno_swi_expansion\assets\units\size_s\sith_supremacy_mk_3" />			
+			
+			<!-- M -->
+				<entry name="x_70b" value="extensions\akenno_swi_expansion\assets\units\size_m\x_70b" />	
+				<entry name="bulk_freighter" value="extensions\akenno_swi_expansion\assets\units\size_m\bulk_freighter" />
+
+			<!-- L -->
+				<entry name="terminus_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_l\terminus_mk_2" />
+				<entry name="gage_ship" value="extensions\akenno_swi_expansion\assets\units\size_l\gage_ship" />
+				
+			<!-- XL -->
+				<entry name="harrower_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_mk_2" />	
+				<entry name="harrower_i_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_i_mk_2" />	
+				<entry name="harrower_silencer" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_silencer" />
+				<entry name="harrower_i_silencer" value="extensions\akenno_swi_expansion\assets\units\size_xl\harrower_i_silencer" />
+
+				
+			<!-- XXL -->	
+				<entry name="dabc_harrower_2_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xxl\dabc_harrower_2_mk_2" />	
+				
 
 		<!--Engines-->
 
@@ -18,6 +33,7 @@
 			<entry name="weapon_ls9x_s_laser" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\weapon_ls9x_s_laser" />	
 			<entry name="weapon_ls7x_s_laser" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\weapon_ls7x_s_laser" />	
 			<entry name="weapon_ga60x_m_laser" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\weapon_ga60x_m_laser" />
+			<entry name="weapon_silencer" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\weapon_silencer" />
 
 		<!--Turrets-->
 			<entry name="turret_m_duallaser_green_rh2x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_duallaser_green_rh2x" />
@@ -27,14 +43,17 @@
 			<entry name="turret_m_mtbquad_green_hx4x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_mtbquad_green_hx4x" />
 			<entry name="turret_m_quadlaser_green_rh3x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_quadlaser_green_rh3x" />
 			<entry name="turret_m_quadlaser_green_02_rh3x" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_quadlaser_green_02_rh3x" />
-
+			<entry name="turret_l_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_l_starforge_green" />
+			<entry name="turret_m_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_starforge_green" />
+			<entry name="turret_s_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_s_starforge_green" />
+			<entry name="turret_xl_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_xl_starforge_green" />
 
 		<!--Bullets-->
 			<entry name="bullet_s_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_s_green_turbo" />
 			<entry name="bullet_m_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_m_green_turbo" />
 			<entry name="bullet_xs_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_xs_green_turbo" />
 			<entry name="bullet_l_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_l_green_turbo" />
-
+			<entry name="bullet_xl_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_xl_green_turbo" />
 
 		<!-- Shields -->
 			<entry name="shield_lh_tab" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_tab" />
@@ -60,19 +79,50 @@
 
 		<!--Modules-->
 
-
+		
 		<!--Defence-->
 			<entry name="defence_starforge_claim_ring" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_claim_ring" />
 			<entry name="defence_starforge_disc_01" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_disc_01" />
+			<entry name="defence_starforge_disc_02" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_disc_02" />	
 			<entry name="defence_starforge_tube_01" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_tube_01" />
-					
+			<entry name="defence_starforge_tube_02" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_tube_02" />	
+			<entry name="defence_starforge_pillar" value="extensions\akenno_swi_expansion\assets\structures\defence\defence_starforge_pillar" />		
+			
 		<!--Economy-->
-			<entry name="ware_starforgeenergy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforgeenergy" />
-			<entry name="landmarks_arg_antigonespire_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_001" />
-			<entry name="landmarks_arg_antigonepillar_001" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonepillar_001" />
-	
+			<entry name="ware_starforge_energy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_energy" />
+			<entry name="ware_isotope5" value="extensions\akenno_swi_expansion\assets\wares\ware_isotope5" />
+			<entry name="ware_starforge_debris" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_debris" />
+			<entry name="ware_starforge_droids" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_droids" />
+			<entry name="ware_starforge_alloy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_alloy" />
+
+		<!--Buildings-->
+			<entry name="landmarks_arg_antigonespire_prod" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_prod" />
+			<entry name="landmarks_arg_antigonepillar_prod" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonepillar_prod" />
+			<entry name="landmarks_arg_antigonepillar_hab" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonepillar_hab" />
+
+
 		<!-- Galaxy -->
 			<entry name="lehon" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\lehon" />
 		
+
+
+		<!--Asteroids-->
+			<entry name="env_ast_isotope5_xl_01" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xl_01" />
+			<entry name="env_ast_isotope5_xl_02" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xl_02" />
+			<entry name="env_ast_isotope5_xxl_01" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xxl_01" />
+			<entry name="env_ast_isotope5_xs_01_frac" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_01_frac" />
+			<entry name="env_ast_isotope5_xs_01" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_01" />
+			<entry name="env_ast_isotope5_xs_02_frac" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_02_frac" />
+			<entry name="env_ast_isotope5_xs_02" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_02" />
+			<entry name="env_ast_isotope5_xs_03_frac" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_03_frac" />
+			<entry name="env_ast_isotope5_xs_03" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_03" />
+			<entry name="env_ast_isotope5_xs_04_frac" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_04_frac" />
+			<entry name="env_ast_isotope5_xs_04" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_04" />
+			<entry name="env_ast_isotope5_xs_05_frac" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_05_frac" />
+			<entry name="env_ast_isotope5_xs_05" value="extensions\akenno_swi_expansion\assets\environments\asteroids\env_ast_isotope5_xs_05" />
+
+		<!--Debris-->
+
+
 	</add>
 </diff>

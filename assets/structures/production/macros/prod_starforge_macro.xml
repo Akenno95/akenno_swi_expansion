@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
   <macro name="prod_starforge_macro" class="production">
-    <component ref="landmarks_arg_antigonespire_001" />
+    <component ref="landmarks_arg_antigonespire_prod" />
     <properties>
       <identification name="{420401,3}" shortname="{420401,3}" description="{420401,2}" />
       <build>

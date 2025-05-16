@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/droplists">
+
+  <!-- ASTEROIDS -->
+    <droplist id="asteroid_isotope5_xl">
+      <drop macro="env_ast_isotope5_xs_01_frac_macro" min="3" max="3"/>
+      <drop macro="env_ast_isotope5_xs_02_frac_macro" min="3" max="3"/>
+      <drop macro="env_ast_isotope5_xs_03_frac_macro" min="3" max="3"/>
+      <drop macro="env_ast_isotope5_xs_04_frac_macro" min="3" max="3"/>
+      <drop macro="env_ast_isotope5_xs_05_frac_macro" min="4" max="4"/>
+      <drop macro="collectable_asteroidchunk_s_01_macro" chance="15">
+        <collectable>
+          <wares selection="random">
+            <select weight="1">
+              <ware ware="inv_spaceflyeggs" min="1" max="2"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_magneticmaterial" min="1" max="3"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_unstablecrystal" min="1" max="10"/>
+            </select>
+            <!-- 31.8% -->
+          </wares>
+        </collectable>
+      </drop>
+    </droplist>
+    <droplist id="asteroid_isotope5_l">
+      <drop macro="env_ast_isotope5_xs_01_frac_macro" min="2" max="2"/>
+      <drop macro="env_ast_isotope5_xs_02_frac_macro" min="2" max="2"/>
+      <drop macro="env_ast_isotope5_xs_03_frac_macro" min="2" max="2"/>
+      <drop macro="env_ast_isotope5_xs_04_frac_macro" min="1" max="1"/>
+      <drop macro="env_ast_isotope5_xs_05_frac_macro" min="1" max="1"/>
+      <drop macro="collectable_asteroidchunk_s_01_macro" chance="15">
+        <collectable>
+          <wares selection="random">
+            <select weight="1">
+              <ware ware="inv_spaceflyeggs" min="1" max="2"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_magneticmaterial" min="1" max="3"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_unstablecrystal" min="1" max="10"/>
+            </select>
+            <!-- 31.8% -->
+          </wares>
+        </collectable>
+      </drop>
+    </droplist>
+    <droplist id="asteroid_isotope5_m">
+      <drop macro="env_ast_isotope5_xs_02_frac_macro" min="1" max="1"/>
+      <drop macro="env_ast_isotope5_xs_03_frac_macro" min="1" max="1"/>
+      <drop macro="env_ast_isotope5_xs_04_frac_macro" min="1" max="1"/>
+      <drop macro="env_ast_isotope5_xs_05_frac_macro" min="1" max="1"/>
+      <drop macro="collectable_asteroidchunk_s_01_macro" chance="15">
+        <collectable>
+          <wares selection="random">
+            <select weight="1">
+              <ware ware="inv_spaceflyeggs" min="1" max="2"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_magneticmaterial" min="1" max="3"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_unstablecrystal" min="1" max="10"/>
+            </select>
+            <!-- 31.8% -->
+          </wares>
+        </collectable>
+      </drop>
+    </droplist>
+    <droplist id="asteroid_isotope5_s">
+      <drop macro="env_ast_isotope5_xs_02_frac_macro" min="1" max="1"/>
+      <drop macro="env_ast_isotope5_xs_04_frac_macro" min="1" max="1"/>
+      <drop macro="collectable_asteroidchunk_s_01_macro" chance="30">
+        <collectable>
+          <wares selection="random">
+            <select weight="1">
+              <ware ware="inv_spaceflyeggs" min="1" max="2"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_magneticmaterial" min="1" max="3"/>
+            </select>
+            <!-- 11.3% -->
+            <select weight="1">
+              <ware ware="inv_unstablecrystal" min="1" max="10"/>
+            </select>
+            <!-- 31.8% -->
+          </wares>
+        </collectable>
+      </drop>
+    </droplist>
+    <droplist id="asteroid_isotope5_mining_node">
+      <drop macro="env_ast_isotope5_xs_01_frac_macro" />
+      <drop macro="collectable_asteroidchunk_s_01_macro" chance="20">
+        <collectable>
+          <wares selection="random">
+            <select weight="1">
+              <ware ware="inv_spaceflyeggs" min="1" max="2"/>
+            </select>
+            <select weight="1">
+              <ware ware="inv_magneticmaterial" min="1" max="3"/>
+            </select>
+            <select weight="1">
+              <ware ware="inv_unstablecrystal" min="1" max="10"/>
+            </select>
+          </wares>
+        </collectable>
+      </drop>
+    </droplist>
+
+
+
+
+
+  </add>
+</diff>

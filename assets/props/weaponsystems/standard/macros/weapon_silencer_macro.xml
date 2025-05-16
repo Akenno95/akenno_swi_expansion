@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) on 2024-01-30 13:59:00-->
+<macros>
+  <macro name="weapon_silencer_macro" class="weapon">
+    <component ref="weapon_silencer" />
+    <properties>
+      <identification name="{420211,1}" makerrace="terran" description="{420211,2}" />
+      <bullet class="bullet_silencer_macro" />
+      <heat overheat="1000000" cooldelay="0.13" coolrate="13300" reenable="2000" />
+      <hull max="1000000" integrated="1" />
+      <effects>
+        <firing start="startshooting_atf_xl_beam_01_mk1" stop="stopshooting_atf_xl_beam_01_mk1" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

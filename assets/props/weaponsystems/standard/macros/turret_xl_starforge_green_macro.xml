@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_xl_starforge_green_macro" class="turret" >
+    <component ref="turret_xl_starforge_green" />
+    <properties>
+      <identification name="{420210,4} {999840,102}" basename="{420210,4} {999840,102}" shortname="{420210,4} {999840,102}" makerrace="argon" description="{420210,10}"  />
+      <bullet class="bullet_turret_xl_starforge_green_macro" />
+      <rotationspeed max="10" />
+      <reload rate="0.5" time="1" />
+      <hull max="100000" threshold="0.2" />
+      <effects>
+        <explosion ref="explosion_turret_m_wall_pulse" />
+        <sefx_damage_low ref="sefx_damage_m_low" />
+        <sefx_damage_medium ref="sefx_damage_m_medium" />
+        <sefx_damage_high ref="sefx_damage_m_high" />
+        <sefx_shield ref="sefx_shield_m_01" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

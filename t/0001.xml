@@ -3,58 +3,83 @@
 	<add sel="/language">
 
 		<page id="420000" voice="no">
-			<t id="1">Star Forge</t>
-			<t id="2">Star Forge build loop.</t>
+			<t id="1">\033RStar Forge</t>
+			<t id="2">\033RStar Forge build loop.</t>
 		</page>	
 
 	<!--Ships 420-00x-->
 		<page id="420001" voice="no">
-			<t id="1">Supremacy Mark V</t>
+			<t id="1">\033RSupremacy Mark V</t>
 			<t id="2">The Supremacy Mark V is a new variant that can switch between ion and laser damage.</t>
 		</page>	
 		
 		<page id="420002" voice="no">
-			<t id="1">X-70B</t>
+			<t id="1">\033RX-70B</t>
 			<t id="2">The X-70B also known as "Phantom" is a ship for special agents of the Sith Empire.</t>
 		</page>	
 		
 		<page id="420003" voice="no">
-			<t id="1">Supremacy Mark III</t>
+			<t id="1">\033RSupremacy Mark III</t>
 			<t id="2">The Supremacy Mark III is a new variant that can use missiles.</t>
 		</page>
 		
 		<page id="420004" voice="no">
-			<t id="1">Terminus Mark II</t>
+			<t id="1">\033RTerminus Mark II</t>
 			<t id="2">The Terminus Mark II is a new variant that is more robust than its earlier variant.</t>
 		</page>
 		
 		<page id="420005" voice="no">
-			<t id="1">Harrower Mark II</t>
+			<t id="1">\033RHarrower Mark II</t>
 			<t id="2">The Harrower Mark II is a new variant that is more robust than its earlier variant.</t>
+			<t id="3">\033RHarrower Silencer</t>
+			<t id="4">The Harrower Silencer got a new superweapon that can kill other capital ships.</t>
 		</page>
 		
 		<page id="420006" voice="no">
-			<t id="1">Harrower i Mark II</t>
+			<t id="1">\033RHarrower i Mark II</t>
 			<t id="2">The Harrower i Mark II is a new variant that is more robust than its earlier variant.</t>
+			<t id="3">\033RHarrower i Silencer</t>
+			<t id="4">The Harrower i Silencer got a new superweapon that can kill other capital ships.</t>
 		</page>
 		
 		<page id="420007" voice="no">
-			<t id="1">Harrower 2 Mark II</t>
+			<t id="1">\033RHarrower 2 Mark II</t>
 			<t id="2">The Harrower 2 Mark II is a new variant that is more robust than its earlier variant.</t>
+		</page>
+
+		<page id="420008" voice="no">
+			<t id="1">\033RGage Ship</t>
+			<t id="2">The Gage Ship is a new variant that is used for transport.</t>
+			<t id="3">\033RGage Ship Liquid</t>
+			<t id="4">The Gage Ship is a new variant that is used for liquid transport.</t>
+			<t id="5">\033RGage Ship Solid</t>
+			<t id="6">The Gage Ship is a new variant that is used for solid transport.</t>
+		</page>
+
+		<page id="420009" voice="no">
+			<t id="1">\033RBulk Freighter</t>
+			<t id="2">The Bulk Freighter is a new variant that is used for transport all things.</t>
 		</page>
 		
 	<!--Engines 420-10x-->
 		<page id="420101" voice="no">
-			<t id="1">CS Gemon-4X Ion Engine</t>
-			<t id="2">CS Gemon-4X Ion Engine</t>
+			<t id="1">\033RCS Gemon-4X Ion Engine</t>
+			<t id="2">\033RCS Gemon-4X Ion Engine</t>
 			<t id="3">Better version than the normal CS Gemon 4.</t>
 		</page>
 
 		<page id="420102" voice="no">
-			<t id="1">SFS P-s4X Twin Ion Engine with Hyperdrive</t>
-			<t id="2">SFS P-s4X Twin Ion Engine with Hyperdrive</t>
+			<t id="1">\033RSFS P-s4X Twin Ion Engine with Hyperdrive</t>
+			<t id="2">\033RSFS P-s4X Twin Ion Engine with Hyperdrive</t>
 			<t id="3">This is a modification with a hyperdrive. The SFS P-s4X twin ion engine was an ion drive system manufactured by Sienar Fleet Systems and most notably used aboard the TIE-line starfighters.</t>
 		</page>
+
+		<page id="420103" voice="no">
+			<t id="1">\033RStarforge Engine</t>
+			<t id="2">This is a modification with a hyperdrive. Made for starforge-related ships.</t>
+		</page>
+
+
 	<!--Weapons 420-20x-->
 		<page id="420201" voice="no">
 			<t id="1">\033#989db6ec#L-s9.X Lasercanon\033X</t>
@@ -107,29 +132,59 @@
 			<t id="3">Better version of the RH3. Quad-barreled long range laser turret installed on starships and stations as anti-starfighter defence. </t>
 		</page>
 
+		<page id="420210" voice="no">
+			<t id="1">\033RStarforge S</t>
+			<t id="2">\033RStarforge M</t>
+			<t id="3">\033RStarforge L</t>
+			<t id="4">\033RStarforge XL</t>
+			<t id="10">\033RStarforge Turret</t>
+		</page>
+
+		<page id="420211" voice="no">
+			<t id="1">\033RSilencer Superweapon</t>
+			<t id="2">The Silencer Weapon is a new superweapon that can kill other capital ships.</t>
+		</page>
+
 	<!--Shields 420-30x-->
 		<page id="420301" voice="no">
-			<t id="1">LHeavy TaB</t>
-			<t id="2">LHeavy TaB</t>
+			<t id="1">\033RLHeavy TaB</t>
+			<t id="2">\033RLHeavy TaB</t>
 			<t id="3">Better version of the normal TaB shield generator. Frigate-scale shield generator manufactured by the Taim and Bak Corporation. </t>
 		</page>	
 
 		<page id="420302" voice="no">
-			<t id="1">Starforge Shield S</t>
-			<t id="2">Starforge Shield M</t>
-			<t id="3">Starforge Shield LH</t>
-			<t id="4">Starforge Shield L Station</t>
-			<t id="5">Starforge Shield XL</t>
-			<t id="6">Starforge Shield generator in various sizes.</t>
-			<t id="7">Starforge Shield XLL</t>
-			<t id="8">Starforge Shield LL</t>
+			<t id="1">\033RStarforge Shield S</t>
+			<t id="2">\033RStarforge Shield M</t>
+			<t id="3">\033RStarforge Shield LH</t>
+			<t id="4">\033RStarforge Shield L Station</t>
+			<t id="5">\033RStarforge Shield XL</t>
+			<t id="6">\033RStarforge Shield generator in various sizes.</t>
+			<t id="7">\033RStarforge Shield XLL</t>
+			<t id="8">\033RStarforge Shield LL</t>
 		</page>		
 
 	<!--Economy 420-40x-->
 		<page id="420401" voice="no">
-			<t id="1">Starforge Energy</t>
+			<t id="1">\033RStarforge Energy</t>
 			<t id="2">Starforge Energy comes from the Starforge, harvesting energy from the sun and convert it to their own energy type. It works similar to the old Starforge on Rakata Prime from Revan's Sith Empire but at a weaker rate and it doesn't consume the sun itself.</t>
-			<t id="3">Starforge</t>
+			<t id="3">\033RStarforge</t>
+			<t id="4">\033RStarforge Debris</t>
+			<t id="5">Remaining starforge debris. Maybe this can be used to create something new.</t>
+			<t id="6">\033RStarforge Droid Depot</t>
+			<t id="7">Starforge Droid Depot are the depot for the workforce.</t>
+			<t id="8">\033RStarforge Droids</t>
+			<t id="9">Starforge Droids is a droid that can be used as workforce.</t>
+			<t id="10">\033RStarforge Droid Factory</t>
+			<t id="11">Starforge Droid Factory is the factory where droids are getting build.</t>
+			<t id="12">\033RStarforge Smeltery</t>
+			<t id="13">Starforge Smeltery is there to forge starforge alloy.</t>
+			<t id="14">\033RStarforge Alloy</t>
+			<t id="15">Starforge Alloy is a special alloy that is needed for starforge buildings.</t>
+		</page>
+
+		<page id="420402" voice="no">
+			<t id="1">Isotope-5</t>
+			<t id="2">Isotope-5 is an unstable mineral that can be found on Makeb. The special characteristic of Isotope-5 is to significantly boost weapon and shield power.</t>
 		</page>
 
 	<!--Galaxy 420-50x-->
@@ -140,30 +195,37 @@
 
 	<!--Buildings 420-60x-->
 		<page id="420601" voice="no">
-			<t id="1">Starforge Container</t>
+			<t id="1">\033RStarforge Container</t>
 			<t id="2">Starforge deep storage container.</t>
 		</page>
 		
 		<page id="420602" voice="no">
-			<t id="1">Starforge Solid Container</t>
+			<t id="1">\033RStarforge Solid Container</t>
 			<t id="2">Starforge deep storage solid container.</t>
 		</page>
 		
 		<page id="420603" voice="no">
-			<t id="1">Starforge Liquid Container</t>
+			<t id="1">\033RStarforge Liquid Container</t>
 			<t id="2">Starforge deep storage liquid container.</t>
 		</page>
 		
 		<page id="420604" voice="no">
-			<t id="1">Starforge Factory</t>
+			<t id="1">\033RStarforge Factory</t>
 			<t id="2">Starforge factory, that can make several other things aswell.</t>
+			<t id="3">Starforge analyzer, that searches threw wrecks for small remainings of starforge material.</t>
+			<t id="10">\033RStarforge Core</t>
+			<t id="11">\033RStarforge Debris Analyzer</t>
 		</page>
 		
 		<page id="420605" voice="no">
-			<t id="1">Starforge Defence Ring</t>
-			<t id="2">Starforge Defence Disc</t>
-			<t id="3">Starforge Defence Tube</t>
-			<t id="4">Starforge defence station.</t>
+			<t id="1">\033RStarforge Defence Ring 1</t>
+			<t id="2">\033RStarforge Defence Disc 1</t>
+			<t id="3">\033RStarforge Defence Tube 1</t>
+			<t id="4">\033RStarforge defence station.</t>
+			<t id="5">\033RStarforge Defence Pillar</t>
+			<t id="6">\033RStarforge Defence Ring 2</t>
+			<t id="7">\033RStarforge Defence Disc 2</t>
+			<t id="8">\033RStarforge Defence Tube 2</t>
 		</page>
 
 	</add>

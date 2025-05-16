@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="prod_starforge_droid_factory_macro" class="production">
+    <component ref="landmarks_arg_antigonepillar_prod" />
+    <properties>
+      <identification name="{420401,10}" shortname="{420401,10}" description="{420401,11}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="10000000" />
+      <secrecy level="10" />
+      <production wares="starforge_droids">
+        <queue>
+          <item ware="starforge_droids" method="starforge"/>
+        </queue> 
+      </production>
+      <workforce max="500" />
+    </properties>
+  </macro>
+</macros>
