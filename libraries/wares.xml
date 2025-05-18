@@ -1751,7 +1751,7 @@
 				</ware>
 
 			<!-- Smeltery -->
-				<ware id="prod_starforge_smeltery" name="{420401,12}" description="{420401,13}" transport="container" volume="1" tags="module">
+				<ware id="prod_starforge_smeltery" name="{420401,16}" description="{420401,13}" transport="container" volume="1" tags="module">
 					<price min="100000" average="500000" max="1000000" />
 					<production time="360" amount="1" method="default" name="{20206,101}">
 						<primary>
@@ -1776,6 +1776,35 @@
 						</primary>
 					</production>
 					<component ref="prod_starforge_smeltery_macro" />
+					<restriction licence="station_gen_basic" />
+					<owner faction="sith" />
+				</ware>
+
+				<ware id="prod_starforge_smelteryx" name="{420401,12}" description="{420401,13}" transport="container" volume="1" tags="module">
+					<price min="100000" average="500000" max="1000000" />
+					<production time="360" amount="1" method="default" name="{20206,101}">
+						<primary>
+							<ware ware="energycells" amount="100000" />
+							<ware ware="hullparts" amount="20000" />
+							<ware ware="claytronics" amount="5000" />
+							<ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="terran" name="{999840,590070}">
+						<primary>
+							<ware ware="computronicsubstrate" amount="2000" />
+							<ware ware="energycells" amount="100000" />
+							<ware ware="siliconcarbide" amount="10000" />
+							<ware ware="rhydoniumcell" amount="200" />
+						</primary>
+					</production>
+					<production time="360" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
+						</primary>
+					</production>
+					<component ref="prod_starforge_smelteryx_macro" />
 					<restriction licence="station_gen_basic" />
 					<owner faction="sith" />
 				</ware>

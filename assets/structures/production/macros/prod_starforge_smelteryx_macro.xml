@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <macro name="prod_starforge_smeltery_macro" class="production">
+  <macro name="prod_starforge_smelteryx_macro" class="production">
     <component ref="landmarks_arg_antigonepillar_prod" />
     <properties>
-      <identification name="{420401,16}" shortname="{420401,12}" description="{420401,13}" />
+      <identification name="{420401,12}" shortname="{420401,12}" description="{420401,13}" />
       <build>
         <sets>
           <set ref="factory" />
@@ -15,9 +15,7 @@
       <secrecy level="10" />
       <production wares="starforge_alloy">
         <queue>
-          <item ware="starforge_alloy" method="recycling"/>
-          <item ware="starforge_alloy" method="terran"/>
-          <item ware="starforge_alloy" method="default"/>
+          <item ware="starforge_alloy" method="starforge"/>
         </queue> 
       </production>
       <workforce max="500" />
