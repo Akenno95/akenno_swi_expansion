@@ -232,7 +232,43 @@
 				</production>
      			<owner faction="sith" />
 			</add>
-	
+
+	<!-- Hyperspace Mod -->
+			<add sel="/wares/ware[@id='module_imperial_trafficstation_habitat']">
+				<production time="360" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1000" />
+						<ware ware="starforge_energy" amount="10000" />
+					</primary>
+				</production>
+				<production time="3600" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="65000" />
+						<ware ware="computronicsubstrate" amount="1500" />
+						<ware ware="metallicmicrolattice" amount="15000" />
+						<ware ware="rhydoniumcell" amount="2500" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='module_s_thread_booster']">
+				<production time="900" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="2500" />
+						<ware ware="starforge_energy" amount="25000" />
+					</primary>
+				</production>
+				<production time="9000" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="125000" />
+						<ware ware="computronicsubstrate" amount="3000" />
+						<ware ware="metallicmicrolattice" amount="30000" />
+						<ware ware="rhydoniumcell" amount="4500" />
+					</primary>
+				</production>
+			</add>
+
 	<!-- Vanilla Changes -->
 		<!-- Claytronics -->
 			<add sel="/wares/ware[@id='claytronics']">
