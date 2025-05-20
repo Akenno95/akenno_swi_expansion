@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <add sel="//macros">
-<!-- Cluster Lehon -->
-    <macro name="swi_clusterlehon_macro" class="cluster">
-      <component ref="standardcluster" />
-      <connections>
-        <connection name="swi_clusterlehon_sector001_connection" ref="sectors">  
-          <macro ref="swi_clusterlehon_sector001_macro" connection="cluster" />
-        </connection>
-        <connection ref="content">
-          <macro>
-            <component connection="space" ref="lehon" />
-          </macro>
-        </connection>
-      </connections>
-    </macro>
+    <add sel="//macros">
+    <!-- Cluster Lehon -->
+        <macro name="swi_clusterlehon_macro" class="cluster">
+            <component ref="standardcluster" />
+            <connections>
+                <connection name="swi_clusterlehon_sector001_connection" ref="sectors">  
+                    <macro ref="swi_clusterlehon_sector001_macro" connection="cluster" />
+                </connection>
+                <connection ref="content">
+                    <macro>
+                        <component connection="space" ref="lehon" />
+                    </macro>
+                </connection>
+            </connections>
+        </macro>
+
+    <!-- Cluster Makeb -->
+        <macro name="swi_clustermakeb_macro" class="cluster">
+            <component ref="standardcluster" />
+            <connections>
+                <connection name="swi_clustermakeb_sector001_connection" ref="sectors">
+                  <macro ref="swi_clustermakeb_sector001_macro" connection="cluster" />
+                </connection>
+                <connection ref="content">
+                    <macro>
+                        <component connection="space" ref="makeb" />
+                    </macro>
+                </connection>
+            </connections>
+        </macro>
 
 
-  </add>
+    </add>
 </diff>

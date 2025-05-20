@@ -103,7 +103,7 @@
 
 		<!-- Galaxy -->
 			<entry name="lehon" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\lehon" />
-		
+			<entry name="makeb" value="extensions\akenno_swi_expansion\assets\environments\cluster\newmap\makeb" />
 
 
 		<!--Asteroids-->

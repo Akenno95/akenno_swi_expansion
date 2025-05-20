@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<add sel="/macros/macro[@name='swi_galaxy_macro']/connections">
- <!-- cluster setup Lehon -->
-      <connection name="swi_clusterlehon_connection" ref="clusters">
-        <offset>
-          <position x="-60000000" y="0" z="155880000" />
-        </offset>
-        <macro ref="swi_clusterlehon_macro" connection="galaxy" />
-      </connection>
-	<!-- gate connection setup Lehon -->
-          <connection name="swi_gate_clehons001z002_cziosts001z003" ref="destination" path="../swi_clusterlehon_connection/swi_clusterlehon_sector001_connection/swi_zone002_clusterlehon_sector001_connection/swi_gate_clehons001z002_cziosts001z003_connection">
-            <macro connection="destination" path="../../../../../swi_clusterziost_connection/swi_clusterziost_sector001_connection/swi_zone003_clusterziost_sector001_connection/swi_gate_cziosts001z003_clehons001z002_connection" />
-          </connection>
-          <connection name="swi_gate_clehons001z003_cur3s001z004" ref="destination" path="../swi_clusterlehon_connection/swi_clusterlehon_sector001_connection/swi_zone003_clusterlehon_sector001_connection/swi_gate_clehons001z003_cur3s001z004_connection">
-            <macro connection="destination" path="../../../../../swi_clusterur3_connection/swi_clusterur3_sector001_connection/swi_zone004_clusterur3_sector001_connection/swi_gate_cur3s001z004_clehons001z003_connection" />
-          </connection>
+    <!-- Notes: + - from Origin
+            Above x:0 z:17.320.000
+            Below x:0 z:-17.320.000 
+            Right Above x:15.000.000 z:8.660.000
+            Right Below x:15.000.000 z:-8.660.000
+            Left Above x:-15.000.000 z:8.660.000
+            Left Below x:-15.000.000 z:-8.660.000   -->
+
+    <add sel="/macros/macro[@name='swi_galaxy_macro']/connections">
+    <!-- cluster setup Lehon -->
+        <connection name="swi_clusterlehon_connection" ref="clusters">
+            <offset>
+                <position x="-150000000" y="0" z="-34640000" />  <!--x="-60000000" y="0" z="155880000"-->
+            </offset>
+            <macro ref="swi_clusterlehon_macro" connection="galaxy" />
+        </connection>
+            
+        <!-- gate connection setup Lehon -->
+            <connection name="swi_gate_clehons001z002_cziosts001z003" ref="destination" path="../swi_clusterlehon_connection/swi_clusterlehon_sector001_connection/swi_zone002_clusterlehon_sector001_connection/swi_gate_clehons001z002_cziosts001z003_connection">
+                <macro connection="destination" path="../../../../../swi_clusterziost_connection/swi_clusterziost_sector001_connection/swi_zone003_clusterziost_sector001_connection/swi_gate_cziosts001z003_clehons001z002_connection" />
+            </connection>
+            <connection name="swi_gate_clehons001z003_cur3s001z004" ref="destination" path="../swi_clusterlehon_connection/swi_clusterlehon_sector001_connection/swi_zone003_clusterlehon_sector001_connection/swi_gate_clehons001z003_cur3s001z004_connection">
+                <macro connection="destination" path="../../../../../swi_clusterur3_connection/swi_clusterur3_sector001_connection/swi_zone004_clusterur3_sector001_connection/swi_gate_cur3s001z004_clehons001z003_connection" />
+            </connection>
+            <connection name="swi_gate_clehons001z004_crakataprimes001z005" ref="destination" path="../swi_clusterlehon_connection/swi_clusterlehon_sector001_connection/swi_zone004_clusterlehon_sector001_connection/swi_gate_clehons001z004_crakataprimes001z005_connection">
+                <macro connection="destination" path="../../../../../swi_clusterrakataprime_connection/swi_clusterrakataprime_sector001_connection/swi_zone005_clusterrakataprime_sector001_connection/swi_gate_crakataprimes001z005_clehons001z004_connection" />
+            </connection>
+
+    <!-- Cluster Setup Makeb -->
+        <connection name="swi_clustermakeb_connection" ref="clusters">
+            <offset>
+               <position x="270000000" y="0" z="-51960000" />
+            </offset>
+            <macro ref="swi_clustermakeb_macro" connection="galaxy" />
+        </connection>
+
+        <!-- gate connection setup Makeb -->
+            <connection name="swi_gate_cmakebs001z002_cnarshaddas001z004" ref="destination" path="../swi_clustermakeb_connection/swi_clustermakeb_sector001_connection/swi_zone002_clustermakeb_sector001_connection/swi_gate_cmakebs001z002_cnarshaddas001z004_connection">
+                <macro connection="destination" path="../../../../../swi_clusternarshadda_connection/swi_clusternarshadda_sector001_connection/swi_zone004_clusternarshadda_sector001_connection/swi_gate_cnarshaddas001z004_cmakebs001z002_connection" />
+            </connection>
+
+
+
+
+
+
+
 	</add>
 
 

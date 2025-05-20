@@ -3,4 +3,56 @@
   <add sel="/factions/faction[@id='blacksun']">
 	  <buildrules method="starforge" />
   </add>
+
+    <replace sel="/factions/faction[@id='sith']/licences">
+      <licences>
+        <licence type="capitalequipment" name="{999840,500270}" icon="bse_star" precursor="ceremonyally" minrelation="0.1" price="0" />
+        <licence type="capitalship" name="{999840,500260}" icon="bse_star" precursor="ceremonyally" minrelation="0.1" price="0" />
+        <licence type="ceremonyally" name="{999840,500320}" minrelation="0.1" price="0" />
+        <licence type="ceremonyfriend" name="{999840,500310}" minrelation="0.01" price="0" />
+        <licence type="generaluseequipment" name="{999840,500230}" minrelation="-0.01" price="0" />
+        <licence type="generaluseship" name="{999840,500220}" minrelation="-0.01" price="0" />
+        <licence type="militaryequipment" name="{999840,500250}" icon="bse_star" minrelation="0.01" precursor="ceremonyfriend" price="0" />
+        <licence type="militaryship" name="{999840,500240}" icon="bse_star" minrelation="0.01" precursor="ceremonyfriend" price="0" />
+        <licence type="station_equip_lxl" name="{999840,500340}" minrelation="0.1" precursor="ceremonyally" price="0" />
+        <licence type="station_equip_sm" name="{999840,500330}" minrelation="0.1" precursor="ceremonyally" price="0" />
+        <licence type="station_gen_advanced" name="{999840,500370}" minrelation="0.1" precursor="ceremonyally" price="0" />
+        <licence type="station_gen_basic" name="{999840,500350}" minrelation="-0.01" price="0" />
+        <licence type="station_gen_intermediate" name="{999840,500360}" minrelation="0.01" />
+        <licence type="tradesubscription" name="{999840,500280}" minrelation="0.1" price="10000000" precursor="ceremonyfriend" />
+        <licence type="police" name="{999840,500210}" minrelation="0.01" price="100000" maxlegalscan="2" precursor="ceremonyfriend" />
+      </licences>
+    </replace>
+
+    <add sel="/factions/faction[@id='player']/licences">
+      <licence type="generaluseequipment" factions="sith" />
+      <licence type="generaluseship" factions="sith" />
+      
+      <licence type="station_gen_basic" factions="sith" />
+    </add>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </diff>

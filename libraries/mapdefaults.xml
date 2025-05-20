@@ -35,7 +35,7 @@
 				<sounds>
 					<music ref="sw_sith_deep_music" />
 				</sounds>
-				<area sunlight="10.0" economy="1.0" security="1" />
+				<area sunlight="10.0" economy="1" security="1" />
 			</properties>
 		</dataset>
 		<dataset macro="swi_clusterlehon_sector001_macro">
@@ -43,8 +43,22 @@
 				<identification name="{420501,1}" description="{420501,2}" />
 			</properties>
 		</dataset>
-	
-	
+		
+		<dataset macro="swi_clustermakeb_macro">
+			<properties>
+				<identification name="{420502,1}" description="{420502,2}" />
+				<sounds>
+					<music ref="sw_hutt_music" />
+				</sounds>
+				<area sunlight="5.0" economy="1" security="1" />
+			</properties>
+		</dataset>
+		<dataset macro="swi_clustermakeb_sector001_macro">
+			<properties>
+				<identification name="{420502,1}" description="{420502,2}" />
+			</properties>
+		</dataset>
+
 	</add>
 	
 </diff>

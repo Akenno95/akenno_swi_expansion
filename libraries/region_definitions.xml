@@ -2,6 +2,7 @@
 <diff>
 
   <add sel="//regions">
+
     <region name="globalregion_swi_clusterlehon_sector001_macro" density="1.0" rotation="0" noisescale="10000" seed="4567" minnoisevalue="0.14" maxnoisevalue="1">
       <boundary class="sphere">
         <size r="611197.0" />
@@ -21,7 +22,33 @@
         <object groupref="lockboxes_rare" densityfactor="0.000025" rotation="0" rotationvariation="70" minnoisevalue="0.1" maxnoisevalue="1" />
         <debris groupref="debris_m" densityfactor="0.5" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1" />
         <debris groupref="debris_xl" densityfactor="0.2" rotation="0" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1" />
-       
+      </fields>
+      <resources>
+        <resource ware="isotope5" yield="medium" />
+        <resource ware="rawscrap" yield="medium" />
+      </resources>
+    </region>
+
+
+    <region name="globalregion_swi_clustermakeb_sector001_macro" density="1.0" rotation="0" noisescale="10000" seed="4567" minnoisevalue="0.14" maxnoisevalue="1">
+      <boundary class="sphere">
+        <size r="611197.0" />
+      </boundary>
+      <falloff>
+        <radial>
+          <step position="0.0" value="1.0" />
+          <step position="0.51" value="1.0" />
+          <step position="0.75" value="0.85" />
+          <step position="1.0" value="0.0" />
+        </radial>
+      </falloff>
+      <fields>
+        <asteroid groupref="asteroid_isotope5_xl" lodrule="asteroidxl" densityfactor="0.2" rotation="0" rotationvariation="4" noisescale="15000" seed="4567" minnoisevalue="0.737" maxnoisevalue="0.937" />
+        <asteroid groupref="asteroid_isotope5_l" densityfactor="0.8" rotation="360" rotationvariation="4" noisescale="5000" seed="42" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+        <asteroid groupref="asteroid_isotope5_xxl" lodrule="asteroidxl" densityfactor="0.01" rotation="0" rotationvariation="4" noisescale="15000" seed="4567" minnoisevalue="0.743" maxnoisevalue="0.85"/>
+        <object groupref="lockboxes_rare" densityfactor="0.000025" rotation="0" rotationvariation="70" minnoisevalue="0.1" maxnoisevalue="1"/>
+        <debris groupref="debris_m" densityfactor="0.5" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1"/>
+        <debris groupref="debris_xl" densityfactor="0.2" rotation="0" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1" />
       </fields>
       <resources>
         <resource ware="isotope5" yield="medium" />

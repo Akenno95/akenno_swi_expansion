@@ -154,7 +154,7 @@
 			<entry name="swi_cluster*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\clusters" /> -->
 
 			<entry name="swi_clusterlehon_sector*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\sectors" />
-			
+			<entry name="swi_clustermakeb_sector*" value="extensions\akenno_swi_expansion\extensions\starwarsmod_m1\maps\swgalaxy\sectors" />
 		
 	
 		<!--Asteroids-->
@@ -172,11 +172,7 @@
 			<entry name="env_ast_isotope5_xs_05_frac_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xs_05_frac_macro" />
 			<entry name="env_ast_isotope5_xs_05_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xs_05_macro" />
 			
-		<!--Debris-->
-		<entry name="env_debris_starforge_debris_l_01_macro" value="extensions\akenno_swi_expansion\assets\environments\debris\macros\env_debris_starforge_debris_l_01_macro" />
-		<entry name="env_debris_starforge_debris_l_02_macro" value="extensions\akenno_swi_expansion\assets\environments\debris\macros\env_debris_starforge_debris_l_02_macro" />
-		<entry name="env_debris_starforge_debris_l_02_container_macro" value="extensions\akenno_swi_expansion\assets\environments\debris\macros\env_debris_starforge_debris_l_02_container_macro" />
-
+	
 			
 	</add>
 </diff>

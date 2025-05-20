@@ -192,7 +192,14 @@
 		<page id="420501" voice="no">
 			<t id="1">Lehon</t>
 			<t id="2">This is a system where once the starforge was. Somehow this star system went away from its original point in space.</t>
+			<t id="3">Lehon Gate Activation</t>
 		</page>
+
+		<page id="420502" voice="no">
+			<t id="1">Makeb</t>
+			<t id="2">Makeb was a planet in the Mid Rim that was invaded by the Hutt Cartel during the Galactic War. It was a major source of isotope-5, one of the rarest minerals in the galaxy.</t>
+		</page>
+
 
 	<!--Buildings 420-60x-->
 		<page id="420601" voice="no">

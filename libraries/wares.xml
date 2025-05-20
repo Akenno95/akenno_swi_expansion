@@ -154,9 +154,9 @@
 			<add sel="/wares/ware[@id='quad_jumper']">
 				<production time="100" amount="1" method="terran" name="{999840,590070}">
 					<primary>
-					<ware ware="energycells" amount="250" />
-					<ware ware="computronicsubstrate" amount="4" />
-					<ware ware="metallicmicrolattice" amount="38" />
+						<ware ware="energycells" amount="250" />
+						<ware ware="computronicsubstrate" amount="4" />
+						<ware ware="metallicmicrolattice" amount="38" />
 					</primary>
 				</production>
 				<production time="180" amount="1" method="starforge" name="{420000,1}">
@@ -183,6 +183,51 @@
 					<primary>
 						<ware ware="starforge_alloy" amount="50" />
 						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+     			<owner faction="sith" />
+			</add>
+			<add sel="/wares/ware[@id='neutronstar']">
+				<production time="1000" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="15000" />
+						<ware ware="computronicsubstrate" amount="83" />
+						<ware ware="metallicmicrolattice" amount="763" />
+						<ware ware="rhydoniumcell" amount="32" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+     			<owner faction="sith" />
+			</add>
+			<add sel="/wares/ware[@id='neutronstar_trade']">
+				<production time="1000" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="15000" />
+						<ware ware="computronicsubstrate" amount="83" />
+						<ware ware="metallicmicrolattice" amount="763" />
+						<ware ware="rhydoniumcell" amount="32" />
+						<ware ware="shipsupplies" amount="40" />
+					</primary>
+				</production>
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="50" />
+						<ware ware="starforge_energy" amount="500" />
+					</primary>
+				</production>
+     			<owner faction="sith" />
+			</add>
+			<add sel="/wares/ware[@id='engine_neutron']">
+				<production time="180" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="5" />
+						<ware ware="starforge_energy" amount="50" />
 					</primary>
 				</production>
      			<owner faction="sith" />
@@ -674,6 +719,21 @@
 					<ware ware="antimattercells" amount="1000" />
 					<ware ware="quantumtubes" amount="2000" />
 					<ware ware="rhydoniumcell" amount="500" />
+				</primary>
+				<research>
+					<!-- <ware ware="research_xxl_construction" />
+					<ware ware="research_xxl_construction_executor_prot" /> -->
+				</research>
+			</research>
+		</ware>
+
+
+	<!-- Gates -->
+		<ware id="research_lehongate" name="{420501,3}" description="{420501,3}" transport="research" volume="1" tags="research" sortorder="902">
+			<price min="1" average="1" max="1" />
+			<research time="300">
+				<primary>
+					<ware ware="starforge_energy" amount="10000" />
 				</primary>
 				<research>
 					<!-- <ware ware="research_xxl_construction" />

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript  name="Setup_akenno_swi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<cues>
+		<cue name="SetupAkennoSWI" instantiate="false" version="4">
+			<conditions>
+				<check_any>
+					<event_cue_signalled cue="md.Setup.GameStart" /> 
+					<event_game_loaded />
+				</check_any>
+				<check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main-galaxy" />
+			</conditions>
+			<actions>
+				<!-- setting initial research knowledge -->
+
+			    <add_encyclopedia_entry type="researchables" item="'research_supremacy'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_lehongate'"/>						
+
+				<!-- setting initial limits for ship blueprints -->
+
+				
+				<!-- <add_blueprints wares="[ware.ship_imperial_xxl_executer]"/> -->
+				<!-- setting initial limits for ship blueprints -->
+				<!-- <add_blueprints wares="[ware.ship_imperial_xxl_executer]"/> -->
+				<!-- <set_userdata name="'limited_blueprint_ship_imperial_xxl_executer'" value="1" />
+				<set_userdata name="'limited_blueprint_ship_imperial_xxl_executer_proto'" value="1" />
+				<set_userdata name="'limited_blueprint_praetor'" value="2" />
+				<set_userdata name="'limited_blueprint_bellator'" value="1" />
+				<set_userdata name="'limited_blueprint_tie_silencer'" value="6" /> -->
+
+				<!-- Finding Gates -->
+					<!-- <find_sector name="$LehonSector" macro="macro.swi_clusterlehon_sector001_macro" required="true" comment="Lehon Starforge"/>
+					
+					<find_gate   name="$RakataPrimeGate"    multiple="false"   space="$LehonSector"/>
+					<find_gate   name="$ZiostGate"   multiple="false"    space="$LehonSector"/>
+					<find_gate   name="$UR3Gate"   multiple="false"    space="$LehonSector"/> -->
+
+					
+			</actions>
+			<cues>
+				<!-- Activate Gates -->
+					<cue name="Research_Finished_lehongate" instantiate="true">
+						<conditions>
+							<event_player_research_unlocked ware="ware.research_lehongate"/>
+						</conditions>
+						<actions>
+							<find_sector name="$LehonSector" macro="macro.swi_clusterlehon_sector001_macro" required="true"/>
+							<find_gate name="$Gates" multiple="true" space="$LehonSector" required="true"/>
+							<create_list name="$ActiveGates"/>
+							<create_list name="$DeactiveGates"/>
+							<do_for_each in="$Gates" name="$g">
+								<do_if value="$g.isactive">
+									<append_to_list name="$ActiveGates" exact="$g"/>
+								</do_if>
+								<do_else>
+									<append_to_list name="$DeactiveGates" exact="$g"/>
+								</do_else>
+							</do_for_each>
+						</actions>
+						<cues>
+							<cue name="LehonGate_Change" >
+								<delay exact="0.1s"/>
+								<actions>
+									<do_for_each in="$DeactiveGates" name="$g">
+										<set_object_active object="$g" activate="true"/>
+									</do_for_each>
+									<do_for_each in="$ActiveGates" name="$g">
+										<set_object_active object="$g" activate="false"/>
+									</do_for_each>
+								</actions>
+							</cue>
+							<!-- <cue name="LehonGate_RakataPrime_Failsafe" >
+                                <delay exact="0.1s"/>
+								<actions>
+									<do_if value="$RakataPrimeGate.isinactive" comment="Gate is inactive Test if it is active">
+										<set_object_active object="$RakataPrimeGate" activate="true"/>
+                                    </do_if>
+                                    <do_else>
+           								<signal_cue_instantly cue="LehonGate_Ziost"/>
+                                    </do_else>
+                                </actions>
+							</cue> -->
+						</cues>
+					</cue>
+
+					<!-- <cue name="LehonGate_Ziost">
+						<conditions>
+							<event_cue_signalled/>
+						</conditions>
+						<actions>
+							<set_object_active object="$ZiostGate" activate="false"/>
+						</actions>
+						<cues>
+							<cue name="LehonGate_Ziost_Failsafe" >
+								<delay exact="0.3s"/>
+								<actions>
+									<do_if value="$ZiostGate.isactive" comment="Gate is inactive Test if it is active">
+										<set_object_active object="$ZiostGate" activate="false"/>
+									</do_if>
+									<do_else>
+		   								<signal_cue_instantly cue="LehonGate_UR3"/>
+									</do_else>
+								</actions>
+							</cue>
+						</cues>
+					</cue>
+
+					<cue name="LehonGate_UR3">
+						<conditions>
+							<event_cue_signalled/>
+						</conditions>
+						<actions>
+							<set_object_active object="$UR3Gate" activate="false"/>
+						</actions>
+						<cues>
+							<cue name="LehonGate_UR3_Failsafe" >
+								<delay exact="0.6s"/>
+								<actions>
+									<do_if value="$UR3Gate.isactive" comment="Gate is inactive Test if it is active">
+										<set_object_active object="$UR3Gate" activate="false"/>
+									</do_if>
+									<do_else>
+		   								<set_value name="$Lehon_GateClosed"/>
+									</do_else>
+								</actions>
+							</cue>
+						</cues>
+					</cue> -->
+
+				<!-- Research -->
+					<cue name="Research_Finished_supremacy" instantiate="true">
+						<conditions>
+							<event_player_research_unlocked ware="ware.research_supremacy"/>
+						</conditions>
+						<actions>
+							<add_blueprints wares="[ware.sith_supremacy_mk_3]"/>
+						</actions>
+					</cue>
+
+
+			</cues>
+		</cue>
+
+		
+
+
+
+
+
+
+
+	</cues>
+</mdscript>
