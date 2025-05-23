@@ -1773,25 +1773,25 @@
 
 			<connection name="con_weapon_extralarge_05" tags="weapon extralarge silencer">
 				<offset>
-					<position x="0" y="-200" z="-500" />
+					<position x="0" y="-220" z="-500" />
 					<rotation yaw="0" pitch="0" roll="0" />
 				</offset>
 			</connection>
 			<connection name="con_weapon_extralarge_06" tags="weapon extralarge silencer">
 				<offset>
-					<position x="0" y="-200" z="-500" />
+					<position x="0" y="-220" z="-500" />
 					<rotation yaw="0" pitch="0" roll="90" />
 				</offset>
 			</connection>
 			<connection name="con_weapon_extralarge_07" tags="weapon extralarge silencer">
 				<offset>
-					<position x="0" y="-200" z="-500" />
+					<position x="0" y="-220" z="-500" />
 					<rotation yaw="0" pitch="0" roll="45" />
 				</offset>
 			</connection>
 			<connection name="con_weapon_extralarge_08" tags="weapon extralarge silencer">
 				<offset>
-					<position x="0" y="-200" z="-500" />
+					<position x="0" y="-220" z="-500" />
 					<rotation yaw="0" pitch="0" roll="135" />
 				</offset>
 			</connection>

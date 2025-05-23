@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<components>
+	<component name="bullet_l_orange_turbo" class="bullet">
+		<source geometry="extensions\starwarsmod_m1\assets\fx\weaponFx\bullet_l_orange_turbo_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" r="222" g="132" b="0" range="100.0" shadowrange="80.0" lighteffect="1" trigger="1" intensity="3" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="0.0" y="0.0" z="30.0"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="bullet">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ">
+				<offset>
+					<position x="0.0" y="0.0" z="56.0" />
+				</offset>
+				<parts>
+					<part name="part_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.turbolaser_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.19382" y="1.15792" z="17.5165" />
+							<center x="9.53674e-007" y="1.2517e-005" z="-30.8069" />
+						</size>
+						<size_raw>
+							<max x="1.19382" y="1.15792" z="17.5165" />
+							<center x="9.53674e-007" y="1.2517e-005" z="-30.8069" />
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection_Laser01" tags="laser">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -22,3 +22,9 @@ Terran Disc / Bridge Defense                                        .
 
 Lehon -> Rakata Prime (left above)
 Makeb -> Nar Shaddaa (right above)
+
+
+MoH-2 LR Turbolaser O   (M)         l mando htb
+MoH-88 Heavy Turbolaser R (L)       l mando old hdtl
+Thaakai Mass Driver (S)             l mando massdriver
+

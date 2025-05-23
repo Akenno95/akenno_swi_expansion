@@ -1,0 +1,18 @@
+<macros>
+<macro name="shield_s_inv_iso5_macro" class="shieldgenerator">
+<component ref="shield_s_inv_iso5" />
+<properties>
+<identification name="{420303, 1}" basename="{420303, 1}" shortname="{420303, 1}" description="{420303, 6}"/>
+<recharge max="3500" rate="150" delay="3" /> 
+<effects>        
+<explosion ref="none" />        
+<sefx_damage_low ref="none" />        
+<sefx_damage_medium ref="none" />        
+<sefx_damage_high ref="none" />        
+<sefx_shield ref="none" />
+</effects>
+
+<hull integrated="1" />
+</properties>
+</macro>
+</macros>

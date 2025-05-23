@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_s_iso5_orange" class="turret">
+		<source geometry="extensions\starwarsmod_m1\assets\props\WeaponSystems\standard\turret_m_mando_dmd_data" />
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part iklink nocollision forceoutline" parent="part_gun">
+				<parts>
+					<part name="part_barrel">
+						<size>
+							<max x="1.21723" y="0.449965" z="5.91647" />
+							<center x="0" y="0.659334" z="9.61806" />
+						</size>
+						<size_raw>
+							<max x="1.21723" y="0.449965" z="5.91647" />
+							<center x="0" y="0.659334" z="9.61806" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.0" />
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_01" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="0.764" y="0.491" z="14.671"/>
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_02" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="-0.764" y="0.491" z="14.671"/>
+				</offset>
+			</connection>
+			
+			<connection name="Connection02" tags="part iklink nocollision forceoutline" parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-4.0"/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_gun">
+						<size>
+							<max x="1.46148" y="0.829324" z="7.92425" />
+							<center x="0" y="0.432711" z="7.18069" />
+						</size>
+						<size_raw>
+							<max x="1.46148" y="0.829324" z="7.92425" />
+							<center x="0" y="0.432711" z="7.18069" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="0.000000" y="0.8" z="2.400000" />
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part iklink nocollision forceoutline" parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<size>
+							<max x="4.38926" y="1.50204" z="7.46323" />
+							<center x="0" y="1.80399" z="-0.900366" />
+						</size>
+						<size_raw>
+							<max x="4.38926" y="1.50204" z="7.46323" />
+							<center x="0" y="1.80399" z="-0.900366" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part animation">
+				<animations>
+					<animation name="gun_firing" start="70" end="80"/>
+				</animations>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<size>
+							<max x="3.14194" y="0.293939" z="3.14194" />
+							<center x="0" y="0.158112" z="-4.76837e-007" />
+						</size>
+						<size_raw>
+							<max x="3.14194" y="0.293939" z="3.14194" />
+							<center x="0" y="0.158112" z="-4.76837e-007" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_dmd" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="con_laser_turret_l" tags="turret small">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

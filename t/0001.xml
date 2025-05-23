@@ -145,6 +145,14 @@
 			<t id="2">The Silencer Weapon is a new superweapon that can kill other capital ships.</t>
 		</page>
 
+		<page id="420212" voice="no">
+			<t id="1">\033OIsotope 5 S</t>
+			<t id="2">\033OIsotope 5 M</t>
+			<t id="3">\033OIsotope 5 L</t>
+			<t id="4">\033OIsotope 5 XL</t>
+			<t id="10">\033OIsotope 5 Turret</t>
+		</page>
+
 	<!--Shields 420-30x-->
 		<page id="420301" voice="no">
 			<t id="1">\033RLHeavy TaB</t>
@@ -161,7 +169,20 @@
 			<t id="6">\033RStarforge Shield generator in various sizes.</t>
 			<t id="7">\033RStarforge Shield XLL</t>
 			<t id="8">\033RStarforge Shield LL</t>
-		</page>		
+		</page>	
+
+		<page id="420303" voice="no">
+			<t id="1">\033OIsotope 5 Shield S</t>
+			<t id="2">\033OIsotope 5 Shield M</t>
+			<t id="3">\033OIsotope 5 Shield LH</t>
+			<t id="4">\033OIsotope 5 Shield L Station</t>
+			<t id="5">\033OIsotope 5 Shield XL</t>
+			<t id="6">\033OIsotope 5 Shield generator in various sizes.</t>
+			<t id="7">\033OIsotope 5 Shield XLL</t>
+			<t id="8">\033OIsotope 5 Shield LL</t>
+		</page>	
+		
+		
 
 	<!--Economy 420-40x-->
 		<page id="420401" voice="no">
@@ -186,6 +207,10 @@
 		<page id="420402" voice="no">
 			<t id="1">Isotope-5</t>
 			<t id="2">Isotope-5 is an unstable mineral that can be found on Makeb. The special characteristic of Isotope-5 is to significantly boost weapon and shield power.</t>
+			<t id="3">Isotope-5 Factory</t>
+			<t id="4">This is an Isotope-5 Factory, which produces stabilized Isotope-5 which can be used for better weapons or shields. Because of the properties of Isotope-5, the color is mostly orange.</t>
+			<t id="5">Stabilized Isotope-5</t>
+			<t id="6">Stabilized Isotope-5 is a stabil version of Isotope-5 that is used for better weapons or shields. Because of the properties of Isotope-5, the color is mostly orange.</t>
 		</page>
 
 	<!--Galaxy 420-50x-->

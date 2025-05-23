@@ -47,24 +47,40 @@
 			<entry name="turret_m_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_starforge_green" />
 			<entry name="turret_s_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_s_starforge_green" />
 			<entry name="turret_xl_starforge_green" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_xl_starforge_green" />
-
+			<entry name="turret_s_iso5_orange" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_s_iso5_orange" />
+			<entry name="turret_m_iso5_orange" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_m_iso5_orange" />
+			<entry name="turret_l_iso5_orange" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\turret_l_iso5_orange" />
+			
 		<!--Bullets-->
 			<entry name="bullet_s_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_s_green_turbo" />
 			<entry name="bullet_m_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_m_green_turbo" />
 			<entry name="bullet_xs_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_xs_green_turbo" />
 			<entry name="bullet_l_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_l_green_turbo" />
 			<entry name="bullet_xl_green_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_xl_green_turbo" />
+			<entry name="bullet_md" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_md" />
+			<entry name="bullet_l_orange_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_l_orange_turbo" />
+			<entry name="bullet_xl_orange_turbo" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\bullet_xl_orange_turbo" />
 
 		<!-- Shields -->
-			<entry name="shield_lh_tab" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_tab" />
-			<entry name="shield_xl_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xl_starforge" />
-			<entry name="shield_s_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_s_inv_starforge" />
-			<entry name="shield_m_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_starforge" />
-			<entry name="shield_m_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_inv_starforge" />
-			<entry name="shield_lh_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_starforge" />
-			<entry name="shield_l_station_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_l_station_starforge" />
-			<entry name="shield_ll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_ll_starforge" />
-			<entry name="shield_xll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xll_starforge" />
+			<!-- Starforge -->
+				<entry name="shield_lh_tab" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_tab" />
+				<entry name="shield_xl_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xl_starforge" />
+				<entry name="shield_s_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_s_inv_starforge" />
+				<entry name="shield_m_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_starforge" />
+				<entry name="shield_m_inv_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_inv_starforge" />
+				<entry name="shield_lh_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_starforge" />
+				<entry name="shield_l_station_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_l_station_starforge" />
+				<entry name="shield_ll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_ll_starforge" />
+				<entry name="shield_xll_starforge" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xll_starforge" />
+			
+			<!-- Isotope-5 -->
+			 	<entry name="shield_s_inv_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_s_inv_iso5" />
+				<entry name="shield_m_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_iso5" />
+				<entry name="shield_m_inv_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_m_inv_iso5" />
+				<entry name="shield_lh_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_lh_iso5" />
+				<entry name="shield_l_station_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_l_station_iso5" />
+				<entry name="shield_ll_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_ll_iso5" />
+				<entry name="shield_xll_iso5" value="extensions\akenno_swi_expansion\assets\props\surfaceelements\shield_xll_iso5" />
 
 		<!--Missile Turrets-->
 
@@ -94,7 +110,8 @@
 			<entry name="ware_starforge_debris" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_debris" />
 			<entry name="ware_starforge_droids" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_droids" />
 			<entry name="ware_starforge_alloy" value="extensions\akenno_swi_expansion\assets\wares\ware_starforge_alloy" />
-
+			<entry name="ware_stabilized_isotope5" value="extensions\akenno_swi_expansion\assets\wares\ware_stabilized_isotope5" />
+			
 		<!--Buildings-->
 			<entry name="landmarks_arg_antigonespire_prod" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonespire_prod" />
 			<entry name="landmarks_arg_antigonepillar_prod" value="extensions\akenno_swi_expansion\assets\structures\landmarks\landmarks_arg_antigonepillar_prod" />

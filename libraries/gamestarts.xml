@@ -167,6 +167,17 @@
               <ware ware="quad_jumper_miner"/>
               <ware ware="defence_imp_claim_ring"/>
               <ware ware="module_imp_equip_dockarea_m_01_new"/>
+              <ware ware="turret_l_iso5_orange"/>
+              <ware ware="turret_m_iso5_orange"/>
+              <ware ware="turret_s_iso5_orange"/>
+              <ware ware="shield_l_station_iso5"/>
+              <ware ware="shield_lh_iso5"/>
+              <ware ware="shield_ll_iso5"/>
+              <ware ware="shield_m_iso5"/>
+              <ware ware="shield_m_inv_iso5"/>
+              <ware ware="shield_s_inv_iso5"/>
+              <ware ware="shield_xll_iso5"/>
+              <ware ware="prod_iso5_factory"/>
               <ware ware="paintmod_0006"/>
               <ware ware="paintmod_0048"/>
               <ware ware="paintmod_0049"/>
@@ -199,6 +210,7 @@
               <space sector="swi_clustercorbos_sector001_macro"/>
               <space sector="swi_clusterstenos_sector001_macro"/>
               <space sector="swi_clusterlehon_sector001_macro"/>
+              <space sector="swi_clustermakeb_sector001_macro"/>
               <space sector="swi_clusterkorriban_sector001_macro"/>
               <space sector="swi_clusterthule_sector001_macro"/>
               <space sector="swi_clusterziost_sector001_macro"/>
@@ -212,6 +224,7 @@
               <object sector="swi_clusterthule_sector001_macro" class="station"/>
               <object sector="swi_clusterziost_sector001_macro" class="station"/>
               <object sector="swi_clusterlehon_sector001_macro" class="station"/>
+              <object sector="swi_clustermakeb_sector001_macro" class="station"/>
               <object sector="swi_clusterur3_sector001_macro" class="station"/>
               <object sector="swi_clusterur1_sector001_macro" class="station"/>
               <object sector="swi_clusterdromundkaas_sector001_macro" class="station"/>

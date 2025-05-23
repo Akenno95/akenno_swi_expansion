@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="prod_iso5_factory_macro" class="production">
+    <component ref="landmarks_arg_antigonepillar_prod" />
+    <properties>
+      <identification name="{420402,3}" shortname="{420402,3}" description="{420402,4}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="20000" shield="100000" />
+      <hull max="10000000" />
+      <secrecy level="10" />
+      <production wares="stabilized_isotope5">
+        <queue>
+          <item ware="stabilized_isotope5" method="default"/>
+        </queue> 
+      </production>
+      <workforce max="500" />
+    </properties>
+  </macro>
+</macros>

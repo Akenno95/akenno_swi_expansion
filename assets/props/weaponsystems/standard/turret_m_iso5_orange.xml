@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_m_iso5_orange" class="turret">
+		<source geometry="extensions\starwarsmod_m1\assets\props\WeaponSystems\standard\turret_l_mando_hdtl_data" />
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part iklink nocollision forceoutline" parent="part_gun">
+				<parts>
+					<part name="part_barrel">
+						<size>
+							<max x="2.95563" y="0.977373" z="4.53125" />
+							<center x="0" y="0.203116" z="19.5983" />
+						</size>
+						<size_raw>
+							<max x="2.95563" y="0.977373" z="4.53125" />
+							<center x="0" y="0.203116" z="19.5983" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="-0.000000" z="-0.040000" />
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_01" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="1.95" y="0.197" z="23.7"/>
+				</offset>
+			</connection>
+			
+			<connection name="con_laser_02" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="-1.95" y="0.197" z="23.7"/>
+				</offset>
+			</connection>
+			
+			<connection name="Connection02" tags="part iklink nocollision forceoutline" parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10.0 "/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_gun">
+						<size>
+							<max x="3.43292" y="1.54856" z="7.95789" />
+							<center x="4.76837e-007" y="-0.0283985" z="7.10914" />
+						</size>
+						<size_raw>
+							<max x="3.43292" y="1.54856" z="7.95789" />
+							<center x="4.76837e-007" y="-0.0283985" z="7.10914" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="7.379060" z="5.777648" />
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part iklink nocollision forceoutline" parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<size>
+							<max x="10.9732" y="4.13545" z="17.5424" />
+							<center x="0" y="8.00705" z="-1.13523" />
+						</size>
+						<size_raw>
+							<max x="10.9732" y="4.13545" z="17.5424" />
+							<center x="0" y="8.00705" z="-1.13523" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+									<material id="2" ref="generic.generic_p1_imperial_lightred" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_imperial_lightred" />
+									<material id="2" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.turret_mando_hdtl" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part animation">
+				<animations>
+					<animation name="gun_firing" start="70" end="80"/>
+				</animations>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<size>
+							<max x="15.625" y="2.10938" z="16.3797" />
+							<center x="4.95911e-005" y="1.97501" z="-0.754429" />
+						</size>
+						<size_raw>
+							<max x="15.625" y="2.10938" z="16.3797" />
+							<center x="4.95911e-005" y="1.97501" z="-0.754429" />
+						</size_raw>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_tilemechanicelimperial" />
+									<material id="2" ref="generic.generic_p1_tile1mando" />
+									<material id="3" ref="generic.generic_p1_tile2mandoarmor" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_tile1mando" />
+									<material id="2" ref="generic.generic_p1_tile2mandoarmor" />
+									<material id="3" ref="generic.generic_p1_tilemechanicelimperial" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_tile1mando" />
+									<material id="2" ref="generic.generic_p1_tile2mandoarmor" />
+									<material id="3" ref="generic.generic_p1_tilemechanicelimperial" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_tile1mando" />
+									<material id="2" ref="generic.generic_p1_tile2mandoarmor" />
+									<material id="3" ref="generic.generic_p1_tilemechanicelimperial" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+			<connection name="con_laser_turret_l" tags="turret medium">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

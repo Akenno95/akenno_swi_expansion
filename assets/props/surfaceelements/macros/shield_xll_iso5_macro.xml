@@ -1,0 +1,18 @@
+<macros>
+<macro name="shield_xll_iso5_macro" class="shieldgenerator">
+<component ref="shield_xll_iso5" />
+<properties>
+<identification name="{420303, 7}" basename="{420303, 7}" shortname="{420303, 7}" description="{420303, 6}"/>
+<recharge max="1500000" rate="10000" delay="0" /> 
+<effects>        
+<explosion ref="explosion_storage_energy_m" />        
+<sefx_damage_low ref="sefx_damage_l_low" />        
+<sefx_damage_medium ref="sefx_damage_l_medium" />        
+<sefx_damage_high ref="sefx_damage_l_high" />        
+<sefx_shield ref="none" />
+</effects>
+
+<hull max="250000" threshold="0.15" />
+</properties>
+</macro>
+</macros>

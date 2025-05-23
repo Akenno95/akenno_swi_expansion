@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bullet_turret_m_iso5_orange_macro" class="bullet">
+    <component ref="bullet_l_orange_turbo" />
+    <properties>
+      <ammunition value="6" reload="3" />
+      <bullet speed="3500" lifetime="5.0" amount="1" barrelamount="2" icon="weapon_plasma_mk1" timediff="0.015" angle="0.4" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1" />
+      <reload rate="1.0" />
+      <damage value="3000" noshield="1500" />
+      <effects>
+        <impact ref="impact_turbolaser_l_red" />
+        <launch ref="muzzle_turbolaser_l_red" />
+      </effects>
+      <sounds>
+        <firing ref="turret_l_turbo_flyby" repeat="-1" />
+      </sounds>
+      <weapon system="turret_midrange" />
+    </properties>
+  </macro>
+</macros>

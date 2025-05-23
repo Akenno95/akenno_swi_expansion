@@ -1133,6 +1133,118 @@
 				<owner faction="sith" />
 			</ware>
 
+	<!-- Isotope-5 Weaponry -->
+		<!-- S Turret -->
+			<ware id="turret_s_isotope5_orange" name="{420212,1} {999840,102}" description="{420212,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="97365" average="117365" max="137365" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="10" />
+						<ware ware="energycells" amount="80" />
+						<ware ware="turretcomponents" amount="20" />
+						<ware ware="stabilized_isotope5" amount="20" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="80" />
+						<ware ware="computronicsubstrate" amount="1" />
+						<ware ware="metallicmicrolattice" amount="24" />
+						<ware ware="siliconcarbide" amount="20" />
+						<ware ware="stabilized_isotope5" amount="20" />
+					</primary>
+				</production>
+				<component ref="turret_s_iso5_orange_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- M Turret -->
+			<ware id="turret_m_isotope5_orange" name="{420212,2} {999840,102}" description="{420212,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="100838" average="120365" max="140491" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="8" />
+						<ware ware="energycells" amount="71" />
+						<ware ware="turretcomponents" amount="15" />
+						<ware ware="stabilized_isotope5" amount="15" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="71" />
+						<ware ware="computronicsubstrate" amount="4" />
+						<ware ware="metallicmicrolattice" amount="36" />
+						<ware ware="siliconcarbide" amount="15" />
+						<ware ware="stabilized_isotope5" amount="15" />
+					</primary>
+				</production>
+				<component ref="turret_m_iso5_orange_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- L Turret -->
+			<ware id="turret_l_isotope5_orange" name="{420212,3} {999840,102}" description="{420212,10}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+				<price min="200838" average="220365" max="240491" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="advancedelectronics" amount="16" />
+						<ware ware="energycells" amount="120" />
+						<ware ware="turretcomponents" amount="32" />
+						<ware ware="stabilized_isotope5" amount="32" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="120" />
+						<ware ware="computronicsubstrate" amount="5" />
+						<ware ware="metallicmicrolattice" amount="53" />
+						<ware ware="siliconcarbide" amount="32" />
+						<ware ware="stabilized_isotope5" amount="32" />
+					</primary>
+				</production>
+				<component ref="turret_l_iso5_orange_macro" amount="1" />
+				<restriction licence="capitalequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
 	
 <!-- Modules -->
 	
@@ -1463,221 +1575,484 @@
 
 	
 <!-- Shields -->
-	<!-- TaB -->
-		<ware id="shield_lh_tab" name="{420301, 1}" description="{420301, 3}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="249852" average="333136" max="416420" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="584" />
-					<ware ware="fieldcoils" amount="117" />
-					<ware ware="shieldcomponents" amount="49" />
-				</primary>
-			</production>
-			<production time="10" amount="1" method="terran" name="{999840,590070}">
-				<primary>
-					<ware ware="energycells" amount="250" />
-					<ware ware="computronicsubstrate" amount="29" />
-					<ware ware="metallicmicrolattice" amount="400" />
-					<ware ware="siliconcarbide" amount="85" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_lh_tab_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+	<!-- Starforge Variants-->
+		<!-- TaB -->
+			<ware id="shield_lh_tab" name="{420301, 1}" description="{420301, 3}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="249852" average="333136" max="416420" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="584" />
+						<ware ware="fieldcoils" amount="117" />
+						<ware ware="shieldcomponents" amount="49" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="250" />
+						<ware ware="computronicsubstrate" amount="29" />
+						<ware ware="metallicmicrolattice" amount="400" />
+						<ware ware="siliconcarbide" amount="85" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_lh_tab_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge S Inv -->
-		<ware id="shield_s_inv_starforge" name="{420302, 1}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_s_inv_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+	<!-- Starforge Shields -->
+			<!-- Starforge S Inv -->
+			<ware id="shield_s_inv_starforge" name="{420302, 1}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_s_inv_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge M -->
-		<ware id="shield_m_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_m_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge M -->
+			<ware id="shield_m_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_m_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge M Inv -->
-		<ware id="shield_m_inv_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_m_inv_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge M Inv -->
+			<ware id="shield_m_inv_starforge" name="{420302, 2}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_m_inv_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge LH -->
-		<ware id="shield_lh_starforge" name="{420302, 3}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_lh_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge LH -->
+			<ware id="shield_lh_starforge" name="{420302, 3}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_lh_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge L Station -->
-		<ware id="shield_l_station_starforge" name="{420302, 4}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_l_station_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge L Station -->
+			<ware id="shield_l_station_starforge" name="{420302, 4}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_l_station_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge XL -->
-		<ware id="shield_xl_starforge" name="{420302, 5}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_xl_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge XL -->
+			<ware id="shield_xl_starforge" name="{420302, 5}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_xl_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge LL -->
-		<ware id="shield_ll_starforge" name="{420302, 8}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_ll_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge LL -->
+			<ware id="shield_ll_starforge" name="{420302, 8}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_ll_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
-	<!-- Starforge XLL -->
-		<ware id="shield_xll_starforge" name="{420302, 7}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="10000" average="50000" max="100000" />
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<production time="1" amount="1" method="starforge" name="{420000,1}">
-				<primary>
-					<ware ware="starforge_alloy" amount="1" />
-					<ware ware="starforge_energy" amount="5" />
-				</primary>
-			</production>
-			<component ref="shield_xll_starforge_macro" amount="1" />
-			<restriction licence="generaluseequipment" />
-			<use threshold="0" />
-			<owner faction="galempire" />
-			<owner faction="ascendancy" />
-			<owner faction="sith" />
-		</ware>
+		<!-- Starforge XLL -->
+			<ware id="shield_xll_starforge" name="{420302, 7}" description="{420302, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="5" />
+					</primary>
+				</production>
+				<component ref="shield_xll_starforge_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+	<!-- Isotope-5 Shields -->
+		<!-- Isotope-5 S Inv -->
+			<ware id="shield_s_inv_isotope5" name="{420303, 1}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="10000" average="50000" max="100000" />
+				<price min="12057" average="16076" max="20095" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="42" />
+						<ware ware="fieldcoils" amount="4" />
+						<ware ware="shieldcomponents" amount="4" />
+						<ware ware="stabilized_isotope5" amount="4" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="12" />
+						<ware ware="computronicsubstrate" amount="1" />
+						<ware ware="metallicmicrolattice" amount="19" />
+						<ware ware="siliconcarbide" amount="4" />
+						<ware ware="stabilized_isotope5" amount="4" />
+					</primary>
+				</production>
+				<component ref="shield_s_inv_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 M -->
+			<ware id="shield_m_isotope5" name="{420303, 2}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="62412" average="83216" max="104020" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="267" />
+						<ware ware="fieldcoils" amount="18" />
+						<ware ware="shieldcomponents" amount="27" />
+						<ware ware="stabilized_isotope5" amount="27" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="67" />
+						<ware ware="computronicsubstrate" amount="7" />
+						<ware ware="metallicmicrolattice" amount="100" />
+						<ware ware="siliconcarbide" amount="21" />
+						<ware ware="stabilized_isotope5" amount="27" />
+					</primary>
+				</production>
+				<component ref="shield_m_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 M Inv -->
+			<ware id="shield_m_inv_isotope5" name="{420303, 2}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="62412" average="83216" max="104020" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="267" />
+						<ware ware="fieldcoils" amount="18" />
+						<ware ware="shieldcomponents" amount="27" />
+						<ware ware="stabilized_isotope5" amount="27" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="67" />
+						<ware ware="computronicsubstrate" amount="7" />
+						<ware ware="metallicmicrolattice" amount="100" />
+						<ware ware="siliconcarbide" amount="21" />
+						<ware ware="stabilized_isotope5" amount="27" />
+					</primary>
+				</production>
+				<component ref="shield_m_inv_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 LH -->
+			<ware id="shield_lh_isotope5" name="{420303, 3}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="211132" average="281510" max="351887" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="494" />
+						<ware ware="fieldcoils" amount="99" />
+						<ware ware="shieldcomponents" amount="41" />
+						<ware ware="stabilized_isotope5" amount="41" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="211" />
+						<ware ware="computronicsubstrate" amount="24" />
+						<ware ware="metallicmicrolattice" amount="338" />
+						<ware ware="siliconcarbide" amount="72" />
+						<ware ware="stabilized_isotope5" amount="41" />
+					</primary>
+				</production>
+				<component ref="shield_lh_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 L Station -->
+			<ware id="shield_l_station_isotope5" name="{420303, 4}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="133710" average="181614" max="219517" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="300" />
+						<ware ware="fieldcoils" amount="55" />
+						<ware ware="shieldcomponents" amount="30" />
+						<ware ware="stabilized_isotope5" amount="30" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="133" />
+						<ware ware="computronicsubstrate" amount="16" />
+						<ware ware="metallicmicrolattice" amount="218" />
+						<ware ware="siliconcarbide" amount="46" />
+						<ware ware="stabilized_isotope5" amount="30" />
+					</primary>
+				</production>
+				<component ref="shield_l_station_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 LL -->
+			<ware id="shield_ll_isotope5" name="{420303, 8}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="91275" average="121701" max="152126" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="208" />
+						<ware ware="fieldcoils" amount="42" />
+						<ware ware="shieldcomponents" amount="21" />
+						<ware ware="stabilized_isotope5" amount="21" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="98" />
+						<ware ware="computronicsubstrate" amount="11" />
+						<ware ware="metallicmicrolattice" amount="133" />
+						<ware ware="siliconcarbide" amount="30" />
+						<ware ware="stabilized_isotope5" amount="21" />
+					</primary>
+				</production>
+				<component ref="shield_ll_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
+		<!-- Isotope-5 XLL -->
+			<ware id="shield_xll_isotope5" name="{420303, 7}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+				<price min="214867" average="286490" max="358112" />
+				<production time="1" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="584" />
+						<ware ware="fieldcoils" amount="120" />
+						<ware ware="shieldcomponents" amount="50" />
+						<ware ware="stabilized_isotope5" amount="50" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="215" />
+						<ware ware="computronicsubstrate" amount="25" />
+						<ware ware="metallicmicrolattice" amount="344" />
+						<ware ware="siliconcarbide" amount="73" />
+						<ware ware="stabilized_isotope5" amount="50" />
+					</primary>
+				</production>
+				<component ref="shield_xll_iso5_macro" amount="1" />
+				<restriction licence="generaluseequipment" />
+				<use threshold="0.5" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
 
 	
 <!-- Civilian Ships -->
@@ -1768,6 +2143,20 @@
 				<price min="100" average="500" max="1000" />
 				<container ref="sm_gen_pickup_solid_01_macro" />
 				<icon active="ware_isotope5" video="ware_isotope5_macro" />
+			</ware>
+
+		<!-- Stabilized Isotope-5 -->
+			<ware id="stabilized_isotope5" name="{420402,5}" description="{420402,6}" factoryname="{420402,3}" group="refined" transport="solid" volume="10" tags="container economy">
+				<price min="1000" average="5000" max="10000" />
+				<production time="60" amount="10" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="isotope5" amount="200" />
+					</primary>
+					<effects>
+					  <effect type="work" product="0.5" />
+					</effects>
+				</production>
+				<icon active="ware_stabilized_isotope5" video="ware_stabilized_isotope5_macro" />
 			</ware>
 
 
@@ -2195,6 +2584,48 @@
 					<restriction licence="station_gen_advanced" />
 					<owner faction="sith" />
 				</ware>
+	<!-- Isotope-5 -->
+		<!-- Production -->
+			<ware id="prod_isotope5_factory" name="{420402,3}" description="{420402,4}" transport="container" volume="1" tags="module">
+				<price min="100000" average="500000" max="1000000" />
+				<production time="360" amount="1" method="default" name="{20206,101}">
+					<primary>
+						<ware ware="energycells" amount="100000" />
+						<ware ware="hullparts" amount="20000" />
+						<ware ware="claytronics" amount="5000" />
+						<ware ware="rhydoniumcell" amount="200" />
+					</primary>
+				</production>
+				<production time="360" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="computronicsubstrate" amount="2000" />
+						<ware ware="energycells" amount="100000" />
+						<ware ware="siliconcarbide" amount="10000" />
+						<ware ware="rhydoniumcell" amount="200" />
+					</primary>
+				</production>
+				<production time="360" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_energy" amount="10000" />
+						<ware ware="starforge_alloy" amount="1000" />
+					</primary>
+				</production>
+				<component ref="prod_iso5_factory_macro" />
+				<restriction licence="station_gen_basic" />
+				<owner faction="newrepublic" />
+				<owner faction="rebelalliance" />
+				<owner faction="corporate" />
+				<owner faction="mandodw" />
+				<owner faction="anoat" />
+				<owner faction="huttcartel" />
+   				<owner faction="commerceguild" />
+				<owner faction="hapes" />
+				<owner faction="blacksun" />
+				<owner faction="galempire" />
+				<owner faction="ascendancy" />
+				<owner faction="sith" />
+			</ware>
+
 
 </add>
 </diff>

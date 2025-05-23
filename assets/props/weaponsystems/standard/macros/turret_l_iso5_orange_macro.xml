@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="turret_l_iso5_orange_macro" class="turret" >
+    <component ref="turret_l_iso5_orange" />
+    <properties>
+      <identification name="{420212,3} {999840,101}" basename="{420212,3} {999840,101}" shortname="{420212,3} {999840,101}" makerrace="argon" description="{420212,10}"  />
+      <bullet class="bullet_turret_l_iso5_orange_macro" />
+      <rotationspeed max="10" />
+      <reload rate="0.5" time="1" />
+      <hull max="40000" threshold="0.2" />
+      <effects>
+        <sefx_damage_low ref="surfacemodule_damage_l_low" />
+        <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
+        <sefx_damage_high ref="surfacemodule_damage_l_high" />
+      </effects>
+    </properties>
+  </macro>
+</macros>
