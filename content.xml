@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content id="Akenno's SWI Expansion" name="Akenno's SWI Expansion" description="Adds ship variants to SWI and other things" author="Akenno" version="001" date="2024-08-10" save="0" enabled="1">
   <dependency id="SW Interworlds" name="SW Interworlds" optional="false"/>
+  <dependency id="Hyperlane_Manipulation_Technology" name="Hyperlane Manipulation Technology" optional="true"/>
+  <dependency id="SWI Droids" name="SWI Droids" optional="true"/>
 </content>
