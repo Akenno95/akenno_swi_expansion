@@ -421,6 +421,13 @@
 					<ware ware="shipsupplies" amount="20" />
 				</primary>
 			</production>
+			<production time="1600" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="3400" />
+					<ware ware="metallicmicrolattice" amount="500" />
+					<ware ware="shipsupplies" amount="20" />
+				</primary>
+			</production>
 			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="30" />
@@ -1790,7 +1797,6 @@
 		<!-- Isotope-5 S Inv -->
 			<ware id="shield_s_inv_isotope5" name="{420303, 1}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 				<price min="10000" average="50000" max="100000" />
-				<price min="12057" average="16076" max="20095" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="42" />
@@ -1826,7 +1832,7 @@
 
 		<!-- Isotope-5 M -->
 			<ware id="shield_m_isotope5" name="{420303, 2}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="62412" average="83216" max="104020" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="267" />
@@ -1862,7 +1868,7 @@
 
 		<!-- Isotope-5 M Inv -->
 			<ware id="shield_m_inv_isotope5" name="{420303, 2}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="62412" average="83216" max="104020" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="267" />
@@ -1898,7 +1904,7 @@
 
 		<!-- Isotope-5 LH -->
 			<ware id="shield_lh_isotope5" name="{420303, 3}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="211132" average="281510" max="351887" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="494" />
@@ -1934,7 +1940,7 @@
 
 		<!-- Isotope-5 L Station -->
 			<ware id="shield_l_station_isotope5" name="{420303, 4}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="133710" average="181614" max="219517" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="300" />
@@ -1970,7 +1976,7 @@
 
 		<!-- Isotope-5 LL -->
 			<ware id="shield_ll_isotope5" name="{420303, 8}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="91275" average="121701" max="152126" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="208" />
@@ -2006,7 +2012,7 @@
 
 		<!-- Isotope-5 XLL -->
 			<ware id="shield_xll_isotope5" name="{420303, 7}" description="{420303, 6}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-				<price min="214867" average="286490" max="358112" />
+				<price min="10000" average="50000" max="100000" />
 				<production time="1" amount="1" method="default" name="{20206,101}">
 					<primary>
 						<ware ware="energycells" amount="584" />
@@ -2132,7 +2138,7 @@
 			</ware>
 
 		<!-- Stabilized Isotope-5 -->
-			<ware id="stabilized_isotope5" name="{420402,5}" description="{420402,6}" factoryname="{420402,3}" group="refined" transport="solid" volume="10" tags="container economy">
+			<ware id="stabilized_isotope5" name="{420402,5}" description="{420402,6}" factoryname="{420402,3}" group="shiptech" transport="container" volume="10" tags="container economy">
 				<price min="1000" average="5000" max="10000" />
 				<production time="60" amount="10" method="default" name="{20206,101}">
 					<primary>
