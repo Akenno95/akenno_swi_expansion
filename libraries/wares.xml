@@ -2288,18 +2288,14 @@
 					<price min="100000" average="500000" max="1000000" />
 					<production time="360" amount="1" method="default" name="{20206,101}">
 						<primary>
-							<ware ware="energycells" amount="100000" />
-							<ware ware="hullparts" amount="20000" />
-							<ware ware="claytronics" amount="5000" />
-							<ware ware="rhydoniumcell" amount="200" />
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
 						</primary>
 					</production>
 					<production time="360" amount="1" method="terran" name="{999840,590070}">
 						<primary>
-							<ware ware="computronicsubstrate" amount="2000" />
-							<ware ware="energycells" amount="100000" />
-							<ware ware="siliconcarbide" amount="10000" />
-							<ware ware="rhydoniumcell" amount="200" />
+							<ware ware="starforge_energy" amount="10000" />
+							<ware ware="starforge_alloy" amount="1000" />
 						</primary>
 					</production>
 					<production time="360" amount="1" method="starforge" name="{420000,1}">
