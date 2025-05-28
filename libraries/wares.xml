@@ -347,6 +347,421 @@
 				</production>
 			</add>
 
+			<add sel="/wares/ware[@id='ship_gen_xs_buildingdrone_01_a']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="1" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="1" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='ship_gen_s_miningdrone_liquid_01_a']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="1" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='ship_gen_s_miningdrone_solid_01_a']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_droids" amount="1" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- Thruster -->
+			<add sel="/wares/ware[@id='thruster_gen_l_allround_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_l_allround_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_l_allround_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='thruster_gen_m_allround_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_m_allround_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_m_allround_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='thruster_gen_s_allround_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_s_allround_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_s_allround_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_m_combat_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_m_combat_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_m_combat_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='thruster_gen_s_combat_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_s_combat_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_s_combat_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_xl_allround_01_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_xl_allround_01_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+			<add sel="/wares/ware[@id='thruster_gen_xl_allround_01_mk3']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+
+		<!-- Satellites -->
+			<add sel="/wares/ware[@id='satellite_mk1']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='satellite_mk2']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='resourceprobe_01']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+			<add sel="/wares/ware[@id='waypointmarker_01']">
+				<production time="60" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="50" />
+						<ware ware="computronicsubstrate" amount="10" />
+						<ware ware="metallicmicrolattice" amount="100" />
+					</primary>
+				</production>
+				<production time="60" amount="10" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+			</add>
+			
+
 
 <add sel="/wares">
 <!-- Ships -->
