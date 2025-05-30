@@ -22,11 +22,14 @@
 
 		<!-- Shipsupplies -->
 			<add sel="/wares/ware[@id='shipsupplies']">
-				<production time="100" amount="50" method="starforge" name="{420000,1}">
+				<production time="100" amount="200" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 
@@ -276,6 +279,9 @@
 					<primary>
 						<ware ware="starforge_energy" amount="1" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 		
@@ -285,6 +291,9 @@
 					<primary>
 						<ware ware="starforge_energy" amount="1" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 		
@@ -294,6 +303,9 @@
 					<primary>
 						<ware ware="starforge_energy" amount="1" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 		
@@ -303,6 +315,9 @@
 					<primary>
 						<ware ware="starforge_energy" amount="1" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 		
@@ -312,6 +327,9 @@
 					<primary>
 						<ware ware="starforge_energy" amount="1" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 
@@ -321,6 +339,9 @@
 					<primary>
 						<ware ware="starforge_droids" amount="10" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 			<add sel="/wares/ware[@id='workunit_idle']">
@@ -328,6 +349,9 @@
 					<primary>
 						<ware ware="starforge_droids" amount="10" />
 					</primary>
+					<effects>
+						<effect type="work" product="2.0" />
+					</effects>
 				</production>
 			</add>
 
@@ -1574,7 +1598,7 @@
 				</production>
 				<component ref="turret_s_iso5_orange_macro" amount="1" />
 				<restriction licence="capitalequipment" />
-				<use threshold="2" />
+				<use threshold="1.5" />
 				<owner faction="newrepublic" />
 				<owner faction="rebelalliance" />
 				<owner faction="corporate" />
@@ -1610,7 +1634,7 @@
 				</production>
 				<component ref="turret_m_iso5_orange_macro" amount="1" />
 				<restriction licence="capitalequipment" />
-				<use threshold="2" />
+				<use threshold="1.5" />
 				<owner faction="newrepublic" />
 				<owner faction="rebelalliance" />
 				<owner faction="corporate" />
@@ -1646,7 +1670,7 @@
 				</production>
 				<component ref="turret_l_iso5_orange_macro" amount="1" />
 				<restriction licence="capitalequipment" />
-				<use threshold="2" />
+				<use threshold="1.5" />
 				<owner faction="newrepublic" />
 				<owner faction="rebelalliance" />
 				<owner faction="corporate" />
@@ -2473,7 +2497,7 @@
 				<production time="60" amount="100" method="starforge" name="{420000,1}">
 					<effects>
 						<effect type="sunlight" product="10.0" />
-						<effect type="work" product="0.5" />
+						<effect type="work" product="2.0" />
 					</effects>
 				</production>
 				<icon active="ware_starforge_energy" video="ware_starforge_energy_macro" />
@@ -2488,7 +2512,7 @@
 						<ware ware="starforge_energy" amount="10" />
 					</primary>
 					<effects>
-						<effect type="work" product="0.5" />
+						<effect type="work" product="2.0" />
 					</effects>
 				</production>
 				<icon active="ware_starforge_droids" video="ware_starforge_droids_macro" />
@@ -2503,7 +2527,7 @@
 						<ware ware="scrapmetal" amount="100" />
 					</primary>
 					<effects>
-						<effect type="work" product="0.2" />
+						<effect type="work" product="2.0" />
 					</effects>
 				</production>
 				<icon active="ware_starforge_debris" video="ware_starforge_debris_macro" />
@@ -2529,7 +2553,7 @@
 						<ware ware="starforge_energy" amount="100" />
 					</primary>
 					<effects>
-						<effect type="work" product="0.5" />
+						<effect type="work" product="2.0" />
 					</effects>
 				</production>
 				<production time="60" amount="5" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
@@ -2538,7 +2562,7 @@
 					  <ware ware="starforge_debris" amount="10" />
 					</primary>
 					<effects>
-					  <effect type="work" product="0.2" />
+						<effect type="work" product="2.0" />
 					</effects>
 				  </production>
 				<icon active="ware_starforge_alloy" video="ware_starforge_alloy_macro" />
