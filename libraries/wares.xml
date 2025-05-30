@@ -340,7 +340,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_droids" amount="1" />
 					</primary>
@@ -355,7 +355,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_droids" amount="1" />
 					</primary>
@@ -370,7 +370,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_droids" amount="1" />
 					</primary>
@@ -385,7 +385,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_droids" amount="1" />
 					</primary>
@@ -400,7 +400,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_droids" amount="1" />
 					</primary>
@@ -416,7 +416,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -432,7 +432,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -448,7 +448,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -464,7 +464,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -480,7 +480,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -496,7 +496,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -512,7 +512,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -528,7 +528,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -544,7 +544,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -560,7 +560,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -576,7 +576,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -592,7 +592,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -608,7 +608,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -624,7 +624,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -640,7 +640,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -656,7 +656,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -672,7 +672,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -688,7 +688,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -705,7 +705,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -721,7 +721,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -737,7 +737,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -753,7 +753,7 @@
 						<ware ware="metallicmicrolattice" amount="100" />
 					</primary>
 				</production>
-				<production time="60" amount="10" method="starforge" name="{420000,1}">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="1" />
 						<ware ware="starforge_energy" amount="10" />
@@ -781,7 +781,7 @@
 					<ware ware="metallicmicrolattice" amount="125" />
 				</primary>
 			</production>
-			<production time="60" amount="1" method="starforge" name="{420000,1}">
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="10" />
 					<ware ware="starforge_energy" amount="100" />
@@ -813,7 +813,7 @@
 					<ware ware="metallicmicrolattice" amount="125" />
 				</primary>
 			</production>
-			<production time="60" amount="1" method="starforge" name="{420000,1}">
+			<production time="10" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="10" />
 					<ware ware="starforge_energy" amount="100" />
@@ -843,7 +843,7 @@
 					<ware ware="shipsupplies" amount="20" />
 				</primary>
 			</production>
-			<production time="120" amount="1" method="starforge" name="{420000,1}">
+			<production time="30" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="30" />
 					<ware ware="starforge_energy" amount="300" />
@@ -876,7 +876,7 @@
 					<ware ware="shipsupplies" amount="40" />
 				</primary>
 			</production>
-			<production time="180" amount="1" method="starforge" name="{420000,1}">
+			<production time="60" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="100" />
 					<ware ware="starforge_energy" amount="1000" />
@@ -910,7 +910,7 @@
 						<ware ware="shipsupplies" amount="40" />
 					</primary>
 				</production>
-				<production time="180" amount="1" method="starforge" name="{420000,1}">
+				<production time="60" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="50" />
 						<ware ware="starforge_energy" amount="500" />
@@ -943,7 +943,7 @@
 						<ware ware="shipsupplies" amount="40" />
 					</primary>
 				</production>
-				<production time="180" amount="1" method="starforge" name="{420000,1}">
+				<production time="60" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="50" />
 						<ware ware="starforge_energy" amount="500" />
@@ -976,7 +976,7 @@
 						<ware ware="shipsupplies" amount="40" />
 					</primary>
 				</production>
-				<production time="180" amount="1" method="starforge" name="{420000,1}">
+				<production time="60" amount="1" method="starforge" name="{420000,1}">
 					<primary>
 						<ware ware="starforge_alloy" amount="50" />
 						<ware ware="starforge_energy" amount="500" />
@@ -1009,7 +1009,7 @@
 					<ware ware="shipsupplies" amount="220" />
 				</primary>
 			</production>
-			<production time="360" amount="1" method="starforge" name="{420000,1}">
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="300" />
 					<ware ware="starforge_energy" amount="3000" />
@@ -1038,7 +1038,7 @@
 					<ware ware="shipsupplies" amount="220" />
 				</primary>
 			</production>
-			<production time="360" amount="1" method="starforge" name="{420000,1}">
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="300" />
 					<ware ware="starforge_energy" amount="3000" />
@@ -1068,7 +1068,7 @@
 					<ware ware="shipsupplies" amount="240" />
 				</primary>
 			</production>
-			<production time="360" amount="1" method="starforge" name="{420000,1}">
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="300" />
 					<ware ware="starforge_energy" amount="3000" />
@@ -1097,7 +1097,7 @@
 					<ware ware="shipsupplies" amount="240" />
 				</primary>
 			</production>
-			<production time="360" amount="1" method="starforge" name="{420000,1}">
+			<production time="120" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="300" />
 					<ware ware="starforge_energy" amount="3000" />
@@ -1128,7 +1128,7 @@
 					<ware ware="shipsupplies" amount="900" />
 				</primary>
 			</production>
-			<production time="600" amount="1" method="starforge" name="{420000,1}">
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="1000" />
 					<ware ware="starforge_energy" amount="10000" />
@@ -1156,7 +1156,7 @@
 					<ware ware="metallicmicrolattice" amount="130" />
 				</primary>
 			</production>
-			<production time="120" amount="1" method="starforge" name="{420000,1}">
+			<production time="30" amount="1" method="starforge" name="{420000,1}">
 				<primary>
 					<ware ware="starforge_alloy" amount="30" />
 					<ware ware="starforge_energy" amount="300" />
@@ -1189,7 +1189,7 @@
 	<!-- Gates -->
 		<ware id="research_lehongate" name="{420501,3}" description="{420501,3}" transport="research" volume="1" tags="research" sortorder="902">
 			<price min="1" average="1" max="1" />
-			<research time="300">
+			<research time="30">
 				<primary>
 					<ware ware="starforge_energy" amount="10000" />
 				</primary>
