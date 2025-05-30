@@ -571,19 +571,19 @@
 					<quaternion qw="-0.8540052536035317" qx="-0.0" qy="-0.5202643816537583" qz="-0.0" />
 				</offset>
 			</connection>
-			<connection group="main6" name="con_l_turret_main6_1" tags="turret extralarge large  starforge component">
+			<connection group="main6" name="con_l_turret_main6_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-989.4463999999999" y="40.2817" z="-2120.8374" />
 					<quaternion qw="-0.03705284316307445" qx="0.9760010154619894" qy="-0.008564112314583861" qz="-0.21441959008206715" />
 				</offset>
 			</connection>
-			<connection group="main6" name="con_l_turret_main6_2" tags="turret extralarge large  starforge component">
+			<connection group="main6" name="con_l_turret_main6_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-827.6659000000001" y="40.3012" z="-2188.7119" />
 					<quaternion qw="-0.0373076668490789" qx="0.9847335127677487" qy="-0.0075767257316989725" qz="-0.1698547616452215" />
 				</offset>
 			</connection>
-			<connection group="main6" name="con_l_turret_main6_3" tags="turret extralarge large  starforge component">
+			<connection group="main6" name="con_l_turret_main6_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="825.4390000000001" y="40.4467" z="-2191.3725" />
 					<quaternion qw="-0.03725320473514582" qx="0.9834541296950712" qy="0.007842554451104794" qz="0.17711202066023932" />
@@ -595,121 +595,121 @@
 					<quaternion qw="-0.03713878397040361" qx="0.973743714580105" qy="0.008183350107855866" qz="0.2244480381334413" />
 				</offset>
 			</connection>
-			<connection group="main5" name="con_l_turret_main5_1" tags="turret extralarge large  starforge component">
+			<connection group="main5" name="con_l_turret_main5_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-1352.3248" y="40.3338" z="1928.0949" />
 					<quaternion qw="-0.011437077439082077" qx="0.2937026465269951" qy="-0.036268610087704156" qz="-0.95514006125018" />
 				</offset>
 			</connection>
-			<connection group="main5" name="con_l_turret_main5_2" tags="turret extralarge large  starforge component">
+			<connection group="main5" name="con_l_turret_main5_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-1496.0917" y="40.7216" z="1824.4307" />
 					<quaternion qw="-0.014611306849592645" qx="0.33906385617597096" qy="-0.035153252702974376" qz="-0.9399927978296581" />
 				</offset>
 			</connection>
-			<connection group="main5" name="con_l_turret_main5_3" tags="turret extralarge large  starforge component">
+			<connection group="main5" name="con_l_turret_main5_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-2316.6270999999997" y="40.4194" z="398.1452" />
 					<quaternion qw="-0.024357917526444964" qx="0.6452274142222469" qy="-0.02925831240177699" qz="-0.7630414319977966" />
 				</offset>
 			</connection>
-			<connection group="main5" name="con_l_turret_main5_4" tags="turret extralarge large  starforge component">
+			<connection group="main5" name="con_l_turret_main5_4" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-2339.6156" y="40.4008" z="221.82430000000002" />
 					<quaternion qw="-0.025103189500283604" qx="0.6762585984628593" qy="-0.02857198376675898" qz="-0.7356818467419148" />
 				</offset>
 			</connection>
-			<connection group="main4" name="con_l_turret_main4_1" tags="turret extralarge large  starforge component">
+			<connection group="main4" name="con_l_turret_main4_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="2338.6268999999998" y="40.3273" z="216.6143" />
 					<quaternion qw="-0.025784468853747362" qx="0.6778555827003417" qy="0.027953704143088585" qz="0.7342108420560072" />
 				</offset>
 			</connection>
-			<connection group="main4" name="con_l_turret_main4_2" tags="turret extralarge large  starforge component">
+			<connection group="main4" name="con_l_turret_main4_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="2315.5398999999998" y="40.3257" z="394.3609" />
 					<quaternion qw="-0.023709104999260905" qx="0.6618470459660056" qy="0.02978463164293201" qz="0.7486716515296281" />
 				</offset>
 			</connection>
-			<connection group="main4" name="con_l_turret_main4_3" tags="turret extralarge large  starforge component">
+			<connection group="main4" name="con_l_turret_main4_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="1489.5203999999999" y="40.3463" z="1823.0913" />
 					<quaternion qw="-0.013545412546038691" qx="0.32797182017804405" qy="0.03557772615336183" qz="0.9439201408857715" />
 				</offset>
 			</connection>
-			<connection group="main4" name="con_l_turret_main4_4" tags="turret extralarge large  starforge component">
+			<connection group="main4" name="con_l_turret_main4_4" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="1350.0506" y="40.2979" z="1928.7348000000002" />
 					<quaternion qw="-0.010707122202526386" qx="0.31276816533086" qy="0.03649091921447594" qz="0.9490678822426722" />
 				</offset>
 			</connection>
-			<connection group="main3" name="con_l_turret_main3_4" tags="turret extralarge large  starforge component">
+			<connection group="main3" name="con_l_turret_main3_4" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="987.2985" y="87.1255" z="-2122.8552" />
 					<quaternion qw="-0.21267407173546127" qx="-0.012031312491347874" qy="-0.9757264473156614" qz="0.05082210877121625" />
 				</offset>
 			</connection>
-			<connection group="main3" name="con_l_turret_main3_3" tags="turret extralarge large  starforge component">
+			<connection group="main3" name="con_l_turret_main3_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="825.4391999999999" y="87.01769999999999" z="-2191.3734" />
 					<quaternion qw="-0.18416457059857788" qx="-0.008729097974009056" qy="-0.9815040616234499" qz="0.05154600664913375" />
 				</offset>
 			</connection>
-			<connection group="main3" name="con_l_turret_main3_2" tags="turret extralarge large  starforge component">
+			<connection group="main3" name="con_l_turret_main3_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-827.6659000000001" y="87.2162" z="-2188.7122999999997" />
 					<quaternion qw="-0.1663242611165361" qx="-0.010370514812003847" qy="0.9846841777753501" qz="-0.05124219575169648" />
 				</offset>
 			</connection>
-			<connection group="main3" name="con_l_turret_main3_1" tags="turret extralarge large  starforge component">
+			<connection group="main3" name="con_l_turret_main3_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-989.4463999999999" y="87.2414" z="-2120.8378" />
 					<quaternion qw="-0.20988498863617847" qx="-0.01217660476339759" qy="0.9763302209567576" qz="-0.05078702086317042" />
 				</offset>
 			</connection>
-			<connection group="main2" name="con_l_turret_main2_4" tags="turret extralarge large  starforge component">
+			<connection group="main2" name="con_l_turret_main2_4" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-2339.1117" y="87.1467" z="220.42579999999998" />
 					<quaternion qw="-0.7366736949454963" qx="-0.039162897332655267" qy="0.6742284458889803" qz="-0.034556293232813305" />
 				</offset>
 			</connection>
-			<connection group="main2" name="con_l_turret_main2_3" tags="turret extralarge large  starforge component">
+			<connection group="main2" name="con_l_turret_main2_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-2316.115" y="87.1338" z="396.77389999999997" />
 					<quaternion qw="-0.7582197582093562" qx="-0.03931359131427746" qy="0.6498996890433268" qz="-0.034462065816001614" />
 				</offset>
 			</connection>
-			<connection group="main2" name="con_l_turret_main2_2" tags="turret extralarge large  starforge component">
+			<connection group="main2" name="con_l_turret_main2_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-1495.6108" y="86.7799" z="1823.0747000000001" />
 					<quaternion qw="-0.9404474988195296" qx="-0.04909465361812517" qy="0.3358946318707007" qz="-0.017972568838475287" />
 				</offset>
 			</connection>
-			<connection group="main2" name="con_l_turret_main2_1" tags="turret extralarge large  starforge component">
+			<connection group="main2" name="con_l_turret_main2_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="-1351.8444" y="87.3129" z="1926.7596999999998" />
 					<quaternion qw="-0.9474293778723778" qx="-0.04976192032439182" qy="0.31567333247867363" qz="-0.01586418582205636" />
 				</offset>
 			</connection>
-			<connection group="main1" name="con_l_turret_main1_4" tags="turret extralarge large  starforge component">
+			<connection group="main1" name="con_l_turret_main1_4" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="1350.0506" y="87.2196" z="1928.735" />
 					<quaternion qw="-0.9540437396392017" qx="-0.04989194166353112" qy="-0.29508108844544617" qz="0.015443064920556745" />
 				</offset>
 			</connection>
-			<connection group="main1" name="con_l_turret_main1_3" tags="turret extralarge large  starforge component">
+			<connection group="main1" name="con_l_turret_main1_3" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="1489.5205" y="87.154" z="1823.0917000000002" />
 					<quaternion qw="-0.9392967379397792" qx="-0.0491553987344481" qy="-0.33909937559104003" qz="0.01780444732963844" />
 				</offset>
 			</connection>
-			<connection group="main1" name="con_l_turret_main1_2" tags="turret extralarge large  starforge component">
+			<connection group="main1" name="con_l_turret_main1_2" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="2315.5403" y="87.18390000000001" z="394.3609" />
 					<quaternion qw="-0.7591956017396193" qx="-0.04021092588378417" qy="-0.648759398233335" qz="0.03341201793826679" />
 				</offset>
 			</connection>
-			<connection group="main1" name="con_l_turret_main1_1" tags="turret extralarge large  starforge component">
+			<connection group="main1" name="con_l_turret_main1_1" tags="turret large starforge green component hittable">
 				<offset>
 					<position x="2338.6268999999998" y="87.1791" z="216.6143" />
 					<quaternion qw="-0.740854935863592" qx="-0.03788124809652564" qy="-0.6696314416441668" qz="0.03595424051148101" />
