@@ -1952,7 +1952,7 @@
 		</ware>
 
 	<!-- Super Weapon -->
-		<ware id="weapon_silencer" name="{420211,1}" description="{420211,2}" group="weapons" transport="equipment" volume="1" tags="equipment weapon missiononly">
+		<ware id="weapon_silencer" name="{420211,1}" description="{420211,2}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 			<price min="1000000" average="5000000" max="10000000" />
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
