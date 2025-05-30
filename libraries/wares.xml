@@ -990,7 +990,7 @@
 			</ware>
 
 	<!-- Harrower Mk 2 -->
-		<ware id="harrower_mk_2" name="{420005,1}" description="{420005,2}" group="ships_sw" transport="ship" volume="1" tags="ship nocustomgamestart">
+		<ware id="harrower_mk_2" name="{420005,1}" description="{420005,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="42590308" average="53496950" max="69330593" />
 			<production time="3400" amount="1" method="default" name="{20206,101}">
 				<primary>
@@ -1109,7 +1109,7 @@
 		</ware>
 
 	<!-- Harrower 2 Mk 2 -->
-		<ware id="dabc_harrower_2_mk_2" name="{420007,1}" description="{420007,2}" group="ships_sw" transport="ship" volume="1" tags="ship limited">
+		<ware id="dabc_harrower_2_mk_2" name="{420007,1}" description="{420007,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="221213193" average="294950924" max="442426386" />
 			<production time="6371" amount="1" method="default" name="{20206,101}">
 				<primary>
