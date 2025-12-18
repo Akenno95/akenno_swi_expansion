@@ -13,6 +13,7 @@
         <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
         <sefx_damage_high ref="surfacemodule_damage_l_high" />
       </effects>
+      <threatscore value="10" />
 
     </properties>
   </macro>

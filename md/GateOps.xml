@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="GateOps"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <cues>
+    <cue name="Init">
+      <conditions>
+        <event_cue_signalled cue="md.Setup.Start" />
+        <check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main SW-galaxy" />
+      </conditions>
+      <actions>
+        <!-- first we set required values -->
+        <find_sector name="$ThuleSector" macro="macro.swi_clusterthule_sector001_macro" required="true" />
+        <find_sector name="$KorribanSector" macro="macro.swi_clusterkorriban_sector001_macro" required="true" />
+        <find_sector name="$LehonSector" macro="macro.swi_clusterlehon_sector001_macro" required="true" />
+        <find_sector name="$RakataPrimeSector" macro="macro.swi_clusterrakataprime_sector001_macro" required="true" />
+        <find_sector name="$Ur1Sector" macro="macro.swi_clusterur1_sector001_macro" required="true" />
+        <find_sector name="$Ur2Sector" macro="macro.swi_clusterur2_sector001_macro" required="true" />
+
+        <find_gate name="$KorribanToThuleGate" space="$KorribanSector" destination="$ThuleSector" multiple="false" />
+        <find_gate name="$LehonToRakataGate" space="$LehonSector" destination="$RakataPrimeSector" multiple="false" />
+        <find_gate name="$Ur1ToUr2Gate" space="$Ur1Sector" destination="$Ur2Sector" multiple="false" />
+      
+      </actions>
+
+      <cues>
+        <cue name="SithStartCheck" instantiate="false">
+          <actions>
+            <do_if value="player.module == 'x4ep1_sw_sith'">
+              <include_actions ref="CloseStartGates" />
+              <!-- <include_actions ref="CleanUp" /> -->
+            </do_if>
+          </actions>
+        </cue>
+
+        <cue name="OpenGates" instantiate="true">
+          <conditions>
+							<event_player_research_unlocked ware="ware.research_lehongate"/>
+          </conditions>
+          <actions>
+              <include_actions ref="OpenStartGates" />
+              <include_actions ref="CleanUp" />
+          </actions>
+        </cue>
+
+
+        <library name="OpenStartGates">
+          <actions>
+            <set_object_active object="$KorribanToThuleGate" activate="true" />
+            <set_object_active object="$LehonToRakataGate" activate="true" />
+            <set_object_active object="$Ur1ToUr2Gate" activate="true" />
+          </actions>
+        </library>
+
+
+        <library name="CloseStartGates">
+          <actions>
+            <set_object_active object="$KorribanToThuleGate" activate="false" />
+            <set_object_active object="$LehonToRakataGate" activate="false" />
+            <set_object_active object="$Ur1ToUr2Gate" activate="false" />
+          </actions>
+        </library>
+
+
+        <library name="CleanUp">
+          <actions>
+            <remove_value name="$ThuleSector" />
+            <remove_value name="$KorribanSector" />
+            <remove_value name="$LehonSector" />
+            <remove_value name="$RakataPrimeSector" />
+            <remove_value name="$Ur1Sector" />
+            <remove_value name="$Ur2Sector" />
+
+            <remove_value name="$KorribanToThuleGate" />
+            <remove_value name="$LehonToRakataGate" />
+            <remove_value name="$Ur1ToUr2Gate" />
+          </actions>
+        </library>
+
+      </cues>
+    </cue>
+  </cues>
+</mdscript>

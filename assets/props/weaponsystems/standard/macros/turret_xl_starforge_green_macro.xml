@@ -15,6 +15,7 @@
         <sefx_damage_high ref="sefx_damage_m_high" />
         <sefx_shield ref="sefx_shield_m_01" />
       </effects>
+      <threatscore value="50" />
     </properties>
   </macro>
 </macros>

@@ -25,7 +25,7 @@
 
 
 			<!-- XXL -->
-				<entry name="dabc_harrower_2_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xxl\macros\dabc_harrower_2_mk_2_macro" />	
+				<!-- <entry name="dabc_harrower_2_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xxl\macros\dabc_harrower_2_mk_2_macro" />	 -->
 			
 				
 		<!--Ship Menu Alternates-->
@@ -33,7 +33,7 @@
 		<!--Engines-->
 			<entry name="engine_l_gemon4x_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_l_gemon4x_macro" />
 			<entry name="engine_tiehdx_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_tiehdx_macro" />
-			<entry name="dabc_harrower_2x_engines_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\dabc_harrower_2x_engines_macro" />
+			<!-- <entry name="dabc_harrower_2x_engines_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\dabc_harrower_2x_engines_macro" /> -->
 			<entry name="engine_bffx_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_bffx_macro" />
 			<entry name="engine_harrower2_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_harrower2_macro" />
 			<entry name="engine_x70b_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_x70b_macro" />
@@ -69,7 +69,7 @@
 			<entry name="turret_s_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_s_iso5_orange_macro" />
 			<entry name="turret_m_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_m_iso5_orange_macro" />
 			<entry name="turret_l_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_l_iso5_orange_macro" />
-
+			<entry name="turret_starforge_gravity_well_macro" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\macros\turret_starforge_gravity_well_macro" />
 			
 		<!--Turret Bullets-->
 			<entry name="bullet_turret_m_duallaser_green_rh2x_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_duallaser_green_rh2x_macro" />
@@ -85,7 +85,7 @@
 			<entry name="bullet_turret_s_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_s_iso5_orange_macro" />
 			<entry name="bullet_turret_m_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_m_iso5_orange_macro" />
 			<entry name="bullet_turret_l_iso5_orange_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_l_iso5_orange_macro" />
-
+			<entry name="bullet_turret_starforge_gravity_well_macro" value="extensions\akenno_swi_expansion\assets\fx\weaponfx\macros\bullet_turret_starforge_gravity_well_macro" />
 
 		<!-- Shields -->
 		 	<!-- Starforge -->
@@ -135,10 +135,9 @@
 		<!--Defence-->
 			<entry name="defence_starforge_claim_ring_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_claim_ring_macro" />
 			<entry name="defence_starforge_disc_01_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_disc_01_macro" />
-			<entry name="defence_starforge_disc_02_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_disc_02_macro" />	
 			<entry name="defence_starforge_tube_01_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_tube_01_macro" />
-			<entry name="defence_starforge_tube_02_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_tube_02_macro" />
 			<entry name="defence_starforge_pillar_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_pillar_macro" />
+			<entry name="defence_starforge_trade_macro" value="extensions\akenno_swi_expansion\assets\structures\defence\macros\defence_starforge_trade_macro" />
 
 		<!--Economy-->
 			<entry name="ware_starforge_energy_macro" value="extensions\akenno_swi_expansion\assets\wares\macros\ware_starforge_energy_macro" />
@@ -157,6 +156,7 @@
 				<entry name="prod_starforge_smeltery_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_starforge_smeltery_macro" />
 				<entry name="prod_starforge_smelteryx_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_starforge_smelteryx_macro" />
 				<entry name="prod_iso5_factory_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_iso5_factory_macro" />
+				<entry name="prod_gen_scrap_recycler_macro" value="extensions\akenno_swi_expansion\assets\structures\production\macros\prod_gen_scrap_recycler_macro" />
 
 				<!-- Storage -->
 				<entry name="storage_starforge_container_macro" value="extensions\akenno_swi_expansion\assets\structures\storage\macros\storage_starforge_container_macro" />
@@ -179,7 +179,7 @@
 		<!--Asteroids-->
 			<entry name="env_ast_isotope5_xl_01_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xl_01_macro" />
 			<entry name="env_ast_isotope5_xl_02_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xl_02_macro" />
-			<entry name="env_ast_isotope5_xxl_01_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xxl_01_macro" />
+			<!-- <entry name="env_ast_isotope5_xxl_01_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xxl_01_macro" /> -->
 			<entry name="env_ast_isotope5_xs_01_frac_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xs_01_frac_macro" />
 			<entry name="env_ast_isotope5_xs_01_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xs_01_macro" />
 			<entry name="env_ast_isotope5_xs_02_frac_macro" value="extensions\akenno_swi_expansion\assets\environments\asteroids\macros\env_ast_isotope5_xs_02_frac_macro" />

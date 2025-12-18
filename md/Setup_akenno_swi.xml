@@ -3,16 +3,15 @@
 	<cues>
 		<cue name="SetupAkennoSWI" instantiate="false" version="4">
 			<conditions>
-				<check_any>
-					<event_cue_signalled cue="md.Setup.GameStart" /> 
-					<event_game_loaded />
-				</check_any>
-				<check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main-galaxy" />
+				<check_all>
+					<event_cue_signalled cue="md.Setup.GameStart" />
+					<check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main-galaxy" />
+				</check_all>
 			</conditions>
 			<actions>
 				<!-- setting initial research knowledge -->
 
-			    <add_encyclopedia_entry type="researchables" item="'research_supremacy'"/>
+			    <!-- <add_encyclopedia_entry type="researchables" item="'research_supremacy'"/> -->
 				<add_encyclopedia_entry type="researchables" item="'research_lehongate'"/>						
 
 				<!-- setting initial limits for ship blueprints -->
@@ -37,8 +36,30 @@
 					
 			</actions>
 			<cues>
-				<!-- Activate Gates -->
+
+					<!-- <cue name="GateInitOnGameStart">
+						<conditions>
+							<event_cue_signalled cue="md.Setup.GameStart" />
+						</conditions>
+						<actions>
+							<include_actions ref="md.GateOps.CloseStartGates" />
+						</actions>
+					</cue>
+
 					<cue name="Research_Finished_lehongate" instantiate="true">
+						<conditions>
+							<event_player_research_unlocked ware="ware.research_lehongate"/>
+						</conditions>
+						<actions>
+							<include_actions ref="md.GateOps.OpenResearchGates" />
+						</actions>
+					</cue> -->
+
+
+
+
+				<!-- Activate Gates -->
+					<!-- <cue name="Research_Finished_lehongate" instantiate="true">
 						<conditions>
 							<event_player_research_unlocked ware="ware.research_lehongate"/>
 						</conditions>
@@ -68,19 +89,8 @@
 									</do_for_each>
 								</actions>
 							</cue>
-							<!-- <cue name="LehonGate_RakataPrime_Failsafe" >
-                                <delay exact="0.1s"/>
-								<actions>
-									<do_if value="$RakataPrimeGate.isinactive" comment="Gate is inactive Test if it is active">
-										<set_object_active object="$RakataPrimeGate" activate="true"/>
-                                    </do_if>
-                                    <do_else>
-           								<signal_cue_instantly cue="LehonGate_Ziost"/>
-                                    </do_else>
-                                </actions>
-							</cue> -->
 						</cues>
-					</cue>
+					</cue> -->
 
 					<!-- <cue name="LehonGate_Ziost">
 						<conditions>
@@ -126,15 +136,17 @@
 						</cues>
 					</cue> -->
 
+
+					
 				<!-- Research -->
-					<cue name="Research_Finished_supremacy" instantiate="true">
+					<!-- <cue name="Research_Finished_supremacy" instantiate="true">
 						<conditions>
 							<event_player_research_unlocked ware="ware.research_supremacy"/>
 						</conditions>
 						<actions>
 							<add_blueprints wares="[ware.sith_supremacy_mk_3]"/>
 						</actions>
-					</cue>
+					</cue> -->
 
 
 			</cues>

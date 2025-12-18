@@ -11,6 +11,7 @@
       <reload />
       <hull max="500" hittable="0" />
       <effects/>
+      <threatscore value="5" />
     </properties>
   </macro>
 </macros>

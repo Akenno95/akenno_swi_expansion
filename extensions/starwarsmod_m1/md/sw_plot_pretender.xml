@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <!-- Add Pretender mission chain for Sith gamestart without breaking Rogue Captain -->
+  <add sel="//mdscript[@name='SWPlotPretender']//cue[@name='Start']/cues">
+
+    <cue name="SetupMissionPretender_Sith" version="1" module="x4ep1_sw_sith">
+      <actions>
+        <set_value name="$MissionCue" exact="this" />
+
+        <set_value name="$NRLdone" exact="false" />
+        <set_value name="$EMPdone" exact="false" />
+        <set_value name="$ASCdone" exact="false" />
+        <set_value name="$MANdone" exact="false" />
+
+        <!-- Initial NRL mission -->
+        <create_mission cue="$MissionCue" name="{999840,800501}" faction="faction.player" type="missiontype.plot"
+                        abortable="false" difficulty="level.impossible" description="{999840,800502}" rewardtext="{999840,8005011}">
+          <briefing>
+            <objective step="1" action="objective.claim" object="$CoruscantSector" text="{999840,800503}" />
+            <objective step="2" action="objective.claim" object="$KuatSector" text="{999840,800505}" />
+          </briefing>
+        </create_mission>
+      </actions>
+
+      <cues>
+        <cue name="NRLCapture" instantiate="false" version="1">
+          <conditions>
+            <check_all>
+              <event_contained_sector_changed_true_owner space="player.galaxy" />
+              <check_value value="event.param == $CoruscantSector or $KuatSector" />
+              <check_value value="event.param2 == faction.player" />
+              <check_value value="$CoruscantSector.owner == faction.player" />
+              <check_value value="$KuatSector.owner == faction.player" />
+            </check_all>
+          </conditions>
+          <delay exact="10s" />
+          <actions>
+            <write_incoming_message title="{999840,800517}" text="$PlayerFaction + {999840,800518}" source="{999840,800303}" highpriority="true" />
+            <remove_mission cue="$MissionCue" type="completed" />
+            <set_value name="$NRLdone" exact="true" />
+          </actions>
+          <delay exact="10s" />
+          <actions>
+            <signal_cue cue="EmpireTakeoverMission" />
+            <signal_cue cue="AscendancyTakeoverMission" />
+            <signal_cue cue="MandoTakeoverMission" />
+          </actions>
+          <delay min="600s" max="2400s" />
+          <actions>
+            <write_incoming_message title="{999840,800519}" text="{999840,800520} + $PlayerFaction" source="{999840,800303}" highpriority="true" />
+            <set_faction_relation faction="faction.mandodw" otherfaction="faction.newrepublic" value="0.5" />
+            <set_faction_relation faction="faction.newrepublic" otherfaction="faction.mandodw" value="0.5" />
+            <set_faction_relation faction="faction.newrepublic" otherfaction="faction.player" value="-1" />
+            <set_faction_relation faction="faction.mandodw" otherfaction="faction.player" value="-1" />
+          </actions>
+        </cue>
+
+        <cue name="EmpireTakeoverMission" version="1">
+          <conditions>
+            <event_cue_signalled />
+          </conditions>
+          <actions>
+            <set_value name="$EmpireWarlordsCue" exact="this" />
+            <create_mission cue="$EmpireWarlordsCue" name="{999840,800506}" faction="faction.player" type="missiontype.plot"
+                            abortable="false" difficulty="level.impossible" description="{999840,800507}" rewardtext="{999840,8005061}">
+              <briefing>
+                <objective step="1" action="objective.claim" object="$BastionSector" text="{999840,800508}" />
+                <objective step="2" action="objective.claim" object="$ScipioSector" text="{999840,800510}" />
+              </briefing>
+            </create_mission>
+          </actions>
+        </cue>
+
+        <cue name="EmpireCapture" instantiate="false" version="1">
+          <conditions>
+            <check_all>
+              <event_contained_sector_changed_true_owner space="player.galaxy" />
+              <check_value value="event.param == $BastionSector or $ScipioSector" />
+              <check_value value="event.param2 == faction.player" />
+              <check_value value="$BastionSector.owner == faction.player" />
+              <check_value value="$ScipioSector.owner == faction.player" />
+            </check_all>
+          </conditions>
+          <delay exact="10s" />
+          <actions>
+            <set_value name="$EMPdone" exact="true" />
+            <remove_mission cue="$EmpireWarlordsCue" type="completed" />
+          </actions>
+        </cue>
+
+        <cue name="AscendancyTakeoverMission" version="1">
+          <conditions>
+            <event_cue_signalled />
+          </conditions>
+          <actions>
+            <set_value name="$MissionAscendancyCue" exact="this" />
+            <create_mission cue="$MissionAscendancyCue" name="{999840,8005060}" faction="faction.player" type="missiontype.plot"
+                            abortable="false" difficulty="level.impossible" description="{999840,800507}" rewardtext="{999840,8005061}">
+              <briefing>
+                <objective step="1" action="objective.claim" object="$EriaduSector" text="{999840,800511}" />
+                <objective step="2" action="objective.claim" object="$DarkknellSector" text="{999840,800512}" />
+              </briefing>
+            </create_mission>
+          </actions>
+        </cue>
+
+        <cue name="AscendancyCapture" instantiate="false" version="1">
+          <conditions>
+            <check_all>
+              <event_contained_sector_changed_true_owner space="player.galaxy" />
+              <check_value value="event.param == $EriaduSector or $DarkknellSector" />
+              <check_value value="event.param2 == faction.player" />
+              <check_value value="$EriaduSector.owner == faction.player" />
+              <check_value value="$DarkknellSector.owner == faction.player" />
+            </check_all>
+          </conditions>
+          <delay exact="10s" />
+          <actions>
+            <set_value name="$ASCdone" exact="true" />
+            <remove_mission cue="$MissionAscendancyCue" type="completed" />
+          </actions>
+        </cue>
+
+        <cue name="MandoTakeoverMission" version="1">
+          <conditions>
+            <event_cue_signalled />
+          </conditions>
+          <actions>
+            <set_value name="$MissionMandaloreCue" exact="this" />
+            <create_mission cue="$MissionMandaloreCue" name="{999840,800514}" faction="faction.player" type="missiontype.plot"
+                            abortable="false" difficulty="level.impossible" description="{999840,800515}" rewardtext="{999840,8005141}">
+              <briefing>
+                <objective step="1" action="objective.claim" object="$MandaloreSector" text="{999840,800516}" />
+              </briefing>
+            </create_mission>
+          </actions>
+        </cue>
+
+        <cue name="MandoCapture" instantiate="false" version="1">
+          <conditions>
+            <check_all>
+              <event_contained_sector_changed_true_owner space="player.galaxy" />
+              <check_value value="event.param == $MandaloreSector" />
+              <check_value value="event.param2 == faction.player" />
+              <check_value value="$MandaloreSector.owner == faction.player" />
+            </check_all>
+          </conditions>
+          <delay exact="10s" />
+          <actions>
+            <set_value name="$MANdone" exact="true" />
+            <remove_mission cue="$MissionMandaloreCue" type="completed" />
+          </actions>
+        </cue>
+      </cues>
+    </cue>
+
+  </add>
+
+</diff>

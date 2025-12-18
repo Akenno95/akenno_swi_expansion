@@ -8,6 +8,7 @@
       <rotationspeed max="110" />
       <reload rate="1" time="1" />
       <hull threshold="0.2" max="10000" integrated="0" />
+      <threatscore value="10" />
     </properties>
   </macro>
 </macros>

@@ -24,7 +24,7 @@
       <sounds>
         <shipdetail ref="shipdetail_ship_xl_01" />
       </sounds>
-      <physics mass="820">
+      <physics mass="620">
         <inertia pitch="600.782" yaw="600.782" roll="450.026" />
         <drag forward="240.87" reverse="800" horizontal="250.403" vertical="250.403" pitch="800.809" yaw="800.809" roll="800.809" />
       </physics>
@@ -44,7 +44,7 @@
         <forward_boost accel="0.2" ratio="3" />
         <forward_travel accel="0.3" decel="0.7" ratio="3" />
         <strafe value="0.3" />
-        <angular value="0.15" />
+        <angular value="0.3" />
       </jerk>
     </properties>
     <connections>

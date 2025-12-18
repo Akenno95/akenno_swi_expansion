@@ -3,7 +3,7 @@
   <macro name="prod_starforge_smeltery_macro" class="production">
     <component ref="landmarks_arg_antigonepillar_prod" />
     <properties>
-      <identification name="{420401,16}" shortname="{420401,12}" description="{420401,13}" />
+      <identification name="{420401,16}" shortname="{420401,16}" description="{420401,13}" />
       <build>
         <sets>
           <set ref="factory" />

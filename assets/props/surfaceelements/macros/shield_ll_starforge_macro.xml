@@ -3,7 +3,7 @@
 <component ref="shield_ll_starforge" />
 <properties>
 <identification name="{420302, 8}" basename="{420302, 8}" shortname="{420302, 8}" description="{420302, 6}"/>
-<recharge max="750000" rate="4000" delay="0" /> 
+<recharge max="750000" rate="4000" delay="1" /> 
 <effects>        
 <explosion ref="explosion_storage_energy_m" />        
 <sefx_damage_low ref="sefx_damage_m_low" />        
@@ -13,6 +13,7 @@
 </effects>
 
 <hull max="50000" threshold="0.15" />
+      <threatscore value="20" />
 </properties>
 </macro>
 </macros>

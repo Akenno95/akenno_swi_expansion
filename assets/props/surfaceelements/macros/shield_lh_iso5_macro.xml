@@ -4,7 +4,7 @@
         <component ref="shield_lh_iso5" />
         <properties>
             <identification name="{420303, 3}" basename="{420303, 3}" shortname="{420303, 3}" description="{420303, 6}"/>
-            <recharge max="800000" rate="4000" delay="0" /> 
+            <recharge max="800000" rate="4000" delay="1" /> 
             <effects>        
                 <explosion ref="explosion_storage_energy_m" />        
                 <sefx_damage_low ref="sefx_damage_m_low" />        
@@ -13,6 +13,7 @@
                 <sefx_shield ref="none" />
             </effects>
             <hull max="50000" threshold="0.15" />
+      <threatscore value="20" />
         </properties>
     </macro>
 </macros>

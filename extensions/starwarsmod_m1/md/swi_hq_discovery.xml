@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <!-- (optional aber hilfreich) gib der Map ein paar Sekunden Luft -->
+  <replace sel="//mdscript[@name='SWI_HQ_Discovery']//cue[@name='HQ_Discovery_SignalCues']/delay/@exact">5s</replace>
+
+  <!-- ersetze den kompletten Sith-Branch -->
+  <replace sel="//mdscript[@name='SWI_HQ_Discovery']//cue[@name='HQ_Discovery_SignalCues']//do_if[@value=&quot;player.module == 'x4ep1_sw_sith'&quot;]">
+    <do_if value="player.module == 'x4ep1_sw_sith'">
+
+      <!-- 1) Lehon versuchen, aber NICHT required -->
+      <find_sector name="$HQSector" macro="macro.swi_clusterlehon_sector001_macro" required="false" />
+
+      <!-- 2) Fallback: Dromund Kaas (required=true) -->
+      <do_if value="not $HQSector">
+        <find_sector name="$HQSector" macro="macro.swi_clusterdromundkaas_sector001_macro" required="true" />
+      </do_if>
+
+      <!-- 3) HQ wie im Original, nur mit $HQSector -->
+      <create_station name="$HQ"
+                      macro="macro.station_pla_headquarters_base_01_macro"
+                      sector="$HQSector"
+                      constructionplan="'x4ep1_playerheadquarters_with_dock'"
+                      owner="faction.ownerless"
+                      state="componentstate.operational">
+        <safepos x="60km" y="10km" z="15km"/>
+      </create_station>
+
+      <set_object_name object="$HQ" page="20102" line="5001" comment="'Unknown Station'" />
+      <signal_objects object="player.galaxy" param="'swi_hq_discovery_complete'" param2="parent.parent" />
+
+      <remove_value name="$HQSector" />
+
+    </do_if>
+  </replace>
+
+</diff>

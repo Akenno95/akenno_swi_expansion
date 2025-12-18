@@ -24,6 +24,18 @@
       </licences>
     </replace>
 
+    <replace sel="/factions/faction[@id='sith']/relations">
+      <relations>
+        <relation faction="bankingclan" value="1" />
+      </relations>
+    </replace>
+
+    <replace sel="/factions/faction[@id='bankingclan']/relations">
+      <relations>
+        <relation faction="sith" value="1" />
+      </relations>
+    </replace>
+
     <add sel="/factions/faction[@id='player']/licences">
       <licence type="generaluseequipment" factions="sith" />
       <licence type="generaluseship" factions="sith" />

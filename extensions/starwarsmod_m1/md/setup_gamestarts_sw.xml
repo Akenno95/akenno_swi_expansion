@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+
+     <replace sel="//cue[@name='SW_Start_sith']/actions/create_ship[@name='$terminus']">
+        <create_ship name="$terminus" macro="terminus_mk_2_macro" sector="$spawnSector">
+            <owner exact="faction.sith" overridenpc="true" />
+            <loadout>
+                <level exact="1" />
+            </loadout>
+            <pilot>
+                <select race="[race.terran]" tags="tag.aipilot" />
+            </pilot>
+            <people>
+                <fillpercent exact="100" />
+                <person role="service" weight="100">
+                    <select race="[race.terran]" tags="tag.service" />
+                </person>
+            </people>
+            <position x="20000" y="-1000" z="-11000" />
+            <rotation yaw="40deg" />
+        </create_ship>
+    </replace>
+
+  
+</diff>

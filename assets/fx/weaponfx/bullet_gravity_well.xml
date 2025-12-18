@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<components>
+	<component name="bullet_gravity_well" class="bullet">
+		<source geometry="extensions\starwarsmod_m1\assets\fx\weaponFx\bullet_gravity_well_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="bullet">
+				<offset/>
+			</connection>
+			<connection name="Connection01" hidden="true" tags="part detail_xxl ">
+				<offset>
+					<position x="-5.440153E-03" y="1.700214E-02" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bullet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<!-- <material id="1" ref="effects.bullets_fx_master"/> -->
+
+									<material id="1" ref="p1effects.p1_gradient_colourb"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2" y="2" z="100"/>
+							<center x="-1.863962E-02" y="-1.778544E-02" z="-11.71178"/>
+						</size>
+						<size_raw>
+							<max x="2" y="2" z="100"/>
+							<center x="-1.863962E-02" y="-1.778544E-02" z="-11.71178"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection_Laser01" tags="laser">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

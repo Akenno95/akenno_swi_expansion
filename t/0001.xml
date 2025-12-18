@@ -137,6 +137,7 @@
 			<t id="2">\033RStarforge M</t>
 			<t id="3">\033RStarforge L</t>
 			<t id="4">\033RStarforge XL</t>
+			<t id="5">\033RStarforge Gravity Well</t>
 			<t id="10">\033RStarforge Turret</t>
 		</page>
 
@@ -259,6 +260,7 @@
 			<t id="6">\033RStarforge Defence Ring 2</t>
 			<t id="7">\033RStarforge Defence Disc 2</t>
 			<t id="8">\033RStarforge Defence Tube 2</t>
+			<t id="9">\033RStarforge Defence Top</t>
 		</page>
 
 	</add>

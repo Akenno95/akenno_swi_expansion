@@ -19,6 +19,9 @@
       <storage missile="40" deployable = "25"/>
       <hull max="100000" />
       <secrecy level="10" />
+      <stances>
+        <stance ref="phantom_cloak" />
+      </stances>
       <purpose primary="fight" />
       <people capacity="8" />
       <physics mass="22">

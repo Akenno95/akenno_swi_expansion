@@ -11,6 +11,7 @@
       <effects>
         <firing start="startshooting_atf_xl_beam_01_mk1" stop="stopshooting_atf_xl_beam_01_mk1" />
       </effects>
+      <threatscore value="500" />
     </properties>
   </macro>
 </macros>

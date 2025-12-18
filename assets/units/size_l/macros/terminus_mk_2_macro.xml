@@ -14,7 +14,7 @@
         <software ware="software_targetmk1" compatible="1" />
         <software ware="software_trademk1" default="1" />
       </software>
-      <threatscore value="100" />
+      <threatscore value="200" />
       <explosiondamage value="3000" />
       <storage missile="0" unit="20" />     <!-- standard unit 10 -->
       <hull max="1000000" />                 <!-- standard 490000 -->
@@ -24,8 +24,8 @@
       <sounds>
         <shipdetail ref="shipdetail_ship_l_01" />
       </sounds>
-      <physics mass="250.875">
-        <inertia pitch="100" yaw="100" roll="100" />
+      <physics mass="200.875">
+        <inertia pitch="80" yaw="80" roll="80" />
         <drag forward="153.49" reverse="600" horizontal="70" vertical="70" pitch="260" yaw="260" roll="260" />
       </physics>
       <thruster tags="large" />
@@ -35,7 +35,7 @@
         <forward_boost accel="0.2" ratio="3" />
         <forward_travel accel="0.4" decel="0.9" ratio="3" />
         <strafe value="0.4" />
-        <angular value="0.25" />
+        <angular value="0.4" />
       </jerk>
       <steeringcurve>
         <point position="1.01" value="1" />
