@@ -286,6 +286,24 @@
 					<owner faction="sith" />
 				</add>
 
+			<!-- Ion for Top Defence -->
+				<add sel="/wares/ware[@id='turret_l_homeone_ion_cannon']">
+					<production time="300" amount="1" method="terran" name="{999840,590070}">
+						<primary>
+							<ware ware="energycells" amount="75" />
+							<ware ware="computronicsubstrate" amount="29" />
+							<ware ware="siliconcarbide" amount="53" />
+						</primary>
+					</production>
+					<production time="120" amount="1" method="starforge" name="{420000,1}">
+						<primary>
+							<ware ware="starforge_alloy" amount="5" />
+							<ware ware="starforge_energy" amount="50" />
+						</primary>
+					</production>
+					<owner faction="sith" />
+				</add>
+
 	<!-- Hyperspace Mod -->
 			<!-- <add sel="/wares/ware[@id='module_imperial_trafficstation_habitat']">
 				<production time="360" amount="1" method="starforge" name="{420000,1}">

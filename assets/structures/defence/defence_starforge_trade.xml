@@ -206,25 +206,25 @@
 					<quaternion qw="-0.7071068967259818" qx="1.4142133312849964e-06" qy="-0.7071066656424982" qz="-2.1213199969274948e-06"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_l_turret_htb_4" tags="turret extralarge gravitywell starforge green component hittable">
+			<connection group="htb" name="con_l_turret_htb_4" tags="turret extralarge homeion gravitywell starforge green component hittable">
 				<offset>
 					<position x="651.8001" y="286.9152" z="0.0"/>
 					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.7071066656470943" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_l_turret_htb_3" tags="turret extralarge gravitywell starforge green component hittable">
+			<connection group="htb" name="con_l_turret_htb_3" tags="turret extralarge homeion gravitywell starforge green component hittable">
 				<offset>
 					<position x="-636.5033999999999" y="286.9137" z="0.0"/>
 					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.7071066656470943" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_l_turret_htb_2" tags="turret extralarge gravitywell starforge green component hittable">
+			<connection group="htb" name="con_l_turret_htb_2" tags="turret extralarge homeion gravitywell starforge green component hittable">
 				<offset>
 					<position x="7.868799999999999" y="286.9144" z="-644.3489999999999"/>
 					<quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.9999999999979851" qz="1.9999999999959697e-06"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_l_turret_htb_1" tags="turret extralarge gravitywell starforge green component hittable">
+			<connection group="htb" name="con_l_turret_htb_1" tags="turret extralarge homeion gravitywell starforge green component hittable">
 				<offset>
 					<position x="7.868799999999999" y="286.9144" z="644.3489999999999"/>
 					<quaternion qw="-1.0" qx="0.0" qy="-0.0" qz="0.0"/>

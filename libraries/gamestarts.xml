@@ -183,6 +183,7 @@
               <ware ware="prod_starforge_droid_factory"/>
               <ware ware="engine_harrower2"/>
               <!-- <ware ware="harrower_2_engines_ware"/> -->
+              <ware ware="turret_l_homeone_ion_cannon"/>
               <ware ware="engine_x70b"/>
               <ware ware="engine_bffx"/>
               <ware ware="prod_starforge_factory"/>
@@ -619,7 +620,7 @@
       </gamestart> 
 
 
-        <gamestart id="akenno_sith" name="There is only one path to power" description="You are a Sith Lord, and you have just taken control of a small station and a fleet of ships. You are now in command of the Sith fleet, and you will do whatever it takes to conquer the galaxy.">
+        <!-- <gamestart id="akenno_sith" name="There is only one path to power" description="You are a Sith Lord, and you have just taken control of a small station and a fleet of ships. You are now in command of the Sith fleet, and you will do whatever it takes to conquer the galaxy.">
             <location galaxy="swi_galaxy_macro" sector="swi_clusterlehon_sector001_macro">
             <position x="145292.891" z="133250.766"/>
             <player>
@@ -647,7 +648,7 @@
               <ware ware="gage"/>
               <ware ware="gage_liquid"/>
               <ware ware="gage_solid"/>
-              <!-- <ware ware="dabc_harrower_2_mk_2"/> -->
+              <ware ware="dabc_harrower_2_mk_2"/>
               <ware ware="harrower_mk_2"/>
               <ware ware="harrower_silencer"/>
               <ware ware="harrower_i_mk_2"/>
@@ -664,8 +665,8 @@
               <ware ware="defence_starforge_tube_01"/>
               <ware ware="hab_starforge_antigonepillar_hab"/>
               <ware ware="prod_starforge_droid_factory"/>
-              <!-- <ware ware="engine_harrower2"/> -->
-              <!-- <ware ware="harrower_2_engines_ware"/> -->
+              <ware ware="engine_harrower2"/>
+              <ware ware="harrower_2_engines_ware"/>
               <ware ware="engine_x70b"/>
               <ware ware="engine_bffx"/>
               <ware ware="prod_starforge_factory"/>
@@ -1150,7 +1151,7 @@
               </relations>
             </factions>
           </universe>
-        </gamestart>
+        </gamestart> -->
 
 
 
