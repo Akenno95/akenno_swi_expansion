@@ -182,25 +182,25 @@
 				</offset>
 			</connection>
 			<!-- Turret Connections -->
-			<connection group="htb" name="con_shieldgen_m_htb_4" tags="medium shield hittable standard">
+			<connection group="htb" name="con_shieldgen_m_htb_4" tags="station large shield starforge component">
 				<offset>
 					<position x="0.0" y="272.4516" z="485.89900000000006"/>
 					<quaternion qw="-1.0" qx="0.0" qy="0.0" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_shieldgen_m_htb_3" tags="medium shield hittable standard">
+			<connection group="htb" name="con_shieldgen_m_htb_3" tags="station large shield starforge component">
 				<offset>
 					<position x="0.0" y="272.45189999999997" z="-485.89900000000006"/>
 					<quaternion qw="1.7320510330969933e-07" qx="0.0" qy="0.999999999999985" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_shieldgen_m_htb_2" tags="medium shield hittable standard">
+			<connection group="htb" name="con_shieldgen_m_htb_2" tags="station large shield starforge component">
 				<offset>
 					<position x="-485.89900000000006" y="272.4511" z="0.0"/>
 					<quaternion qw="-0.7071068967259818" qx="-7.071066656463873e-07" qy="0.7071066656463874" qz="-7.071066656463873e-07"/>
 				</offset>
 			</connection>
-			<connection group="htb" name="con_shieldgen_m_htb_1" tags="medium shield hittable standard">
+			<connection group="htb" name="con_shieldgen_m_htb_1" tags="station large shield starforge component">
 				<offset>
 					<position x="485.8988" y="272.4523" z="0.0"/>
 					<quaternion qw="-0.7071068967259818" qx="1.4142133312849964e-06" qy="-0.7071066656424982" qz="-2.1213199969274948e-06"/>

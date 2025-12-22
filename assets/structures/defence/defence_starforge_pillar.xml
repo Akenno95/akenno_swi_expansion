@@ -1374,7 +1374,7 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_06" group="column_02_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_06" group="column_02_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="451.1005" y="921.8108" z="264.9827"/>
 					<quaternion qx="-0.1663662" qy="0.1982672" qz="0.620885" qw="-0.739942"/>
@@ -1386,7 +1386,7 @@
 					<quaternion qx="-0.1663659" qy="0.1982669" qz="0.6208851" qw="-0.7399421"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_05" group="column_02_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_05" group="column_02_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="456.2968" y="891.5632" z="267.9828"/>
 					<quaternion qx="-0.1663662" qy="0.1982672" qz="0.620885" qw="-0.739942"/>
@@ -1410,19 +1410,19 @@
 					<quaternion qx="-0.2716545" qy="0.3237445" qz="0.5825633" qw="-0.6942719"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_04" group="column_02_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_04" group="column_02_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="387.0472" y="193.4372" z="437.0972"/>
 					<quaternion qx="-0.2716542" qy="0.3237441" qz="0.5825635" qw="-0.694272"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_03" group="column_02_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_03" group="column_02_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="390.904" y="163.1896" z="441.6936"/>
 					<quaternion qx="-0.2716542" qy="0.3237441" qz="0.5825635" qw="-0.694272"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_02" group="column_03_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_02" group="column_03_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="-582.7581" y="350.9005" z="-35.39076"/>
 					<quaternion qx="0.642176" qy="-0.7653152" qz="2.803833E-02" qw="-3.341424E-02"/>
@@ -1434,7 +1434,7 @@
 					<quaternion qx="0.642176" qy="-0.7653152" qz="2.803833E-02" qw="-3.341424E-02"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_01" group="column_03_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_01" group="column_03_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="-588.7354" y="320.6529" z="-35.91374"/>
 					<quaternion qx="0.642176" qy="-0.7653152" qz="2.803833E-02" qw="-3.341424E-02"/>
@@ -1446,13 +1446,13 @@
 					<quaternion qx="0.6208856" qy="-0.7399418" qz="-0.1663654" qw="0.1982669"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_07" group="column_03_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_07" group="column_03_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="-460.2284" y="1126.103" z="261.1732"/>
 					<quaternion qx="0.6208855" qy="-0.7399419" qz="-0.1663652" qw="0.1982667"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_08" group="column_03_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_08" group="column_03_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="-455.032" y="1156.351" z="258.1732"/>
 					<quaternion qx="0.6208855" qy="-0.7399419" qz="-0.1663652" qw="0.1982667"/>
@@ -1464,19 +1464,19 @@
 					<quaternion qx="0.4545194" qy="-0.5416752" qz="0.4545199" qw="-0.541675"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_09" group="column_01_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_09" group="column_01_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="3.931671" y="844.7125" z="-529.1561"/>
 					<quaternion qx="0.4545194" qy="-0.5416752" qz="0.4545199" qw="-0.541675"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_10" group="column_01_l" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_10" group="column_01_l" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="3.93158" y="874.9601" z="-523.1559"/>
 					<quaternion qx="0.4545194" qy="-0.5416752" qz="0.4545199" qw="-0.541675"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_11" group="column_01_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_11" group="column_01_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="363.2468" y="351.3193" z="-457.0681"/>
 					<quaternion qx="0.2716533" qy="-0.3237441" qz="0.5825639" qw="-0.694272"/>
@@ -1488,7 +1488,7 @@
 					<quaternion qx="0.2716533" qy="-0.3237441" qz="0.5825639" qw="-0.694272"/>
 				</offset>
 			</connection>
-			<connection name="con_turret_12" group="column_01_r" tags="turret medium starforge standard green hittable component combat">
+			<connection name="con_turret_12" group="column_01_r" tags="turret small starforge standard green hittable component combat">
 				<offset>
 					<position x="367.1036" y="321.0717" z="-461.6646"/>
 					<quaternion qx="0.2716533" qy="-0.3237441" qz="0.5825639" qw="-0.694272"/>
