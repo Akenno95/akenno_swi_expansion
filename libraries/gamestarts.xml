@@ -322,6 +322,11 @@
               <ware ware="paintmod_0098"/>
               <ware ware="paintmod_0099"/>
               <ware ware="paintmod_0100"/>
+              <ware ware="module_sith_prod_scrap_recycler"/>
+              <ware ware="pier_imp_hexadock_01"/>
+              <ware ware="hab_sith_s_01"/>
+              <ware ware="hab_sith_m_01"/>
+              <ware ware="hab_sith_l_01"/>
             
           </blueprints>
           <research>

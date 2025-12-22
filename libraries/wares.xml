@@ -183,8 +183,8 @@
 					<production time="1" amount="1" method="terran" name="{999840,590070}">
 						<primary>
 							<ware ware="energycells" amount="75" />
-							<ware ware="computronicsubstrate" amount="2" />
-							<ware ware="siliconcarbide" amount="10" />
+							<ware ware="computronicsubstrate" amount="10" />
+							<ware ware="siliconcarbide" amount="2" />
 						</primary>
 					</production>
 					<production time="1" amount="1" method="starforge" name="{420000,1}">
@@ -273,8 +273,8 @@
 					<production time="300" amount="1" method="terran" name="{999840,590070}">
 						<primary>
 							<ware ware="energycells" amount="75" />
-							<ware ware="computronicsubstrate" amount="29" />
-							<ware ware="siliconcarbide" amount="53" />
+							<ware ware="computronicsubstrate" amount="12" />
+							<ware ware="siliconcarbide" amount="334" />
 						</primary>
 					</production>
 					<production time="120" amount="1" method="starforge" name="{420000,1}">
