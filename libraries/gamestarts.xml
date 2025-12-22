@@ -327,6 +327,8 @@
               <ware ware="hab_sith_s_01"/>
               <ware ware="hab_sith_m_01"/>
               <ware ware="hab_sith_l_01"/>
+              <ware ware="defence_starforge_trade"/>
+              <ware ware="weapon_silencer"/>
             
           </blueprints>
           <research>
@@ -425,6 +427,53 @@
                 </software>
                 <virtualmacros>
                   <thruster macro="thruster_gen_s_allround_01_mk3_macro"/>
+                </virtualmacros>
+                <crew>
+                  <crew role="service" exact="0"/>
+                  <crew role="marine" exact="0"/>
+                </crew>
+              </loadout>
+              <pilot race="imperial">
+                <skills>
+                  <skill type="boarding" value="15"/>
+                  <skill type="engineering" value="15"/>
+                  <skill type="management" value="15"/>
+                  <skill type="morale" value="15"/>
+                  <skill type="piloting" value="15"/>
+                </skills>
+              </pilot>
+              <people people="player_argon_elite_military_crew" fillpercent="100"/>
+            </ship>
+            <ship id="fleet0_1746095004" count="1" macro="x_70b_macro">
+              <location sector="swi_clusterlehon_sector001_macro">
+                <position x="184870.859" z="107090.727"/>
+              </location>
+              <loadout>
+                <macros>
+                  <engine macro="engine_x70b_macro" path="../con_engine_01"/>
+                  <weapon macro="weapon_ga60x_m_laser_macro" path="../con_weapon_01"/>
+                  <weapon macro="weapon_ga60x_m_laser_macro" path="../con_weapon_03"/>
+                  <weapon macro="weapon_ga60x_m_laser_macro" path="../con_weapon_02"/>
+                  <weapon macro="weapon_ga60x_m_laser_macro" path="../con_weapon_04"/>
+                  <weapon macro="weapon_ls9x_s_laser_macro" path="../con_weapon_05"/>
+                  <weapon macro="weapon_ls9x_s_laser_macro" path="../con_weapon_06"/>
+                  <shield macro="shield_m_inv_starforge_macro" path="../con_shield_01"/>
+                  <shield macro="shield_m_inv_starforge_macro" path="../con_shield_02"/>
+                </macros>
+                <ammunition>
+                  <ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
+                  <ammunition macro="countermeasure_flares_01_macro" exact="8"/>
+                </ammunition>
+                <software>
+                  <software ware="software_dockmk2"/>
+                  <software ware="software_flightassistmk1"/>
+                  <software ware="software_scannerlongrangemk2"/>
+                  <software ware="software_scannerobjectmk2"/>
+                  <software ware="software_targetmk1"/>
+                  <software ware="software_trademk1"/>
+                </software>
+                <virtualmacros>
+                  <thruster macro="thruster_gen_m_allround_01_mk3_macro"/>
                 </virtualmacros>
                 <crew>
                   <crew role="service" exact="0"/>
