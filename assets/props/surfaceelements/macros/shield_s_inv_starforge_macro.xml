@@ -3,7 +3,7 @@
 <component ref="shield_s_inv_starforge" />
 <properties>
 <identification name="{420302, 1}" basename="{420302, 1}" shortname="{420302, 1}" description="{420302, 6}"/>
-<recharge max="5000" rate="250" delay="3" /> 
+<recharge max="5000" rate="250" delay="2" /> 
 <effects>        
 <explosion ref="none" />        
 <sefx_damage_low ref="none" />        

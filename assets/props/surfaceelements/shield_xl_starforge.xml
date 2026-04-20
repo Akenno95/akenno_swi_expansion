@@ -42,7 +42,7 @@
 				</offset>
 			</connection>
 
-			<connection name="small_Con_shieldgen_01" tags="dabc_harrower_2 starforge shield component">
+			<connection name="small_Con_shieldgen_01" tags="dabc_harrower_2 starforge extralarge shield component">
 				<offset/>
 			</connection>
 

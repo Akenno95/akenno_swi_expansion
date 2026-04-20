@@ -25,7 +25,8 @@
 
 
 			<!-- XXL -->
-				<!-- <entry name="dabc_harrower_2_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xxl\macros\dabc_harrower_2_mk_2_macro" />	 -->
+				<entry name="dabc_harrower_2_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xl\macros\dabc_harrower_2_mk_2_macro" />
+				<entry name="dabc_harrower_2_black_mk_2_macro" value="extensions\akenno_swi_expansion\assets\units\size_xl\macros\dabc_harrower_2_black_mk_2_macro" />	
 			
 				
 		<!--Ship Menu Alternates-->
@@ -33,10 +34,10 @@
 		<!--Engines-->
 			<entry name="engine_l_gemon4x_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_l_gemon4x_macro" />
 			<entry name="engine_tiehdx_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_tiehdx_macro" />
-			<!-- <entry name="dabc_harrower_2x_engines_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\dabc_harrower_2x_engines_macro" /> -->
 			<entry name="engine_bffx_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_bffx_macro" />
 			<entry name="engine_harrower2_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_harrower2_macro" />
 			<entry name="engine_x70b_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\engine_x70b_macro" />
+			<entry name="dabc_harrower_2_engines_mk_2_macro" value="extensions\akenno_swi_expansion\assets\props\engines\macros\dabc_harrower_2_engines_mk_2_macro" />
 
 			
 		<!--Weapon-->

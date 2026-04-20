@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+	<component name="dabc_harrower_2_mk_2_engines" class="engine">
+		<source geometry="extensions\sov_dreadnaughts\assets\props\Engines\harrower_2_engines_data" />
+		<connections>
+			<connection name="container" tags="contents" value="0" />
+			<connection name="position" tags="position" value="1" />
+			<connection name="lookat" hidden="true" tags="part animation nocollision detail_xs">
+				<offset>
+					<position x="0" y="0" z="-198.4618" />
+				</offset>
+				<restrictions>
+					<restriction />
+					<restriction />
+					<restriction />
+				</restrictions>
+				<animations>
+				</animations>
+				<parts>
+					<part name="detail_xs_lookat_target">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.2959271" y="0.29599" z="0.2959003" />
+							<center x="-0.2076195" y="699.1431" z="17.75635" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionFordamagearea" hidden="true" tags="areadamage nocollision part triggerpart ">
+				<parts>
+					<part name="damagearea">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="enginefxp1.engine_fx_arg_gas" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1138.72" y="160.9601" z="499.9589" />
+							<center x="0.1208496" y="-13.81165" z="-516.1773" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionForfx_exhaust_01" tags="animation detail_l fx nocollision part speedscale_forward textureanimation useobjectrotation ">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-4.99999985454646" />
+							<max value="4.99999985454646" />
+						</limits>
+					</restriction>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-4.99999985454646" />
+							<max value="4.99999985454646" />
+						</limits>
+					</restriction>
+				</restrictions>
+				<animations>
+					<animation name="loop" start="1" end="120" />
+				</animations>
+				<parts>
+					<part name="fx_exhaust_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fx_p2_thruster_01_xxl" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1149.478" y="126.0571" z="627.1962" />
+							<center x="0" y="-17.44398" z="-617.9341" />
+						</size>
+						<size_raw>
+							<max x="1149.478" y="126.0571" z="627.1962" />
+							<center x="3.051758e-05" y="-17.44399" z="-617.934" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="1" value="0" />
+									<key frame="120" value="8" />
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="1" value="0" />
+									<key frame="120" value="0" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="1" value="0" />
+									<key frame="120" value="2" />
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="1" value="0" />
+									<key frame="120" value="-16" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionForpart_main" tags="part ">
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.bellator_panel" />
+									<material id="2" ref="generic.bellator_engines_exhaust" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.bellator_panel" />
+									<material id="2" ref="generic.bellator_engines_exhaust" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.bellator_panel" />
+									<material id="2" ref="generic.bellator_engines_exhaust" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.bellator_panel" />
+									<material id="2" ref="generic.bellator_engines_exhaust" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1302.46" y="164.445" z="62.53402" />
+							<center x="0" y="-18.52401" z="-53.571" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<!-- Aim Target Connections -->
+			<connection name="con_aimtarget_01" tags="aimtarget ">
+				<offset>
+					<position x="599.3909" y="-21.92912" z="-40.30344" />
+				</offset>
+			</connection>
+			<connection name="con_aimtarget_02" tags="aimtarget ">
+				<offset>
+					<position x="-599.391" y="-21.92912" z="-40.30344" />
+				</offset>
+			</connection>
+			<connection name="EngineConnection01" tags="engine dabc_harrower_2">
+				<offset />
+			</connection>
+			<connection name="enginealign" tags="enginealign">
+				<offset>
+				</offset>
+			</connection>
+			<connection name="con_speeddependent01" tags="speeddependent ">
+				<offset>
+					<position x="0" y="0" z="0.0" />
+				</offset>
+			</connection>
+			<connection name="con_speeddependent02" tags="speeddependent useobjectspeed ">
+				<offset>
+					<position x="0" y="0" z="0.0" />
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

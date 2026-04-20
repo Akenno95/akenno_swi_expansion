@@ -45,6 +45,9 @@
 		<page id="420007" voice="no">
 			<t id="1">\033RHarrower 2 Mark II</t>
 			<t id="2">The Harrower 2 Mark II is a new variant that is more robust than its earlier variant.</t>
+			<t id="3">\033RHarrower 2 Black Mark II</t>
+			<t id="4">The Harrower 2 Black Mark II is a new variant that is more robust than its earlier variant.</t>
+
 		</page>
 
 		<page id="420008" voice="no">

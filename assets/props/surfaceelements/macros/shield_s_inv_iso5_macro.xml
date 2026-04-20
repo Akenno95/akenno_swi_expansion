@@ -3,7 +3,7 @@
 <component ref="shield_s_inv_iso5" />
 <properties>
 <identification name="{420303, 1}" basename="{420303, 1}" shortname="{420303, 1}" description="{420303, 6}"/>
-<recharge max="3500" rate="150" delay="3" /> 
+<recharge max="3500" rate="150" delay="2" /> 
 <effects>        
 <explosion ref="none" />        
 <sefx_damage_low ref="none" />        

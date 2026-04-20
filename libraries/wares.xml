@@ -1198,7 +1198,7 @@
 		</ware>
 
 	<!-- Harrower 2 Mk 2 -->
-		<!-- <ware id="dabc_harrower_2_mk_2" name="{420007,1}" description="{420007,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
+		<ware id="dabc_harrower_2_mk_2" name="{420007,1}" description="{420007,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
 			<price min="221213193" average="294950924" max="442426386" />
 			<production time="6371" amount="1" method="default" name="{20206,101}">
 				<primary>
@@ -1226,7 +1226,37 @@
 			<component ref="dabc_harrower_2_mk_2_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="sith" />
-		</ware> -->
+		</ware>
+
+		<ware id="dabc_harrower_2_black_mk_2" name="{420007,1}" description="{420007,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
+			<price min="221213193" average="294950924" max="442426386" />
+			<production time="6371" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="59000" />
+					<ware ware="hullparts" amount="37000" />
+					<ware ware="rhydoniumcell" amount="900" />
+					<ware ware="shipsupplies" amount="900" />
+				</primary>
+			</production>
+			<production time="6371" amount="1" method="terran" name="{999840,590070}">
+				<primary>
+					<ware ware="energycells" amount="59000" />
+					<ware ware="computronicsubstrate" amount="1300" />
+					<ware ware="siliconcarbide" amount="12000" />
+					<ware ware="rhydoniumcell" amount="900" />
+					<ware ware="shipsupplies" amount="900" />
+				</primary>
+			</production>
+			<production time="360" amount="1" method="starforge" name="{420000,1}">
+				<primary>
+					<ware ware="starforge_alloy" amount="1000" />
+					<ware ware="starforge_energy" amount="10000" />
+				</primary>
+			</production>
+			<component ref="dabc_harrower_2_black_mk_2_macro" amount="1" />
+			<restriction licence="capitalship" />
+			<owner faction="sith" />
+		</ware>
 
 	<!-- Bulk Freighter -->
 		<ware id="bulk_freighter" name="{420009,1}" description="{420009,2}" group="ships_sw" transport="ship" volume="1" tags="ship">
@@ -1834,7 +1864,7 @@
 			<owner faction="miningguild" />
 		</ware>
 
-		<!-- <ware id="harrower_2_engines_ware" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+		<ware id="harrower_2_engines_mk_2_ware" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
 			<price min="149878" average="200000" max="249798" />
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
@@ -1864,14 +1894,14 @@
 					<ware ware="starforge_energy" amount="5" />
 				</primary>
 			</production>
-			<component ref="dabc_harrower_2x_engines_macro" amount="1" />
+			<component ref="dabc_harrower_2_engines_mk_2_macro" amount="1" />
 			<restriction licence="generaluseequipment" />
 			<use threshold="0" />
 			<owner faction="galempire" />
 			<owner faction="kuat" />
 			<owner faction="sith" />
 			<owner faction="ascendancy" />
-		</ware> -->
+		</ware>
 
 		<ware id="engine_bffx" name="{420103, 1}" description="{420103, 2}" group="engines" transport="equipment" volume="1" tags="engine equipment">
 			<price min="92058" average="122745" max="153431" />

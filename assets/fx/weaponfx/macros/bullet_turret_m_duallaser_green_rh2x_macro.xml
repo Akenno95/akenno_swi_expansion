@@ -4,7 +4,7 @@
     <component ref="bullet_xs_green_turbo" />
     <properties>
       <ammunition value="4" reload="1" />
-      <bullet speed="4000" lifetime="2.5" amount="1" barrelamount="2" icon="weapon_gatling_mk1" timediff="0.018" angle="0.01" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <bullet speed="8700" lifetime="1.8" amount="1" barrelamount="2" icon="weapon_gatling_mk1" timediff="0.018" angle="0.01" maxhits="1" ricochet="0" scale="0" attach="0" />
       <reload rate="4.0" />
       <damage value="500" />
       <effects>

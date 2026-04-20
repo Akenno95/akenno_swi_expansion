@@ -3,7 +3,7 @@
   <macro name="bullet_ga60x_m_laser_macro" class="bullet">
     <component ref="bullet_m_green_turbo" />
     <properties>
-      <bullet speed="3500" lifetime="1.32" amount="1" barrelamount="1" icon="weapon_plasma_mk1" timediff="0.018" angle="0.06" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1" />
+      <bullet speed="5200" lifetime="4.16" amount="1" barrelamount="1" icon="weapon_plasma_mk1" timediff="0.018" angle="0.06" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="1" />
       <heat value="200" />
       <reload rate="3" />
       <damage value="1500" />

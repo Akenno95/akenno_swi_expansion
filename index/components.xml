@@ -23,11 +23,13 @@
 
 				
 			<!-- XXL -->	
-				<!-- <entry name="dabc_harrower_2_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xxl\dabc_harrower_2_mk_2" />	 -->
+				<entry name="dabc_harrower_2_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\dabc_harrower_2_mk_2" />	
+				<entry name="dabc_harrower_2_black_mk_2" value="extensions\akenno_swi_expansion\assets\units\size_xl\dabc_harrower_2_black_mk_2" />
 				
 
 		<!--Engines-->
 
+			<entry name="dabc_harrower_2_mk_2_engines" value="extensions\akenno_swi_expansion\assets\props\engines\dabc_harrower_2_mk_2_engines" />
 
 		<!--Weapons-->
 			<entry name="weapon_ls9x_s_laser" value="extensions\akenno_swi_expansion\assets\props\weaponsystems\standard\weapon_ls9x_s_laser" />	
