@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+            <add sel="/wares/ware[@id='satellite_mk3']">
+				<production time="1" amount="1" method="starforge" name="{420000,1}">
+					<primary>
+						<ware ware="starforge_alloy" amount="1" />
+						<ware ware="starforge_energy" amount="10" />
+					</primary>
+				</production>
+				<production time="10" amount="1" method="terran" name="{999840,590070}">
+					<primary>
+						<ware ware="energycells" amount="125" />
+						<ware ware="computronicsubstrate" amount="7" />
+					</primary>
+				</production>
+			</add>
+
+
+
+
+
+</diff>
