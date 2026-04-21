@@ -3,4 +3,6 @@
   <dependency id="SW Interworlds" name="SW Interworlds" optional="false"/>
   <dependency id="Hyperlane_Manipulation_Technology" name="Hyperlane Manipulation Technology" optional="true"/>
   <dependency id="SWI Droids" name="SWI Droids" optional="true"/>
+  <dependency id="Satellite_Mk3" name="Satellite Mk3" optional="true"/>
+  <dependency id="ws_3649092747" name="Satellite Mk3" optional="true"/>
 </content>
