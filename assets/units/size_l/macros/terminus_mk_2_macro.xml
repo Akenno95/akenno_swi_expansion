@@ -25,7 +25,7 @@
         <shipdetail ref="shipdetail_ship_l_01" />
       </sounds>
       <physics mass="200.875">
-        <inertia pitch="80" yaw="80" roll="80" />
+        <inertia pitch="50" yaw="50" roll="50" />
         <drag forward="153.49" reverse="600" horizontal="70" vertical="70" pitch="260" yaw="260" roll="260" />
       </physics>
       <thruster tags="large" />
@@ -34,8 +34,8 @@
         <forward accel="0.2" decel="0.8" ratio="3" />
         <forward_boost accel="0.2" ratio="3" />
         <forward_travel accel="0.4" decel="0.9" ratio="3" />
-        <strafe value="0.4" />
-        <angular value="0.4" />
+        <strafe value="0.7" />
+        <angular value="0.7" />
       </jerk>
       <steeringcurve>
         <point position="1.01" value="1" />

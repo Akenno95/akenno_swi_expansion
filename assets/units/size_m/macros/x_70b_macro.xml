@@ -47,8 +47,8 @@
         <forward accel="0.4" decel="0.8" ratio="3" />
         <forward_boost accel="0.5" ratio="3" />
         <forward_travel accel="0.4" decel="0.9" ratio="3" />
-        <strafe value="0.8" />
-        <angular value="0.8" />
+        <strafe value="0.9" />
+        <angular value="0.9" />
       </jerk>
     </properties>
     <connections>
